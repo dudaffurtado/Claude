@@ -1,0 +1,15 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Quarta capa</title><link rel="stylesheet" href="fontes/fontes.css"><style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bege:#e8dac7; --creme:#fbf5ec; --laranja:#ee8a58; --rosa:#e6a3c8; --marrom:#6e5140; }
+body { -webkit-print-color-adjust: exact; print-color-adjust: exact; font-family:"DM Sans",sans-serif; }
+.pg { width:210mm; height:297mm; position:relative; overflow:hidden; background:var(--bege); color:var(--marrom); }
+.aviso { position:absolute; left:0; right:0; bottom:11mm; text-align:center; font-size:6.4pt; opacity:.6; padding:0 40mm; line-height:1.4; }
+.it { font-family:"Fraunces",serif; font-style:italic; font-weight:400; }
+.caps { font-size:8pt; letter-spacing:.32em; text-transform:uppercase; font-weight:600; }
+
+.aviso { top:11mm; bottom:auto; }
+.gigante { position:absolute; left:-10mm; right:-10mm; bottom:-11mm; text-align:center; font-size:140pt; line-height:1; color:var(--creme); }
+.selo { position:absolute; left:50%; top:104mm; transform:translateX(-50%) rotate(-6deg); width:48mm; height:48mm; border-radius:50%;
+        background:var(--rosa); color:var(--creme); display:flex; align-items:center; justify-content:center; text-align:center; font-size:15pt; line-height:1.1; }
+</style></head><body><section class="pg"><div class="selo it">rumo à<br>aprovação</div><div class="gigante it">Auditor</div><div class="aviso">Questões inéditas para estudo, com base na legislação vigente em novembro de 2026. Material independente, sem vínculo com a SEFAZ-RS ou com a banca organizadora.</div></section></body></html>
