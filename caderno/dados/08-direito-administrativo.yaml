@@ -1,0 +1,284 @@
+caderno: 8
+materia: Direito Administrativo
+meta: 20
+temas:
+  - titulo: Princípios e Poderes Administrativos
+    base: CF, art. 37; CTN, art. 78; Súmula 473 do STF
+    questoes:
+      - nivel: 1
+        assunto: Princípios expressos
+        enunciado: Segundo o art. 37 da Constituição Federal, a administração pública direta e indireta obedecerá aos princípios de
+        alternativas:
+          A: legalidade, supremacia do interesse público, moralidade, publicidade e economicidade.
+          B: legalidade, razoabilidade, proporcionalidade, motivação e eficiência.
+          C: legalidade, impessoalidade, moralidade, autotutela e continuidade.
+          D: legalidade, isonomia, moralidade, segurança jurídica e eficiência.
+          E: legalidade, impessoalidade, moralidade, publicidade e eficiência.
+        resposta: E
+        comentario: O art. 37 traz o “LIMPE”, ou seja, legalidade, impessoalidade, moralidade, publicidade e eficiência. Razoabilidade, autotutela, continuidade e supremacia do interesse público são princípios implícitos ou de outra fonte.
+        fundamento: CF, art. 37, caput.
+      - nivel: 1
+        assunto: Poder de polícia
+        enunciado: A atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato em razão de interesse público corresponde ao poder
+        alternativas:
+          A: hierárquico.
+          B: disciplinar.
+          C: de polícia.
+          D: regulamentar.
+          E: vinculado.
+        resposta: C
+        comentario: A definição é a do art. 78 do CTN, que importa ao direito tributário porque o exercício regular do poder de polícia é fato gerador de taxa (CF, art. 145, II).
+        fundamento: CTN, art. 78.
+      - nivel: 2
+        assunto: Poder disciplinar
+        enunciado: A aplicação de penalidade de suspensão a servidor público que descumpriu dever funcional decorre do poder
+        alternativas:
+          A: disciplinar.
+          B: de polícia.
+          C: regulamentar.
+          D: normativo.
+          E: de império.
+        resposta: A
+        comentario: O poder disciplinar permite apurar infrações e aplicar penalidades a servidores e a quem tem vínculo especial com a Administração, como os contratados. O poder de polícia alcança os particulares em geral.
+        fundamento: Doutrina; Lei 8.112/1990, arts. 127 e 130.
+      - nivel: 2
+        assunto: Autotutela
+        enunciado: Segundo a Súmula 473 do STF, a Administração
+        alternativas:
+          A: só pode anular seus atos mediante prévia autorização judicial.
+          B: pode anular seus próprios atos quando eivados de vícios que os tornem ilegais, ou revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos e ressalvada a apreciação judicial.
+          C: pode revogar atos ilegais, com efeitos retroativos.
+          D: não pode rever atos que tenham gerado direitos aos administrados.
+          E: pode anular atos a qualquer tempo, ainda que de boa-fé o beneficiário.
+        resposta: B
+        comentario: (B) reproduz a Súmula 473. Para atos com efeitos favoráveis, a Lei 9.784/1999 (art. 54) fixa decadência de 5 anos para anular, salvo má-fé, o que afasta (E).
+        fundamento: Súmula 473 do STF; Lei 9.784/1999, arts. 53 e 54.
+      - nivel: 3
+        assunto: Poder de polícia e delegação
+        enunciado: Considere as afirmações abaixo sobre o poder de polícia.
+        itens:
+          - Seus atributos usualmente apontados são a discricionariedade, a autoexecutoriedade e a coercibilidade.
+          - Segundo o STF, é constitucional a delegação, por lei, a pessoa jurídica de direito privado integrante da Administração indireta, de capital majoritariamente público, que preste exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.
+          - Seu exercício regular pode ser fato gerador de taxa.
+          - Pode ser delegado a particulares sem qualquer vínculo com a Administração.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I e IV.
+          D: I, II e III.
+          E: I, II, III e IV.
+        resposta: D
+        comentario: II reproduz a tese do Tema 532 do STF, que admite delegar as fases de consentimento, fiscalização e sanção, mas não a de legislação. IV está errada porque não se admite delegar o poder de polícia a particulares sem vínculo com a Administração.
+        fundamento: STF, RE 633.782 (Tema 532); CF, art. 145, II.
+
+  - titulo: Atos Administrativos
+    base: Lei 4.717/1965, art. 2º; Lei 9.784/1999, arts. 53 a 55
+    questoes:
+      - nivel: 1
+        assunto: Elementos
+        enunciado: São elementos (requisitos) do ato administrativo
+        alternativas:
+          A: imperatividade, tipicidade, motivo, objeto e forma.
+          B: presunção de legitimidade, autoexecutoriedade e imperatividade.
+          C: conveniência, oportunidade, motivo e finalidade.
+          D: competência, finalidade, forma, motivo e objeto.
+          E: legalidade, impessoalidade, moralidade e publicidade.
+        resposta: D
+        comentario: Os elementos são competência (ou sujeito), finalidade, forma, motivo e objeto. (B) lista <i>atributos</i>, e (E), princípios.
+        fundamento: Lei 4.717/1965, art. 2º.
+      - nivel: 2
+        assunto: Atributos
+        enunciado: O atributo pelo qual o ato administrativo se impõe a terceiros, independentemente de sua concordância, denomina-se
+        alternativas:
+          A: presunção de legitimidade.
+          B: imperatividade.
+          C: autoexecutoriedade.
+          D: tipicidade.
+          E: finalidade.
+        resposta: B
+        comentario: A imperatividade é o poder extroverso da Administração. A autoexecutoriedade (C) permite executar o ato sem recorrer ao Judiciário. A finalidade (E) é elemento, e não atributo.
+        fundamento: Doutrina.
+      - nivel: 2
+        assunto: Revogação
+        enunciado: A revogação do ato administrativo
+        alternativas:
+          A: decorre de ilegalidade do ato.
+          B: produz efeitos retroativos (ex tunc).
+          C: pode ser realizada pelo Poder Judiciário no exercício da função jurisdicional.
+          D: pode atingir atos vinculados.
+          E: incide sobre ato válido, por motivo de conveniência e oportunidade, com efeitos não retroativos (ex nunc).
+        resposta: E
+        comentario: A revogação é privativa da Administração que praticou o ato e atinge atos discricionários válidos, com efeitos <i>ex nunc</i>. A anulação decorre de ilegalidade, tem efeitos <i>ex tunc</i> e pode ser feita também pelo Judiciário.
+        fundamento: Lei 9.784/1999, art. 53; Súmula 473 do STF.
+      - nivel: 2
+        assunto: Motivos determinantes
+        enunciado: Autoridade exonera servidor ocupante de cargo em comissão, de livre exoneração, mas declara no ato que o faz por falta de recursos orçamentários. Comprovou-se depois que havia recursos suficientes. Pela teoria dos motivos determinantes,
+        alternativas:
+          A: o ato é válido, pois a exoneração de cargo em comissão dispensa motivação.
+          B: o ato é válido, mas gera direito a indenização.
+          C: o ato é inválido, pois o motivo declarado vincula a validade do ato, ainda que a motivação não fosse obrigatória.
+          D: o ato é inválido apenas se houver má-fé da autoridade.
+          E: o ato só pode ser revisto pelo Poder Legislativo.
+        resposta: C
+        comentario: A motivação não era necessária. Uma vez declarado, porém, o motivo passa a vincular a validade do ato. Se o motivo é falso ou inexistente, o ato é nulo.
+        fundamento: Doutrina; teoria dos motivos determinantes.
+      - nivel: 3
+        assunto: Convalidação e decadência
+        enunciado: Considere as afirmações abaixo, nos termos da Lei 9.784/1999 e da doutrina.
+        itens:
+          - Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.
+          - O vício de competência, quando não se tratar de competência exclusiva, admite convalidação.
+          - O vício de finalidade (desvio de poder) admite convalidação.
+          - O direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, salvo comprovada má-fé.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e IV.
+          B: I e II.
+          C: II e III.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: A
+        comentario: I reproduz o art. 55 e IV o art. 54 da Lei 9.784/1999. Pela doutrina, só os vícios de competência (não exclusiva) e de forma (não essencial) são sanáveis. Vícios de finalidade, motivo e objeto não admitem convalidação, por isso III está errada.
+        fundamento: Lei 9.784/1999, arts. 54 e 55.
+
+  - titulo: Licitações e Contratos
+    base: Lei 14.133/2021
+    questoes:
+      - nivel: 1
+        assunto: Modalidades
+        enunciado: São modalidades de licitação previstas na Lei 14.133/2021
+        alternativas:
+          A: pregão, concorrência, concurso, leilão e diálogo competitivo.
+          B: concorrência, tomada de preços, convite, concurso e leilão.
+          C: pregão, convite, concurso, leilão e credenciamento.
+          D: concorrência, pregão, tomada de preços e diálogo competitivo.
+          E: pregão, concorrência, leilão e regime diferenciado de contratações.
+        resposta: A
+        comentario: (A) reproduz o art. 28. Tomada de preços e convite foram extintos. O credenciamento é procedimento auxiliar, e não modalidade.
+        fundamento: Lei 14.133/2021, arts. 28 e 78.
+      - nivel: 2
+        assunto: Pregão
+        enunciado: Nos termos da Lei 14.133/2021, o pregão
+        alternativas:
+          A: é a modalidade adequada para serviços técnicos especializados de natureza predominantemente intelectual.
+          B: adota como critério de julgamento o de melhor técnica.
+          C: é vedado para serviços comuns de engenharia.
+          D: é facultativo para aquisição de bens comuns.
+          E: é obrigatório para aquisição de bens e serviços comuns, e seu critério de julgamento poderá ser o de menor preço ou o de maior desconto.
+        resposta: E
+        comentario: (E) segue o art. 6º, XLI, e o art. 29. O pregão não se aplica a serviços técnicos especializados de natureza predominantemente intelectual nem a obras e serviços de engenharia, salvo os serviços comuns de engenharia.
+        fundamento: Lei 14.133/2021, arts. 6º, XLI, e 29.
+      - nivel: 2
+        assunto: Fases da licitação
+        enunciado: Sobre as fases do processo de licitação na Lei 14.133/2021, é correto afirmar que
+        alternativas:
+          A: a habilitação sempre precede o julgamento das propostas.
+          B: a fase recursal ocorre antes do julgamento.
+          C: a homologação antecede a divulgação do edital.
+          D: em regra, a fase de julgamento precede a de habilitação, admitida a inversão mediante ato motivado e prevista no edital.
+          E: não há fase preparatória.
+        resposta: D
+        comentario: "A ordem do art. 17 é: preparatória, divulgação do edital, propostas e lances, julgamento, habilitação, recursal e homologação. O § 1º permite que a habilitação anteceda o julgamento, mediante ato motivado e com previsão no edital."
+        fundamento: Lei 14.133/2021, art. 17 e § 1º.
+      - nivel: 2
+        assunto: Inexigibilidade
+        enunciado: É hipótese de inexigibilidade de licitação, nos termos da Lei 14.133/2021, a contratação
+        alternativas:
+          A: em caso de emergência ou calamidade pública.
+          B: de profissional do setor artístico, diretamente ou por meio de empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública.
+          C: quando a licitação anterior não tiver interessados.
+          D: de pequeno valor, dentro dos limites legais.
+          E: em caso de guerra ou grave perturbação da ordem.
+        resposta: B
+        comentario: (B) segue o art. 74, II. Na inexigibilidade, a competição é inviável. As demais hipóteses são de <i>dispensa</i> (art. 75), em que a licitação é possível, mas a lei autoriza não realizá-la.
+        fundamento: Lei 14.133/2021, arts. 74 e 75.
+      - nivel: 3
+        assunto: Alteração dos contratos
+        enunciado: Considere as afirmações abaixo sobre os contratos administrativos regidos pela Lei 14.133/2021.
+        itens:
+          - A Administração pode modificá-los unilateralmente para melhor adequação às finalidades de interesse público, respeitados os direitos do contratado.
+          - O contratado é obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 25% do valor inicial atualizado do contrato.
+          - No caso de reforma de edifício ou de equipamento, o limite para os acréscimos é de 50%.
+          - As cláusulas econômico-financeiras podem ser alteradas unilateralmente, sem prévia concordância do contratado.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, II e III.
+          D: I, III e IV.
+          E: I, II, III e IV.
+        resposta: C
+        comentario: I reproduz o art. 104, I, e II e III reproduzem o art. 125. IV está errada porque as cláusulas econômico-financeiras e monetárias não podem ser alteradas sem prévia concordância do contratado (art. 104, § 1º).
+        fundamento: Lei 14.133/2021, arts. 104 e 125.
+
+  - titulo: Agentes Públicos, Improbidade e Responsabilidade do Estado
+    base: CF, arts. 37 e 41; Lei 8.429/1992 (Lei 14.230/2021)
+    questoes:
+      - nivel: 1
+        assunto: Responsabilidade civil do Estado
+        enunciado: Nos termos da Constituição Federal, as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros
+        alternativas:
+          A: somente se comprovada culpa do agente.
+          B: somente se comprovada falha do serviço.
+          C: objetivamente, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.
+          D: de forma subsidiária ao agente causador do dano.
+          E: apenas nos casos de dolo do agente.
+        resposta: C
+        comentario: O art. 37, § 6º, adota a responsabilidade objetiva (teoria do risco administrativo). A responsabilidade do agente, em regresso, é subjetiva e depende de dolo ou culpa.
+        fundamento: CF, art. 37, § 6º.
+      - nivel: 2
+        assunto: Dupla garantia
+        enunciado: Segundo a tese fixada pelo STF em repercussão geral, a ação de indenização por dano causado por agente público no exercício da função
+        alternativas:
+          A: deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima o autor do ato, assegurado o direito de regresso.
+          B: pode ser ajuizada diretamente contra o agente, à escolha da vítima.
+          C: deve ser ajuizada contra o agente e o Estado, em litisconsórcio necessário.
+          D: só pode ser ajuizada contra o agente, se houver dolo.
+          E: depende de prévio processo administrativo disciplinar.
+        resposta: A
+        comentario: No Tema 940, o STF adotou a “dupla garantia”. A vítima tem a garantia de acionar o ente, que responde objetivamente. O agente tem a garantia de só responder perante o ente, em regresso.
+        fundamento: CF, art. 37, § 6º; STF, RE 1.027.633 (Tema 940).
+      - nivel: 2
+        assunto: Estabilidade
+        enunciado: Nos termos da Constituição Federal, os servidores nomeados para cargo de provimento efetivo em virtude de concurso público são estáveis após
+        alternativas:
+          A: dois anos de efetivo exercício.
+          B: três anos de efetivo exercício, sendo condição para a aquisição da estabilidade a avaliação especial de desempenho por comissão instituída para essa finalidade.
+          C: cinco anos de efetivo exercício.
+          D: a posse, independentemente de avaliação.
+          E: um ano de estágio probatório.
+        resposta: B
+        comentario: (B) reúne o art. 41, caput e § 4º. O servidor estável só perde o cargo por sentença judicial transitada em julgado, por processo administrativo com ampla defesa ou por avaliação periódica de desempenho, na forma de lei complementar.
+        fundamento: CF, art. 41.
+      - nivel: 2
+        assunto: Improbidade administrativa
+        enunciado: Após as alterações promovidas pela Lei 14.230/2021, os atos de improbidade administrativa
+        alternativas:
+          A: admitem a modalidade culposa nos casos de dano ao erário.
+          B: dispensam a demonstração de qualquer elemento subjetivo.
+          C: só podem ser praticados por agentes públicos efetivos.
+          D: exigem conduta dolosa, não mais existindo modalidade culposa.
+          E: são imprescritíveis em qualquer hipótese.
+        resposta: D
+        comentario: A Lei 14.230/2021 passou a exigir dolo em todas as modalidades (arts. 1º, §§ 1º a 3º, e 10). A lei também alcança particulares que induzam ou concorram para o ato (art. 3º). Apenas a ação de ressarcimento por ato doloso é imprescritível (Tema 897 do STF).
+        fundamento: Lei 8.429/1992, arts. 1º, 3º, 10 e 23; STF, Temas 897 e 1.199.
+      - nivel: 3
+        assunto: Administração tributária na Constituição
+        enunciado: Considere as afirmações abaixo, à luz do art. 37 da Constituição Federal.
+        itens:
+          - A administração fazendária e seus servidores fiscais terão, dentro de suas áreas de competência e jurisdição, precedência sobre os demais setores administrativos, na forma da lei.
+          - As administrações tributárias são atividades essenciais ao funcionamento do Estado, exercidas por servidores de carreiras específicas, e terão recursos prioritários para a realização de suas atividades.
+          - As administrações tributárias atuarão de forma integrada, inclusive com o compartilhamento de cadastros e de informações fiscais, na forma da lei ou convênio.
+          - É permitida a acumulação remunerada de dois cargos de auditor fiscal, desde que haja compatibilidade de horários.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, III e IV.
+          D: III e IV.
+          E: I, II e III.
+        resposta: E
+        comentario: I reproduz o art. 37, XVIII, e II e III reproduzem o inciso XXII. IV está errada porque a acumulação é permitida apenas para dois cargos de professor, um de professor com outro técnico ou científico, ou dois de profissionais de saúde com profissão regulamentada (inciso XVI).
+        fundamento: CF, art. 37, XVI, XVIII e XXII.
+dica: "<b>Olho na FCC:</b> no administrativo, a banca troca anulação por revogação (ilegalidade com efeito ex tunc e conveniência com efeito ex nunc), dispensa por inexigibilidade e elementos por atributos do ato. Monte um quadro comparativo de cada par."
