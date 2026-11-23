@@ -1,0 +1,200 @@
+caderno: 12
+materia: Estatística
+meta: 15
+temas:
+  - titulo: Medidas de Posição
+    base: Média, mediana, moda e média ponderada
+    questoes:
+      - nivel: 1
+        assunto: Média aritmética
+        enunciado: "A média aritmética do conjunto de dados {2, 4, 4, 5, 7, 8, 12} é"
+        alternativas:
+          A: "6."
+          B: "5."
+          C: "4."
+          D: "7."
+          E: "8."
+        resposta: A
+        comentario: "A soma é 2 + 4 + 4 + 5 + 7 + 8 + 12 = 42, e 42 ÷ 7 = 6."
+        fundamento: Média aritmética simples.
+      - nivel: 1
+        assunto: Mediana e moda
+        enunciado: "A mediana e a moda do conjunto {2, 4, 4, 5, 7, 8, 12} são, respectivamente,"
+        alternativas:
+          A: 4 e 5.
+          B: 6 e 4.
+          C: 5 e 5.
+          D: 5 e 4.
+          E: 6 e 5.
+        resposta: D
+        comentario: "Com 7 valores ordenados, a mediana é o 4º, que é 5. A moda é o valor mais frequente, que é 4 (aparece duas vezes)."
+        fundamento: Mediana e moda.
+      - nivel: 2
+        assunto: Propriedades da média
+        enunciado: "Se cada valor do conjunto {2, 4, 4, 5, 7, 8, 12} for multiplicado por 2 e, em seguida, acrescido de 3, a nova média será"
+        alternativas:
+          A: "12."
+          B: "15."
+          C: "18."
+          D: "9."
+          E: "6."
+        resposta: B
+        comentario: "A média acompanha as operações aplicadas aos dados, então 2 × 6 + 3 = 15. Não é preciso recalcular valor a valor."
+        fundamento: Propriedades da média aritmética.
+      - nivel: 2
+        assunto: Média ponderada
+        enunciado: Um candidato obteve notas 6, 8 e 5 em provas com pesos 2, 3 e 5, respectivamente. Sua média ponderada é
+        alternativas:
+          A: 6,33.
+          B: 6,5.
+          C: 7,0.
+          D: 5,9.
+          E: 6,1.
+        resposta: E
+        comentario: "A média ponderada é (6 × 2 + 8 × 3 + 5 × 5) ÷ (2 + 3 + 5) = (12 + 24 + 25) ÷ 10 = 6,1. (A) é a média simples."
+        fundamento: Média aritmética ponderada.
+      - nivel: 3
+        assunto: Distribuição de frequências
+        enunciado: "Em uma pesquisa, a variável X assumiu os valores 1, 2, 3 e 4, com frequências absolutas 3, 5, 8 e 4, respectivamente. A média e a mediana de X são, respectivamente,"
+        alternativas:
+          A: 2,5 e 2,5.
+          B: 2,65 e 2,5.
+          C: 2,65 e 3.
+          D: 3 e 3.
+          E: 2,5 e 3.
+        resposta: C
+        comentario: "Com n = 20, a média é (1 × 3 + 2 × 5 + 3 × 8 + 4 × 4) ÷ 20 = 53 ÷ 20 = 2,65. A mediana é a média do 10º e do 11º valores. As frequências acumuladas são 3, 8, 16 e 20, então ambos valem 3 e a mediana é 3."
+        fundamento: Média e mediana em distribuições de frequência.
+
+  - titulo: Medidas de Dispersão
+    base: Amplitude, variância, desvio padrão e coeficiente de variação
+    questoes:
+      - nivel: 1
+        assunto: Amplitude
+        enunciado: "A amplitude total do conjunto {2, 4, 4, 5, 7, 8, 12} é"
+        alternativas:
+          A: "6."
+          B: "8."
+          C: "5."
+          D: "12."
+          E: "10."
+        resposta: E
+        comentario: "A amplitude é o maior valor menos o menor, ou seja, 12 − 2 = 10."
+        fundamento: Amplitude total.
+      - nivel: 2
+        assunto: Variância
+        enunciado: "A variância populacional do conjunto {2, 4, 6, 8} é"
+        alternativas:
+          A: "20."
+          B: 6,67.
+          C: "5."
+          D: 2,24.
+          E: "4."
+        resposta: C
+        comentario: "A média é 5, e os desvios ao quadrado são 9, 1, 1 e 9, com soma 20. A variância populacional é 20 ÷ 4 = 5. A amostral seria 20 ÷ 3 ≈ 6,67 (B), e o desvio padrão populacional, √5 ≈ 2,24 (D)."
+        fundamento: Variância populacional e amostral.
+      - nivel: 2
+        assunto: Propriedades do desvio padrão
+        enunciado: Se cada valor de um conjunto de dados for multiplicado por 3 e, em seguida, somado a 2, o desvio padrão do novo conjunto
+        alternativas:
+          A: ficará multiplicado por 3.
+          B: ficará multiplicado por 9.
+          C: ficará multiplicado por 3 e acrescido de 2.
+          D: permanecerá inalterado.
+          E: ficará acrescido de 2.
+        resposta: A
+        comentario: Somar uma constante não altera a dispersão. Multiplicar por k multiplica o desvio padrão por |k| e a variância por k². Por isso (B) estaria certa para a variância.
+        fundamento: Propriedades da variância e do desvio padrão.
+      - nivel: 3
+        assunto: Coeficiente de variação
+        enunciado: O grupo A tem média 50 e desvio padrão 5, e o grupo B tem média 20 e desvio padrão 4. Quanto à dispersão relativa,
+        alternativas:
+          A: o grupo A é mais disperso, por ter maior desvio padrão.
+          B: o grupo A é mais disperso, com coeficiente de variação de 10%.
+          C: os grupos têm a mesma dispersão relativa.
+          D: o grupo B é mais disperso, com coeficiente de variação de 20%.
+          E: o grupo B é mais disperso, com coeficiente de variação de 25%.
+        resposta: D
+        comentario: "CV = desvio padrão ÷ média. Para A, 5 ÷ 50 = 10%. Para B, 4 ÷ 20 = 20%. O desvio padrão absoluto não serve para comparar grupos com médias diferentes."
+        fundamento: Coeficiente de variação.
+
+  - titulo: Probabilidade e Distribuições
+    base: Regra da adição, binomial e normal
+    questoes:
+      - nivel: 1
+        assunto: União de eventos independentes
+        enunciado: Os eventos A e B são independentes, com P(A) = 0,4 e P(B) = 0,5. A probabilidade de ocorrer A ou B é
+        alternativas:
+          A: 0,9.
+          B: 0,7.
+          C: 0,2.
+          D: 0,6.
+          E: 0,5.
+        resposta: B
+        comentario: "P(A ∪ B) = P(A) + P(B) − P(A ∩ B). Como os eventos são independentes, P(A ∩ B) = 0,4 × 0,5 = 0,2. Então P = 0,4 + 0,5 − 0,2 = 0,7. (A) esquece a interseção."
+        fundamento: Regra da adição; eventos independentes.
+      - nivel: 2
+        assunto: Distribuição binomial
+        enunciado: Uma moeda honesta é lançada três vezes. A probabilidade de se obterem exatamente duas caras é
+        alternativas:
+          A: 1/8.
+          B: 3/8.
+          C: 1/2.
+          D: 1/4.
+          E: 2/3.
+        resposta: B
+        comentario: "P = C(3,2) × (1/2)² × (1/2)¹ = 3 × 1/8 = 3/8. As sequências favoráveis são CCK, CKC e KCC."
+        fundamento: Distribuição binomial.
+      - nivel: 3
+        assunto: Distribuição normal
+        enunciado: O valor das notas fiscais emitidas por um setor segue distribuição normal com média 100 e desvio padrão 10. Considerando P(0 < Z < 2) = 0,4772, a probabilidade de uma nota ter valor superior a 120 é de
+        alternativas:
+          A: 2,28%.
+          B: 47,72%.
+          C: 97,72%.
+          D: 4,56%.
+          E: 95,44%.
+        resposta: A
+        comentario: "Z = (120 − 100) ÷ 10 = 2, e P(Z > 2) = 0,5 − 0,4772 = 0,0228 = 2,28%. (D) seria P(|Z| > 2), que considera as duas caudas."
+        fundamento: Distribuição normal padronizada.
+
+  - titulo: Correlação, Regressão e Amostragem
+    base: Estatística inferencial — noções
+    questoes:
+      - nivel: 1
+        assunto: Coeficiente de correlação
+        enunciado: Um coeficiente de correlação linear de Pearson igual a −0,9 entre duas variáveis indica
+        alternativas:
+          A: correlação linear fraca e positiva.
+          B: ausência de correlação.
+          C: correlação linear forte e positiva.
+          D: correlação linear forte e negativa.
+          E: que uma variável causa a outra.
+        resposta: D
+        comentario: "O coeficiente varia de −1 a 1. Valores próximos de ±1 indicam associação linear forte, e o sinal mostra o sentido. Correlação não implica causalidade (E)."
+        fundamento: Correlação linear.
+      - nivel: 2
+        assunto: Regressão linear
+        enunciado: A reta de regressão estimada entre as variáveis X e Y é Ŷ = 2 + 3X. Para X = 4, o valor estimado de Y é
+        alternativas:
+          A: "12."
+          B: "20."
+          C: "14."
+          D: "9."
+          E: "5."
+        resposta: C
+        comentario: "Ŷ = 2 + 3 × 4 = 14. O coeficiente 3 indica que, a cada unidade a mais de X, Y aumenta em média 3 unidades."
+        fundamento: Regressão linear simples.
+      - nivel: 3
+        assunto: Técnicas de amostragem
+        enunciado: Para planejar a fiscalização, a Receita Estadual dividiu os contribuintes por porte (pequeno, médio e grande) e sorteou aleatoriamente, dentro de cada grupo, um número de contribuintes proporcional ao tamanho do grupo. Trata-se de amostragem
+        alternativas:
+          A: aleatória simples.
+          B: sistemática.
+          C: por conglomerados.
+          D: por conveniência.
+          E: estratificada.
+        resposta: E
+        comentario: Na amostragem estratificada, a população é dividida em estratos homogêneos internamente e sorteia-se em cada um. Nos conglomerados, ao contrário, sorteiam-se grupos inteiros. A amostragem por conveniência não é probabilística.
+        fundamento: Técnicas de amostragem.
+dica: "<b>Olho na FCC:</b> em estatística, confira se a questão pede valor populacional ou amostral (divisão por n ou por n − 1) e lembre que somar uma constante não altera a dispersão, mas multiplicar altera."
