@@ -35,14 +35,13 @@ def opcao_a():
 
 
 def opcao_b():
-    """Um sol de raios pequeno e uma linha de informação."""
+    """Só a escrita, no terço inferior."""
     css = """
 .sol { position:absolute; left:50%; top:96mm; width:70mm; height:70mm; transform:translateX(-50%); }
-.info { position:absolute; left:0; right:0; top:182mm; text-align:center; }
+.info { position:absolute; left:0; right:0; top:206mm; text-align:center; }
 .info .it { font-size:20pt; margin-bottom:5mm; }
 """
-    raios = f'<svg class="sol" viewBox="0 0 70 70">{estrela_raios(35, 35, 16, 5, 33, "#ee8a58", .9)}</svg>'
-    corpo = (f'{raios}<div class="info"><div class="it">Caderno de Questões</div>'
+    corpo = ('<div class="info"><div class="it">Caderno de Questões</div>'
              '<div class="caps">300 questões · 12 cadernos · estilo FCC</div></div>')
     return pagina(corpo, css)
 
