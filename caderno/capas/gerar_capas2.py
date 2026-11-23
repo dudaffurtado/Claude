@@ -42,10 +42,11 @@ AVISO = ("Questões inéditas para estudo, com base na legislação vigente em n
          "Material independente, sem vínculo com a SEFAZ-RS ou com a banca organizadora.")
 
 
-def doc(css, capa, contra):
+def doc(css, capa, contra, quarta=None):
     return ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Capa</title>'
             f'<link rel="stylesheet" href="fontes/fontes.css"><style>{BASE}{css}</style></head><body>'
-            f'<section class="pg capa">{capa}</section><section class="pg contra">{contra}</section></body></html>')
+            f'<section class="pg capa">{capa}</section><section class="pg contra">{contra}</section>'
+            + (f'<section class="pg quarta">{quarta}</section>' if quarta else '') + '</body></html>')
 
 
 def estrela_raios(cx, cy, raios, r_in, r_out, cor, larg=1.6):
@@ -88,6 +89,26 @@ def estilo1():
 .cartao .lead { font-size:9.5pt; margin:3mm 0 7mm; }
 .dono { margin-top:auto; font-size:10pt; } .dono span { display:inline-block; width:105mm; border-bottom:1pt solid var(--marrom); margin-left:2mm; }
 .aviso { margin-top:5mm; }
+.quarta .rep { opacity:.55; }
+.quarta .raios { opacity:.9; }
+.q-miolo { position:absolute; left:18mm; right:18mm; top:22mm; bottom:16mm; display:flex; flex-direction:column; color:var(--marrom); }
+.q-titulo { font-family:"Fraunces",serif; font-style:italic; font-weight:400; font-size:38pt; line-height:1.02; color:var(--marrom); max-width:150mm; }
+.q-titulo b { font-weight:600; color:var(--laranja); }
+.q-texto { background:var(--creme); border-radius:7mm; padding:8mm 9mm; margin-top:9mm; font-size:10.5pt; line-height:1.5; }
+.q-texto p + p { margin-top:3mm; }
+.q-lista { display:grid; grid-template-columns:1fr 1fr; gap:3mm 6mm; margin-top:6mm; }
+.q-lista div { font-size:9.5pt; line-height:1.35; padding-left:7mm; position:relative; }
+.q-lista div::before { content:"✳"; position:absolute; left:0; top:-.5pt; color:var(--laranja); font-size:11pt; }
+.q-lista b { display:block; font-family:"Fraunces",serif; font-style:italic; font-weight:600; font-size:12pt; color:var(--marrom); }
+.q-materias { margin-top:7mm; display:flex; flex-wrap:wrap; gap:2.2mm; }
+.q-materias span { background:var(--creme); border-radius:20pt; padding:3.5pt 10pt; font-size:8.6pt; font-weight:600; }
+.q-selo { position:absolute; right:14mm; bottom:34mm; width:46mm; height:46mm; border-radius:50%; background:var(--rosa); color:var(--creme);
+          display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; transform:rotate(8deg); }
+.q-selo b { font-family:"Fraunces",serif; font-style:italic; font-weight:400; font-size:17pt; line-height:1.05; }
+.q-selo span { font-size:7.6pt; letter-spacing:.14em; text-transform:uppercase; font-weight:600; margin-top:1.5mm; line-height:1.3; }
+.q-rodape { margin-top:auto; display:flex; justify-content:space-between; align-items:flex-end; font-size:8pt; letter-spacing:.18em; text-transform:uppercase; font-weight:600; }
+.q-rodape i { font-family:"Fraunces",serif; font-style:italic; font-size:14pt; letter-spacing:0; text-transform:none; font-weight:400; }
+.q-aviso { font-size:6.8pt; opacity:.75; margin-top:3mm; max-width:120mm; }
 .contra .topo { position:absolute; left:0; right:0; top:4mm; text-align:center; font-family:"Fraunces",serif; font-style:italic; font-size:52pt; color:var(--creme); line-height:1; }
 """
     linhas = []
@@ -105,7 +126,27 @@ def estilo1():
               '<div class="lead">Marque cada caderno ao terminar a primeira resolução e a revisão, e anote os acertos.</div>'
               f'{tabela()}<div class="dono">Este caderno pertence a <span></span></div>'
               f'<div class="aviso">{AVISO}</div></div>')
-    return doc(css, capa, contra)
+    materias = "".join(f'<span>{m}</span>' for _, m, _ in CADERNOS)
+    raios_q = f'<svg class="raios" viewBox="0 0 210 297">{estrela_raios(192, 26, 16, 7, 48, "#ee8a58", 1.2)}</svg>'
+    quarta = (f'<div class="rep">{"".join(linhas)}</div>{raios_q}'
+              '<div class="q-miolo">'
+              '<div class="q-titulo">Questão por questão,<br><b>a aprovação vem.</b></div>'
+              '<div class="q-texto">'
+              '<p>Este caderno reúne <b>300 questões inéditas</b>, elaboradas no estilo da Fundação Carlos Chagas para quem se prepara para o concurso de '
+              '<b>Auditor-Fiscal da Receita Estadual do Rio Grande do Sul</b>.</p>'
+              '<p>São 12 cadernos e 69 temas, com as questões em ordem crescente de dificuldade, espaço para resolver à mão '
+              'e gabarito comentado ao fim de cada caderno, com o fundamento legal de cada resposta.</p>'
+              '<div class="q-lista">'
+              '<div><b>Feito para o papel</b>Bolhas para marcar, caixas de “dúvida” e “revisar” e quadro de acertos por tema.</div>'
+              '<div><b>Gabarito que ensina</b>Por que a certa está certa e onde está a pegadinha de cada errada.</div>'
+              '<div><b>Legislação em dia</b>Inclui a Reforma Tributária, com a EC 132/2023, a LC 214/2025, o IBS, a CBS e o Imposto Seletivo.</div>'
+              '<div><b>O jeito da FCC</b>Letra da lei, itens I a IV, casos práticos e as trocas de palavras que a banca adora.</div>'
+              '</div></div>'
+              f'<div class="q-materias">{materias}</div>'
+              '<div class="q-rodape"><div><i>Caderno de Questões</i><br>SEFAZ-RS · 2027</div><div>estilo FCC</div></div>'
+              f'<div class="q-aviso">{AVISO}</div></div>'
+              '<div class="q-selo"><b>legislação<br>de nov./2026</b><span>inclui reforma<br>tributária</span></div>')
+    return doc(css, capa, contra, quarta)
 
 
 # ======================= Estilo 2 — Xadrez amarelo com moldura =======================
