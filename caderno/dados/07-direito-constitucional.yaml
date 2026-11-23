@@ -1,0 +1,284 @@
+caderno: 7
+materia: Direito Constitucional
+meta: 20
+temas:
+  - titulo: Direitos e Garantias Fundamentais
+    base: CF, art. 5º; LC 105/2001
+    questoes:
+      - nivel: 1
+        assunto: Inviolabilidade do domicílio
+        enunciado: Nos termos da Constituição Federal, a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo
+        alternativas:
+          A: por determinação judicial, a qualquer hora do dia ou da noite.
+          B: em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.
+          C: por determinação de autoridade fiscal, durante o horário comercial.
+          D: por determinação judicial, exclusivamente durante a noite.
+          E: em nenhuma hipótese, por se tratar de garantia absoluta.
+        resposta: B
+        comentario: (B) reproduz o art. 5º, XI. Para o STF, o escritório e o estabelecimento fechado ao público equiparam-se a “casa”. Por isso a fiscalização tributária não pode ingressar neles à força sem ordem judicial.
+        fundamento: CF, art. 5º, XI.
+      - nivel: 1
+        assunto: Remédios constitucionais
+        enunciado: Para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, a Constituição prevê o
+        alternativas:
+          A: habeas corpus.
+          B: mandado de segurança.
+          C: mandado de injunção.
+          D: habeas data.
+          E: ação popular.
+        resposta: D
+        comentario: (D) segue o art. 5º, LXXII. O habeas data também serve para retificar dados quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo.
+        fundamento: CF, art. 5º, LXXII.
+      - nivel: 2
+        assunto: Mandado de segurança coletivo
+        enunciado: Segundo a Constituição Federal, pode impetrar mandado de segurança coletivo
+        alternativas:
+          A: qualquer cidadão, em defesa do patrimônio público.
+          B: o Ministério Público, em defesa de interesses individuais homogêneos.
+          C: associação legalmente constituída e em funcionamento há pelo menos seis meses.
+          D: a Defensoria Pública, em qualquer hipótese.
+          E: partido político com representação no Congresso Nacional.
+        resposta: E
+        comentario: O art. 5º, LXX, legitima o partido político com representação no Congresso e a organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos <i>um ano</i>. Por isso (C) está errada.
+        fundamento: CF, art. 5º, LXX.
+      - nivel: 2
+        assunto: Segurança jurídica e garantias
+        enunciado: Nos termos do art. 5º da Constituição Federal,
+        alternativas:
+          A: a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada.
+          B: a lei penal retroagirá sempre, para beneficiar ou prejudicar o réu.
+          C: ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de decreto.
+          D: é livre a manifestação do pensamento, sendo permitido o anonimato.
+          E: a prática do racismo constitui crime afiançável e prescritível.
+        resposta: A
+        comentario: (A) reproduz o inciso XXXVI. As demais alternativas foram adulteradas. A lei penal só retroage para beneficiar (XL). A obrigação decorre de <i>lei</i> (II). O anonimato é vedado (IV). O racismo é crime inafiançável e imprescritível (XLII).
+        fundamento: CF, art. 5º, II, IV, XXXVI, XL e XLII.
+      - nivel: 2
+        assunto: Sigilo bancário e Fisco
+        enunciado: Segundo o entendimento do STF sobre a Lei Complementar nº 105/2001, as autoridades fiscais
+        alternativas:
+          A: somente podem acessar dados bancários dos contribuintes mediante prévia autorização judicial.
+          B: podem divulgar publicamente os dados bancários obtidos em fiscalização.
+          C: podem ter acesso a dados bancários dos contribuintes sem prévia autorização judicial, havendo processo administrativo instaurado ou procedimento fiscal em curso, preservado o sigilo das informações.
+          D: somente podem obter dados bancários por meio de comissão parlamentar de inquérito.
+          E: estão proibidas de acessar dados bancários em qualquer hipótese.
+        resposta: C
+        comentario: O STF considerou constitucional o art. 6º da LC 105/2001. Para o tribunal, não há quebra, mas <i>transferência</i> do sigilo ao Fisco, que continua obrigado a mantê-lo. Os Estados e Municípios podem usar a mesma prerrogativa, desde que a regulamentem.
+        fundamento: LC 105/2001, art. 6º; STF, ADIs 2.390, 2.386, 2.397 e 2.859; RE 601.314.
+      - nivel: 3
+        assunto: Regime dos direitos fundamentais
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que o Brasil seja parte.
+          - As normas definidoras dos direitos e garantias fundamentais têm aplicação imediata.
+          - Os tratados e convenções internacionais sobre direitos humanos aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.
+          - A pena de morte é vedada em qualquer hipótese.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, II e IV.
+          D: III e IV.
+          E: I, II e III.
+        resposta: E
+        comentario: I, II e III reproduzem os §§ 2º, 1º e 3º do art. 5º. IV está errada porque o inciso XLVII, “a”, admite a pena de morte em caso de guerra declarada.
+        fundamento: CF, art. 5º, XLVII e §§ 1º a 3º.
+
+  - titulo: Organização do Estado
+    base: CF, arts. 24, 26, 34 e 158
+    questoes:
+      - nivel: 1
+        assunto: Competência concorrente
+        enunciado: Compete à União, aos Estados e ao Distrito Federal legislar concorrentemente sobre
+        alternativas:
+          A: direito tributário, financeiro, penitenciário, econômico e urbanístico.
+          B: direito civil.
+          C: direito penal.
+          D: desapropriação.
+          E: trânsito e transporte.
+        resposta: A
+        comentario: (A) reproduz o art. 24, I. Direito civil, penal, desapropriação e trânsito e transporte são competências privativas da União (art. 22).
+        fundamento: CF, arts. 22 e 24, I.
+      - nivel: 2
+        assunto: Normas gerais
+        enunciado: No âmbito da competência legislativa concorrente, a superveniência de lei federal sobre normas gerais
+        alternativas:
+          A: revoga a lei estadual, no que lhe for contrário.
+          B: torna nula a lei estadual desde a sua edição.
+          C: suspende a eficácia da lei estadual, no que lhe for contrário.
+          D: não afeta a lei estadual, que prevalece por ser mais específica.
+          E: depende de resolução do Senado Federal para produzir efeitos.
+        resposta: C
+        comentario: O art. 24, § 4º, fala em <i>suspensão da eficácia</i>, e não em revogação. A troca entre os dois termos é pegadinha frequente. Inexistindo lei federal, os Estados exercem competência legislativa plena (§ 3º).
+        fundamento: CF, art. 24, §§ 1º a 4º.
+      - nivel: 2
+        assunto: Bens dos Estados
+        enunciado: Incluem-se entre os bens dos Estados
+        alternativas:
+          A: os recursos minerais, inclusive os do subsolo.
+          B: as ilhas fluviais e lacustres não pertencentes à União.
+          C: os terrenos de marinha e seus acrescidos.
+          D: o mar territorial.
+          E: os potenciais de energia hidráulica.
+        resposta: B
+        comentario: (B) reproduz o art. 26, III. Os demais itens são bens da União (art. 20, VII, VI, VIII e IX).
+        fundamento: CF, arts. 20 e 26.
+      - nivel: 2
+        assunto: Intervenção federal
+        enunciado: A União pode intervir em Estado para reorganizar suas finanças quando este
+        alternativas:
+          A: suspender o pagamento da dívida fundada por mais de um ano, ainda que por motivo de força maior.
+          B: elevar a alíquota modal do ICMS.
+          C: conceder benefício fiscal sem convênio.
+          D: deixar de entregar aos Municípios receitas tributárias fixadas na Constituição, dentro dos prazos estabelecidos em lei.
+          E: atrasar o pagamento dos servidores por mais de trinta dias.
+        resposta: D
+        comentario: (D) reproduz o art. 34, V, “b”. A alínea “a” exige suspensão da dívida fundada por mais de <i>dois</i> anos consecutivos, salvo motivo de força maior. Por isso (A) está errada duas vezes.
+        fundamento: CF, art. 34, V.
+      - nivel: 3
+        assunto: Repartição de receitas
+        enunciado: Considere as afirmações abaixo sobre a repartição das receitas tributárias estaduais com os Municípios.
+        itens:
+          - Pertencem aos Municípios 25% do produto da arrecadação do ICMS.
+          - Pertencem aos Municípios 50% do produto da arrecadação do IPVA dos veículos automotores licenciados em seus territórios.
+          - Das parcelas do ICMS pertencentes aos Municípios, no mínimo 65% serão creditadas na proporção do valor adicionado nas operações realizadas em seus territórios.
+          - A totalidade da parcela municipal do ICMS é distribuída conforme dispuser livremente a lei estadual.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I e IV.
+          D: I, II e III.
+          E: I, II, III e IV.
+        resposta: D
+        comentario: I, II e III reproduzem o art. 158, IV, III e parágrafo único, I. IV está errada porque a lei estadual dispõe sobre até 35%, com no mínimo 10 pontos percentuais vinculados a indicadores educacionais, conforme a EC 108/2020.
+        fundamento: CF, art. 158, III, IV e parágrafo único.
+
+  - titulo: Processo Legislativo
+    base: CF, arts. 59 a 69
+    questoes:
+      - nivel: 1
+        assunto: Lei complementar
+        enunciado: As leis complementares serão aprovadas por
+        alternativas:
+          A: maioria simples.
+          B: três quintos dos votos, em dois turnos.
+          C: maioria absoluta.
+          D: dois terços dos membros de cada Casa.
+          E: unanimidade.
+        resposta: C
+        comentario: (C) reproduz o art. 69. A lei ordinária exige maioria simples. A emenda constitucional exige três quintos, em dois turnos, em cada Casa.
+        fundamento: CF, arts. 47, 60, § 2º, e 69.
+      - nivel: 2
+        assunto: Medidas provisórias
+        enunciado: É vedada a edição de medida provisória sobre
+        alternativas:
+          A: matéria reservada a lei complementar.
+          B: majoração do imposto sobre a renda.
+          C: abertura de crédito extraordinário.
+          D: qualquer matéria tributária.
+          E: matéria de competência da União.
+        resposta: A
+        comentario: (A) segue o art. 62, § 1º, III. A MP pode instituir ou majorar impostos, observado o § 2º, e abrir créditos extraordinários (art. 167, § 3º).
+        fundamento: CF, art. 62, §§ 1º e 2º.
+      - nivel: 2
+        assunto: Cláusulas pétreas
+        enunciado: Não será objeto de deliberação a proposta de emenda constitucional tendente a abolir
+        alternativas:
+          A: o voto obrigatório.
+          B: a forma republicana de governo.
+          C: o sistema presidencialista.
+          D: a competência tributária dos Municípios.
+          E: o voto direto, secreto, universal e periódico.
+        resposta: E
+        comentario: "O art. 60, § 4º, lista como cláusulas pétreas a forma federativa de Estado, o voto direto, secreto, universal e periódico, a separação dos Poderes e os direitos e garantias individuais. A obrigatoriedade do voto, a forma republicana e o presidencialismo não estão na lista."
+        fundamento: CF, art. 60, § 4º.
+      - nivel: 2
+        assunto: Iniciativa em matéria tributária
+        enunciado: Segundo o entendimento do STF, lei que concede benefício tributário
+        alternativas:
+          A: é de iniciativa privativa do Chefe do Poder Executivo.
+          B: pode ter origem em projeto de iniciativa parlamentar, pois não há reserva de iniciativa ao Chefe do Executivo em matéria tributária.
+          C: somente pode ser veiculada por lei complementar.
+          D: é de iniciativa privativa do Poder Judiciário.
+          E: somente pode decorrer de iniciativa popular.
+        resposta: B
+        comentario: Para o STF, a iniciativa em matéria tributária é concorrente (Tema 682). A reserva do art. 61, § 1º, II, “b”, alcança apenas os Territórios.
+        fundamento: CF, art. 61; STF, ARE 743.480 (Tema 682).
+      - nivel: 3
+        assunto: Sanção e veto
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Decorrido o prazo de quinze dias úteis, o silêncio do Presidente da República importará sanção.
+          - O veto será apreciado em sessão conjunta, dentro de trinta dias de seu recebimento, só podendo ser rejeitado pelo voto da maioria absoluta dos Deputados e Senadores.
+          - O veto parcial poderá abranger palavras ou expressões isoladas.
+          - O veto pode fundar-se em inconstitucionalidade ou em contrariedade ao interesse público.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e IV.
+          B: I e II.
+          C: II e III.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: A
+        comentario: III está errada porque o veto parcial somente abrangerá texto integral de artigo, parágrafo, inciso ou alínea (art. 66, § 2º). As demais afirmações reproduzem o art. 66, caput e §§ 1º, 3º e 4º.
+        fundamento: CF, art. 66.
+
+  - titulo: Controle de Constitucionalidade
+    base: CF, arts. 52, X, 97, 102 e 103; Lei 9.868/1999; Lei 9.882/1999
+    questoes:
+      - nivel: 1
+        assunto: Legitimados
+        enunciado: Pode propor ação direta de inconstitucionalidade perante o STF
+        alternativas:
+          A: o Prefeito de capital.
+          B: qualquer cidadão.
+          C: o Defensor Público-Geral da União.
+          D: sindicato de âmbito estadual.
+          E: o Governador de Estado.
+        resposta: E
+        comentario: (E) segue o art. 103, V. No plano sindical, só a confederação sindical tem legitimidade. Prefeitos e cidadãos não estão no rol.
+        fundamento: CF, art. 103.
+      - nivel: 2
+        assunto: Efeitos da decisão
+        enunciado: As decisões definitivas de mérito proferidas pelo STF nas ações diretas de inconstitucionalidade produzem eficácia contra todos e efeito vinculante
+        alternativas:
+          A: inclusive em relação ao Poder Legislativo, no exercício de sua função legislativa.
+          B: relativamente aos demais órgãos do Poder Judiciário e à administração pública direta e indireta, nas esferas federal, estadual e municipal.
+          C: apenas entre as partes do processo.
+          D: apenas em relação ao Poder Executivo federal.
+          E: somente após resolução do Senado Federal.
+        resposta: B
+        comentario: (B) reproduz o art. 102, § 2º. O Legislativo não fica vinculado na função de legislar, o que evita a “fossilização” da Constituição. A resolução do Senado (art. 52, X) diz respeito ao controle difuso.
+        fundamento: CF, art. 102, § 2º.
+      - nivel: 2
+        assunto: Reserva de plenário
+        enunciado: Pela cláusula de reserva de plenário,
+        alternativas:
+          A: os tribunais podem declarar a inconstitucionalidade de lei por maioria simples de qualquer de seus órgãos.
+          B: a declaração de inconstitucionalidade exige dois terços dos membros do tribunal.
+          C: somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial poderão os tribunais declarar a inconstitucionalidade de lei ou ato normativo do Poder Público.
+          D: qualquer órgão fracionário pode afastar a incidência de lei por considerá-la inconstitucional.
+          E: a declaração de inconstitucionalidade exige unanimidade.
+        resposta: C
+        comentario: (C) reproduz o art. 97. Pela Súmula Vinculante 10, o órgão fracionário que afasta a incidência da lei sem declarar expressamente a inconstitucionalidade também viola a cláusula.
+        fundamento: CF, art. 97; Súmula Vinculante 10.
+      - nivel: 3
+        assunto: ADI, ADC, ADPF e modulação
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Por razões de segurança jurídica ou de excepcional interesse social, o STF poderá, por maioria de dois terços de seus membros, restringir os efeitos da declaração de inconstitucionalidade.
+          - A ação declaratória de constitucionalidade tem por objeto lei ou ato normativo federal.
+          - A arguição de descumprimento de preceito fundamental não será admitida quando houver qualquer outro meio eficaz de sanar a lesividade.
+          - Lei municipal pode ser objeto de ação direta de inconstitucionalidade perante o STF, tendo como parâmetro a Constituição Federal.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, III e IV.
+          D: I, II e III.
+          E: I, II, III e IV.
+        resposta: D
+        comentario: I reproduz o art. 27 da Lei 9.868/1999, II o art. 102, I, “a”, da CF e III o art. 4º, § 1º, da Lei 9.882/1999, que trata da subsidiariedade. IV está errada porque a ADI no STF alcança lei federal ou estadual. A lei municipal pode ser questionada por ADPF.
+        fundamento: CF, art. 102, I, “a”; Lei 9.868/1999, art. 27; Lei 9.882/1999, art. 4º, § 1º.
+dica: "<b>Olho na FCC:</b> em Constitucional, a banca altera números e prazos, como “um ano” e “seis meses”, “dois anos” e “um ano”, e “maioria absoluta” e “dois terços”. Troca também verbos como “suspende” e “revoga”. Leia a alternativa palavra por palavra."
