@@ -4,9 +4,15 @@
 <meta charset="utf-8">
 <title>Amostra – Caderno de Questões SEFAZ-RS</title>
 <style>
-  @page { size: A4; margin: 16mm 14mm 16mm 24mm; }
+  @page { size: A4; margin: 13mm 12mm 13mm 22mm; }
+  .cols { column-fill: auto; column-count: 2; column-gap: 7mm; column-rule: .5pt solid #bbb; }
+  .cols > .gc { break-inside: avoid; }
+  .cols .q { break-inside: auto; }
+  .cols .qhead, .cols .enun { break-after: avoid; }
+  .cols li, .cols .marca, .cols .enun { break-inside: avoid; }
+  .cols .marca { break-before: avoid; }
   * { box-sizing: border-box; }
-  body { margin: 0; font-family: "Caladea", "Liberation Serif", serif; font-size: 11pt; line-height: 1.32; color: #111; }
+  body { margin: 0; font-family: "Caladea", "Liberation Serif", serif; font-size: 9pt; line-height: 1.28; color: #111; }
   .sans { font-family: "Inter", "Liberation Sans", sans-serif; }
 
   .page { page-break-after: always; }
@@ -21,28 +27,29 @@
   /* Abertura do tema */
   .tema { display: grid; grid-template-columns: 1fr auto; gap: 10pt; align-items: end; margin-bottom: 10pt; }
   .tema .kicker { font-family: "Inter", sans-serif; font-size: 8pt; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: #555; }
-  .tema h1 { font-family: "Inter", sans-serif; font-size: 16pt; font-weight: 700; margin: 1pt 0 2pt; letter-spacing: -.01em; }
+  .tema h1 { font-family: "Inter", sans-serif; font-size: 14pt; font-weight: 700; margin: 1pt 0 2pt; letter-spacing: -.01em; }
   .tema .base { font-size: 9pt; color: #333; }
   .controle { font-family: "Inter", sans-serif; font-size: 7.6pt; border: .8pt solid #111; border-collapse: collapse; }
   .controle td { border: .8pt solid #111; padding: 3pt 6pt; min-width: 22mm; height: 15pt; vertical-align: top; }
   .controle td:first-child { min-width: 0; font-weight: 600; background: #eee; }
 
   /* Questões */
-  .q { border-top: .5pt solid #999; padding: 7pt 0 6pt; break-inside: avoid; }
+  .q { border-top: .5pt solid #999; padding: 6pt 0 5pt; break-inside: avoid; }
+  .cols > .q:first-child, .cols > .gc:first-child { border-top: none; padding-top: 0; }
   .qhead { display: flex; align-items: center; gap: 7pt; margin-bottom: 3pt; font-family: "Inter", sans-serif; font-size: 8pt; }
   .num { font-weight: 800; font-size: 10.5pt; background: #111; color: #fff; padding: 1pt 6pt; border-radius: 2pt; }
   .nivel { letter-spacing: .1em; }
   .assunto { color: #444; text-transform: uppercase; letter-spacing: .04em; }
   .enun { margin: 0 0 3pt; text-align: justify; hyphens: auto; }
   ol.alt { list-style: none; margin: 0; padding: 0 0 0 2pt; }
-  ol.alt li { display: grid; grid-template-columns: 17pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
-  ol.alt li b { font-family: "Inter", sans-serif; font-size: 9pt; }
+  ol.alt li { display: grid; grid-template-columns: 15pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
+  ol.alt li b { font-family: "Inter", sans-serif; font-size: 7.8pt; }
   ol.itens { list-style: none; margin: 2pt 0 4pt; padding: 0 0 0 4pt; }
-  ol.itens li { display: grid; grid-template-columns: 22pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
+  ol.itens li { display: grid; grid-template-columns: 18pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
 
-  .marca { display: flex; gap: 12pt; align-items: center; margin-top: 5pt; font-family: "Inter", sans-serif; font-size: 7.8pt; color: #333; }
-  .bolhas span { display: inline-block; width: 13pt; height: 13pt; border: .8pt solid #111; border-radius: 50%;
-    text-align: center; line-height: 12pt; font-size: 7.5pt; font-weight: 600; margin-right: 3pt; }
+  .marca { display: flex; gap: 7pt; align-items: center; margin-top: 5pt; font-family: "Inter", sans-serif; font-size: 7.8pt; color: #333; }
+  .bolhas span { display: inline-block; width: 12pt; height: 12pt; border: .8pt solid #111; border-radius: 50%;
+    text-align: center; line-height: 11pt; font-size: 7pt; font-weight: 600; margin-right: 3pt; }
   .chk { display: inline-block; width: 9pt; height: 9pt; border: .8pt solid #111; vertical-align: -1pt; margin-right: 2pt; }
   .notas { flex: 1; border-bottom: .6pt dotted #777; height: 11pt; }
 
@@ -52,7 +59,7 @@
   .gtab td { border: .8pt solid #111; text-align: center; padding: 3pt; }
   .gtab tr:first-child td { background: #eee; font-weight: 700; }
   .gc { border-top: .5pt solid #999; padding: 6pt 0; break-inside: avoid; }
-  .gc h3 { font-family: "Inter", sans-serif; font-size: 9pt; margin: 0 0 2pt; }
+  .gc h3 { font-family: "Inter", sans-serif; font-size: 8.4pt; margin: 0 0 2pt; }
   .gc h3 .letra { background: #111; color: #fff; padding: 0 5pt; border-radius: 2pt; margin-left: 4pt; }
   .gc p { margin: 0; text-align: justify; hyphens: auto; }
   .gc .fund { font-family: "Inter", sans-serif; font-size: 7.8pt; color: #333; margin-top: 2pt; }
@@ -78,6 +85,7 @@
     </table>
   </div>
 
+  <div class="cols">
   <div class="q">
     <div class="qhead"><span class="num">01</span><span class="nivel">●</span><span class="assunto">Obrigação principal e acessória</span></div>
     <p class="enun">De acordo com o Código Tributário Nacional, a obrigação tributária</p>
@@ -127,7 +135,7 @@
       <li><b>IV.</b><span>Na falta de eleição do domicílio tributário, considera-se como tal, quanto às pessoas jurídicas de direito privado, exclusivamente o lugar da sua sede.</span></li>
     </ol>
     <p class="enun">Está correto o que se afirma APENAS em</p>
-    <ol class="alt" style="display:grid;grid-template-columns:repeat(5,1fr)">
+    <ol class="alt" style="display:grid;grid-template-columns:repeat(3,1fr)">
       <li><b>(A)</b><span>I e II.</span></li>
       <li><b>(B)</b><span>I e III.</span></li>
       <li><b>(C)</b><span>II e IV.</span></li>
@@ -149,6 +157,7 @@
     </ol>
     <div class="marca"><span class="bolhas"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span></span><span><i class="chk"></i>dúvida</span><span><i class="chk"></i>revisar</span><span class="notas"></span></div>
   </div>
+  </div>
 </section>
 
 <!-- ===================== PÁGINA DE GABARITO ===================== -->
@@ -162,6 +171,7 @@
     <tr><td>Resposta</td><td>A</td><td>A</td><td>C</td><td>B</td><td>B</td></tr>
   </table>
 
+  <div class="cols" style="column-fill: balance">
   <div class="gc">
     <h3>Questão 01 <span class="letra">A</span></h3>
     <p>(A) reproduz o art. 113, §1º. (B) está errada porque a obrigação acessória decorre da <i>legislação tributária</i>, não só da lei, e tem por objeto prestações positivas ou negativas, e não multa. (C) está errada porque a conversão se dá relativamente à <i>penalidade pecuniária</i>, e não ao tributo. (D) está errada porque descreve a obrigação <i>acessória</i>. (E) está errada porque imunes e isentos também se sujeitam a obrigações acessórias.</p>
@@ -192,6 +202,7 @@
     <div class="fund">Fundamento: CTN, art. 124, parágrafo único; art. 125, I a III.</div>
   </div>
 
+  </div>
   <div class="pegadinha"><b>Olho na FCC:</b> a banca troca palavras-chave da lei, como “tributo” por “penalidade”, “suspensiva” por “resolutória”, ou acrescenta “exclusivamente” e “desde que registradas”. Ao errar, sublinhe a palavra trocada.</div>
 
   <div class="rodape">Questões inéditas elaboradas no estilo da banca, com base na legislação vigente em nov./2026.</div>
