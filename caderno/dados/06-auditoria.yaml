@@ -1,0 +1,284 @@
+caderno: 6
+materia: Auditoria
+meta: 20
+temas:
+  - titulo: Objetivos e Princípios da Auditoria Independente
+    base: NBC TA 200; NBC TA 240
+    questoes:
+      - nivel: 1
+        assunto: Objetivo da auditoria
+        enunciado: Segundo a NBC TA 200, o objetivo da auditoria de demonstrações contábeis é
+        alternativas:
+          A: garantir a absoluta inexistência de fraudes na entidade auditada.
+          B: elaborar as demonstrações contábeis da entidade, em conformidade com as normas.
+          C: aumentar o grau de confiança dos usuários nas demonstrações, mediante opinião do auditor sobre se foram elaboradas, em todos os aspectos relevantes, de acordo com a estrutura de relatório financeiro aplicável.
+          D: certificar a solvência futura da entidade auditada.
+          E: detectar todos os erros, relevantes ou não, contidos nas demonstrações.
+        resposta: C
+        comentario: (C) reproduz o item 3 da NBC TA 200. As demonstrações são elaboradas pela administração (B). A auditoria fornece segurança razoável, não absoluta (A e E), e não é garantia de viabilidade futura (D).
+        fundamento: NBC TA 200, itens 3 a 5.
+      - nivel: 1
+        assunto: Segurança razoável
+        enunciado: A segurança razoável obtida em uma auditoria de demonstrações contábeis corresponde a
+        alternativas:
+          A: segurança absoluta de que não há distorções relevantes.
+          B: segurança limitada, típica de trabalhos de revisão.
+          C: ausência de qualquer nível de segurança.
+          D: garantia total quanto à inexistência de fraudes.
+          E: alto nível de segurança, mas não absoluto, em razão das limitações inerentes da auditoria.
+        resposta: E
+        comentario: As limitações inerentes da auditoria impedem a segurança absoluta. Entre elas estão os testes por amostragem, o uso de julgamento, a natureza persuasiva e não conclusiva das evidências e a possibilidade de conluio. A segurança limitada (B) é própria das revisões.
+        fundamento: NBC TA 200, itens 5 e A47 a A52.
+      - nivel: 2
+        assunto: Ceticismo profissional
+        enunciado: De acordo com as normas de auditoria, ceticismo profissional é
+        alternativas:
+          A: a postura que inclui mente questionadora e alerta para condições que possam indicar possível distorção devido a erro ou fraude, e avaliação crítica das evidências de auditoria.
+          B: a presunção de que a administração age sempre de má-fé.
+          C: a aceitação, sem questionamentos, das representações da administração.
+          D: a aplicação de treinamento, conhecimento e experiência na tomada de decisões.
+          E: a independência do auditor em relação à entidade auditada.
+        resposta: A
+        comentario: (A) é a definição da NBC TA 200. Ceticismo não significa presumir má-fé (B) nem aceitar representações sem questionar (C). (D) define o <i>julgamento</i> profissional.
+        fundamento: NBC TA 200, item 13(l).
+      - nivel: 2
+        assunto: Responsabilidade por fraudes
+        enunciado: Segundo a NBC TA 240, a principal responsabilidade pela prevenção e detecção de fraude é
+        alternativas:
+          A: do auditor independente.
+          B: do auditor interno.
+          C: dos órgãos reguladores.
+          D: dos responsáveis pela governança da entidade e da sua administração.
+          E: exclusivamente do conselho fiscal.
+        resposta: D
+        comentario: Cabe ao auditor obter segurança razoável de que as demonstrações, como um todo, não contêm distorção relevante, seja por fraude, seja por erro. A responsabilidade primária de prevenir e detectar fraudes é da governança e da administração.
+        fundamento: NBC TA 240, itens 4 e 5.
+      - nivel: 3
+        assunto: Erro e fraude
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Erro é distorção não intencional nas demonstrações contábeis.
+          - Fraude é ato intencional de um ou mais indivíduos da administração, dos responsáveis pela governança, empregados ou terceiros, que envolva dolo para obtenção de vantagem injusta ou ilegal.
+          - O risco de não detectar distorção relevante decorrente de fraude é maior do que o decorrente de erro.
+          - O auditor é responsável por detectar todas as distorções, relevantes ou não, decorrentes de fraude.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: B
+        comentario: III está correta porque a fraude pode envolver esquemas sofisticados, conluio e falsificação. IV está errada porque o auditor busca segurança razoável quanto a distorções <i>relevantes</i>.
+        fundamento: NBC TA 240, itens 2, 5, 6 e 11.
+
+  - titulo: Planejamento, Risco e Materialidade
+    base: NBC TA 200, 300, 315 e 320
+    questoes:
+      - nivel: 1
+        assunto: Risco de auditoria
+        enunciado: Risco de auditoria é
+        alternativas:
+          A: o risco de que o auditor expresse opinião inadequada quando as demonstrações contábeis contiverem distorção relevante.
+          B: o risco de a entidade auditada entrar em falência.
+          C: o risco de o auditor sofrer processo judicial.
+          D: o risco de a administração não aceitar os honorários propostos.
+          E: o risco de o auditor não concluir os trabalhos no prazo.
+        resposta: A
+        comentario: O risco de auditoria é função do risco de distorção relevante (inerente e de controle) e do risco de detecção. Riscos do negócio, de litígio ou comerciais não se confundem com ele.
+        fundamento: NBC TA 200, itens 13(c) e A32 a A44.
+      - nivel: 2
+        assunto: Risco de detecção
+        enunciado: Quanto à relação entre o risco de distorção relevante avaliado e o risco de detecção aceitável,
+        alternativas:
+          A: são diretamente proporcionais.
+          B: são independentes entre si.
+          C: quanto maior o risco de distorção relevante, maior o risco de detecção aceitável, permitindo reduzir procedimentos.
+          D: quanto maior o risco de distorção relevante, menor o risco de detecção aceitável, exigindo evidências mais persuasivas.
+          E: o risco de detecção pode ser eliminado com a aplicação de procedimentos substantivos.
+        resposta: D
+        comentario: A relação é inversa. Para manter o risco de auditoria baixo, quanto maior o risco de distorção relevante, menor deve ser o risco de detecção, o que exige procedimentos mais extensos e evidências mais persuasivas. O risco de detecção pode ser reduzido, mas não eliminado (E).
+        fundamento: NBC TA 200, item A42.
+      - nivel: 2
+        assunto: Risco inerente
+        enunciado: Risco inerente é
+        alternativas:
+          A: o risco de que os procedimentos do auditor não detectem distorção existente.
+          B: a suscetibilidade de uma afirmação a distorção que possa ser relevante, antes da consideração de quaisquer controles relacionados.
+          C: o risco de que o controle interno não previna ou não detecte distorção relevante.
+          D: o risco de o auditor emitir relatório inadequado.
+          E: o risco de que a amostra não represente a população.
+        resposta: B
+        comentario: (B) define o risco inerente. (C) é o risco de controle, e os dois juntos compõem o risco de distorção relevante. (A) é o risco de detecção e (E), o risco de amostragem.
+        fundamento: NBC TA 200, item 13(n).
+      - nivel: 2
+        assunto: Materialidade
+        enunciado: Segundo a NBC TA 320, a materialidade para execução da auditoria é
+        alternativas:
+          A: idêntica à materialidade para as demonstrações contábeis como um todo.
+          B: fixada em valor superior à materialidade para as demonstrações como um todo.
+          C: fixada pela administração da entidade.
+          D: determinada exclusivamente por fatores qualitativos.
+          E: fixada pelo auditor em valor inferior à materialidade para as demonstrações como um todo, para reduzir a um nível adequadamente baixo a probabilidade de que distorções não corrigidas e não detectadas, em conjunto, excedam a materialidade.
+        resposta: E
+        comentario: (E) reproduz o item 9 da NBC TA 320. A margem existe porque distorções individualmente pequenas podem, somadas, tornar-se relevantes. A materialidade é definida pelo julgamento do auditor, e não pela administração.
+        fundamento: NBC TA 320, itens 9 e 11.
+      - nivel: 3
+        assunto: Planejamento
+        enunciado: Considere as afirmações abaixo sobre o planejamento da auditoria.
+        itens:
+          - O planejamento não é uma fase isolada, mas um processo contínuo e iterativo.
+          - O auditor deve estabelecer uma estratégia global que defina o alcance, a época e a direção da auditoria.
+          - Uma vez aprovado, o plano de auditoria não pode ser alterado durante os trabalhos.
+          - O plano de auditoria inclui a natureza, a época e a extensão dos procedimentos de avaliação de risco e dos procedimentos adicionais.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: C
+        comentario: III contraria o item 10 da NBC TA 300, que exige atualizar e alterar a estratégia global e o plano sempre que necessário durante a auditoria.
+        fundamento: NBC TA 300, itens 2, 7, 9 e 10.
+
+  - titulo: Evidência e Procedimentos de Auditoria
+    base: NBC TA 330, 500, 501, 505, 520 e 530
+    questoes:
+      - nivel: 1
+        assunto: Confiabilidade da evidência
+        enunciado: Em regra, é mais confiável a evidência de auditoria
+        alternativas:
+          A: obtida oralmente, por meio de indagação.
+          B: obtida em fotocópias de documentos.
+          C: gerada internamente pela entidade, quando os controles são ineficazes.
+          D: fornecida por representação da administração, sem outra corroboração.
+          E: obtida diretamente pelo auditor, como a observação da aplicação de um controle.
+        resposta: E
+        comentario: A NBC TA 500 indica que a evidência obtida diretamente pelo auditor é mais confiável que a obtida indiretamente. Também é mais confiável a evidência documental em relação à oral, a de documentos originais em relação a cópias e a de fontes externas independentes.
+        fundamento: NBC TA 500, item A31.
+      - nivel: 2
+        assunto: Confirmação externa
+        enunciado: O procedimento em que o auditor obtém resposta escrita direta de terceiro, como clientes que confirmam seus saldos devedores, denomina-se
+        alternativas:
+          A: inspeção.
+          B: confirmação externa.
+          C: observação.
+          D: recálculo.
+          E: reexecução.
+        resposta: B
+        comentario: A confirmação externa, também chamada de circularização, é regulada pela NBC TA 505. É eficaz para a afirmação de existência de contas a receber.
+        fundamento: NBC TA 505, item 6(a); NBC TA 500, item A18.
+      - nivel: 2
+        assunto: Afirmação de integridade
+        enunciado: Para obter evidência sobre a integridade (completude) do saldo de fornecedores, o procedimento mais adequado é
+        alternativas:
+          A: selecionar saldos do razão de fornecedores e confirmá-los com os credores.
+          B: recalcular a soma do razão de fornecedores.
+          C: examinar pagamentos efetuados após a data do balanço e documentos de recebimento de mercadorias, verificando se as respectivas obrigações foram registradas.
+          D: inspecionar fisicamente os bens adquiridos.
+          E: indagar a administração sobre a existência de dívidas.
+        resposta: C
+        comentario: Para testar a <i>integridade</i>, parte-se dos documentos-fonte em direção aos registros, em busca de passivos não registrados. Partir dos registros em direção aos documentos (A) testa a <i>existência</i>, e não a integridade.
+        fundamento: NBC TA 315; NBC TA 500, item A14.
+      - nivel: 2
+        assunto: Amostragem
+        enunciado: Segundo a NBC TA 530, risco de amostragem é
+        alternativas:
+          A: o risco de que a conclusão do auditor, com base em amostra, seja diferente da que seria obtida caso toda a população fosse submetida ao mesmo procedimento.
+          B: o risco de o auditor aplicar procedimento inadequado ao objetivo do teste.
+          C: o risco de o auditor interpretar erroneamente a evidência obtida.
+          D: o risco de distorção relevante nas demonstrações.
+          E: o risco de a administração recusar o acesso aos registros.
+        resposta: A
+        comentario: (A) é a definição da NBC TA 530. (B) e (C) são riscos <i>não</i> resultantes de amostragem, porque decorrem de fatores alheios ao tamanho ou à seleção da amostra.
+        fundamento: NBC TA 530, item 5(c) e (d).
+      - nivel: 3
+        assunto: Procedimentos de auditoria
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Se os estoques forem relevantes, o auditor deve acompanhar a contagem física, salvo se impraticável.
+          - Procedimentos analíticos consistem em avaliações de informações por meio de análise das relações plausíveis entre dados financeiros e não financeiros.
+          - A indagação, isoladamente, fornece evidência suficiente sobre a efetividade operacional dos controles.
+          - Os testes de controle avaliam a efetividade operacional dos controles na prevenção ou detecção e correção de distorções relevantes no nível de afirmações.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: I, II e IV.
+          E: III e IV.
+        resposta: D
+        comentario: III contraria a NBC TA 330, item 10, pelo qual a indagação deve ser combinada com outros procedimentos para testar a efetividade dos controles. As demais afirmações reproduzem as NBC TA 501, 520 e 330.
+        fundamento: NBC TA 330, itens 4 e 10; NBC TA 501, item 4; NBC TA 520, item 4.
+
+  - titulo: Relatório do Auditor e Opinião
+    base: NBC TA 570, 700, 701, 705 e 706
+    questoes:
+      - nivel: 1
+        assunto: Opinião não modificada
+        enunciado: O auditor expressa opinião não modificada quando
+        alternativas:
+          A: identifica distorções relevantes, mas não generalizadas.
+          B: não consegue obter evidência apropriada e suficiente.
+          C: há discordância com a administração sobre política contábil.
+          D: conclui que as demonstrações contábeis foram elaboradas, em todos os aspectos relevantes, de acordo com a estrutura de relatório financeiro aplicável.
+          E: a entidade apresenta prejuízo no exercício.
+        resposta: D
+        comentario: (D) reproduz o item 16 da NBC TA 700. As situações (A), (B) e (C) podem levar a opinião modificada. Prejuízo (E) não afeta, por si só, a opinião.
+        fundamento: NBC TA 700, item 16.
+      - nivel: 2
+        assunto: Opinião adversa
+        enunciado: O auditor obteve evidência apropriada e suficiente e concluiu que as distorções, individualmente ou em conjunto, são relevantes e generalizadas para as demonstrações contábeis. Deve emitir opinião
+        alternativas:
+          A: com ressalva.
+          B: com abstenção de opinião.
+          C: adversa.
+          D: sem ressalva, com parágrafo de ênfase.
+          E: sem ressalva, com parágrafo de outros assuntos.
+        resposta: C
+        comentario: "Pela NBC TA 705, distorção relevante e não generalizada leva a opinião com ressalva. Distorção relevante e generalizada leva a opinião adversa. A abstenção decorre de falta de evidência, e não de distorção."
+        fundamento: NBC TA 705, itens 7, 8 e A1.
+      - nivel: 2
+        assunto: Abstenção de opinião
+        enunciado: O auditor não conseguiu obter evidência apropriada e suficiente e concluiu que os possíveis efeitos de distorções não detectadas poderiam ser relevantes e generalizados. Deve
+        alternativas:
+          A: emitir opinião adversa.
+          B: emitir opinião com ressalva.
+          C: emitir opinião sem ressalva.
+          D: emitir opinião sem ressalva com parágrafo de ênfase.
+          E: abster-se de expressar opinião.
+        resposta: E
+        comentario: Pela NBC TA 705, a falta de evidência com possíveis efeitos relevantes e generalizados leva à abstenção de opinião. Se os efeitos fossem relevantes, mas não generalizados, a opinião seria com ressalva.
+        fundamento: NBC TA 705, itens 7(b), 9 e A1.
+      - nivel: 2
+        assunto: Parágrafo de ênfase
+        enunciado: O parágrafo de ênfase no relatório do auditor
+        alternativas:
+          A: modifica a opinião do auditor.
+          B: chama a atenção para assunto apresentado ou divulgado nas demonstrações que, segundo o julgamento do auditor, é fundamental para o entendimento pelos usuários, sem modificar a opinião.
+          C: refere-se a assunto não divulgado nas demonstrações.
+          D: substitui a ressalva quando a distorção é relevante.
+          E: é obrigatório em toda auditoria.
+        resposta: B
+        comentario: (B) segue a NBC TA 706. Assunto <i>não</i> divulgado nas demonstrações, mas relevante para o entendimento da auditoria, é tratado em parágrafo de <i>outros assuntos</i> (C). A ênfase não substitui opinião modificada (D).
+        fundamento: NBC TA 706, itens 7 e 8.
+      - nivel: 3
+        assunto: PAA e continuidade
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - A comunicação dos principais assuntos de auditoria é obrigatória na auditoria de demonstrações contábeis de entidades listadas.
+          - A comunicação de principais assuntos de auditoria não substitui a emissão de opinião modificada, quando exigida.
+          - Existindo incerteza relevante relacionada à continuidade operacional, adequadamente divulgada, o auditor deve emitir opinião adversa.
+          - Se a administração se recusar a fazer a avaliação da continuidade operacional, o auditor não precisa considerar implicações para o seu relatório.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: A
+        comentario: III está errada porque, com divulgação adequada, a opinião é não modificada e o relatório ganha seção sobre incerteza relevante relacionada com a continuidade operacional. IV está errada porque a recusa da administração deve ser considerada pelo auditor quanto às implicações no relatório.
+        fundamento: NBC TA 701, itens 5 e 12; NBC TA 570, itens 22 e 24.
+dica: "<b>Olho na FCC:</b> monte a tabela da NBC TA 705. Distorção relevante leva a ressalva se não for generalizada e a opinião adversa se for. Falta de evidência leva a ressalva se os efeitos não forem generalizados e a abstenção se forem. Ênfase é para assunto divulgado e “outros assuntos”, para assunto não divulgado."
