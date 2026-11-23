@@ -1,0 +1,89 @@
+  @page { size: A4; margin: 13mm 12mm 13mm 22mm; }
+  .cols { column-count: 2; column-gap: 7mm; column-rule: .5pt solid #bbb; }
+  .cols > .gc { break-inside: avoid; }
+  .cols .q { break-inside: auto; }
+  .cols .qhead, .cols .enun { break-after: avoid; }
+  .cols li, .cols .marca, .cols .enun { break-inside: avoid; }
+  .cols .marca { break-before: avoid; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Caladea", "Liberation Serif", serif; font-size: 9pt; line-height: 1.28; color: #111; }
+  .sans { font-family: "Inter", "Liberation Sans", sans-serif; }
+
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* Cabeçalho corrido */
+  .runhead { display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 1.2pt solid #111; padding-bottom: 3pt; margin-bottom: 10pt;
+    font-family: "Inter", sans-serif; font-size: 7.8pt; letter-spacing: .04em; text-transform: uppercase; }
+  .runhead b { font-weight: 700; }
+
+  /* Abertura do tema */
+  .tema { display: grid; grid-template-columns: 1fr auto; gap: 10pt; align-items: end; margin-bottom: 10pt; }
+  .tema .kicker { font-family: "Inter", sans-serif; font-size: 8pt; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: #555; }
+  .tema h1 { font-family: "Inter", sans-serif; font-size: 14pt; font-weight: 700; margin: 1pt 0 2pt; letter-spacing: -.01em; }
+  .tema .base { font-size: 9pt; color: #333; }
+  .controle { font-family: "Inter", sans-serif; font-size: 7.6pt; border: .8pt solid #111; border-collapse: collapse; }
+  .controle td { border: .8pt solid #111; padding: 3pt 6pt; min-width: 22mm; height: 15pt; vertical-align: top; }
+  .controle td:first-child { min-width: 0; font-weight: 600; background: #eee; }
+
+  /* Questões */
+  .q { border-top: .5pt solid #999; padding: 6pt 0 5pt; break-inside: avoid; }
+  .cols > .q:first-child, .cols > .gc:first-child { border-top: none; padding-top: 0; }
+  .qhead { display: flex; align-items: center; gap: 7pt; margin-bottom: 3pt; font-family: "Inter", sans-serif; font-size: 8pt; }
+  .num { font-weight: 800; font-size: 10.5pt; background: #111; color: #fff; padding: 1pt 6pt; border-radius: 2pt; }
+  .nivel { letter-spacing: .1em; }
+  .assunto { color: #444; text-transform: uppercase; letter-spacing: .04em; }
+  .enun { margin: 0 0 3pt; text-align: justify; hyphens: auto; }
+  ol.alt { list-style: none; margin: 0; padding: 0 0 0 2pt; }
+  ol.alt li { display: grid; grid-template-columns: 15pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
+  ol.alt li b { font-family: "Inter", sans-serif; font-size: 7.8pt; }
+  ol.itens { list-style: none; margin: 2pt 0 4pt; padding: 0 0 0 4pt; }
+  ol.itens li { display: grid; grid-template-columns: 18pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
+
+  .marca { display: flex; gap: 7pt; align-items: center; margin-top: 5pt; font-family: "Inter", sans-serif; font-size: 7.8pt; color: #333; }
+  .bolhas span { display: inline-block; width: 12pt; height: 12pt; border: .8pt solid #111; border-radius: 50%;
+    text-align: center; line-height: 11pt; font-size: 7pt; font-weight: 600; margin-right: 3pt; }
+  .chk { display: inline-block; width: 9pt; height: 9pt; border: .8pt solid #111; vertical-align: -1pt; margin-right: 2pt; }
+  .notas { flex: 1; border-bottom: .6pt dotted #777; height: 11pt; }
+
+  /* Gabarito */
+  .aviso { font-family: "Inter", sans-serif; font-size: 6.8pt; border: .6pt dashed #111; padding: 2pt 6pt; margin-bottom: 6pt; }
+  .gtab { border-collapse: collapse; font-family: "Inter", sans-serif; font-size: 6.8pt; margin-bottom: 6pt; }
+  .gtab td { border: .5pt solid #111; text-align: center; padding: .5pt 3pt; min-width: 14pt; }
+  .gtab td:first-child { text-align: left; font-weight: 700; background: #eee; }
+  .gtab tr:first-child td { color: #555; }
+  .gtab tr:last-child td { font-weight: 700; }
+  .gc { border-top: .4pt solid #aaa; padding: 3pt 0; break-inside: avoid; font-size: 7.6pt; line-height: 1.25; }
+  .gc h3 { font-family: "Inter", sans-serif; font-size: 7.2pt; margin: 0 0 1pt; }
+  .gc h3 .letra { background: #111; color: #fff; padding: 0 3pt; border-radius: 1.5pt; margin-left: 3pt; }
+  .gc p { margin: 0; text-align: justify; hyphens: auto; }
+  .gc .fund { font-family: "Inter", sans-serif; font-size: 6.4pt; color: #333; margin-top: 1pt; }
+  .pegadinha { font-family: "Inter", sans-serif; font-size: 6.8pt; border-left: 2pt solid #111; padding: 2pt 6pt; margin-top: 5pt; background: #f2f2f2; }
+  .rodape { font-family: "Inter", sans-serif; font-size: 6pt; color: #666; text-align: right; margin-top: 4pt; }
+
+  /* Volume */
+  .capa { height: 265mm; display: flex; flex-direction: column; justify-content: space-between; page-break-after: always; }
+  .capa .topo { font-family: "Inter", sans-serif; font-size: 9pt; letter-spacing: .12em; text-transform: uppercase; border-bottom: 1.5pt solid #111; padding-bottom: 4pt; }
+  .capa h1 { font-family: "Inter", sans-serif; font-size: 34pt; line-height: 1.05; margin: 0 0 8pt; letter-spacing: -.02em; }
+  .capa .sub { font-family: "Inter", sans-serif; font-size: 13pt; color: #333; }
+  .capa .nota { font-family: "Inter", sans-serif; font-size: 8pt; color: #444; border-top: .6pt solid #111; padding-top: 6pt; }
+  .sumario { page-break-after: always; }
+  .sumario h2 { font-family: "Inter", sans-serif; font-size: 16pt; margin: 0 0 10pt; }
+  .sumario table { width: 100%; border-collapse: collapse; font-family: "Inter", sans-serif; font-size: 9pt; }
+  .sumario td { border-bottom: .5pt solid #bbb; padding: 4pt 2pt; vertical-align: top; }
+  .sumario td.n { width: 18mm; font-weight: 700; }
+  .sumario td.qs { width: 32mm; text-align: right; color: #444; }
+  .sumario .temas { font-size: 7.6pt; color: #555; margin-top: 1pt; }
+  .como { font-family: "Inter", sans-serif; font-size: 8pt; margin-top: 14pt; border: .6pt solid #111; padding: 6pt 9pt; }
+  .como ul { margin: 3pt 0 0; padding-left: 12pt; }
+  .abertura { font-family: "Inter", sans-serif; border-bottom: 1.5pt solid #111; margin-bottom: 8pt; padding-bottom: 4pt; }
+  .abertura .k { font-size: 8pt; text-transform: uppercase; letter-spacing: .1em; color: #555; }
+  .abertura h2 { font-size: 20pt; margin: 0; letter-spacing: -.01em; }
+  .tbox { break-inside: avoid; break-after: avoid; border: .8pt solid #111; padding: 4pt 6pt 5pt; margin: 2pt 0 6pt; font-family: "Inter", sans-serif; }
+  .tbox .kicker { font-size: 6.8pt; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: #555; }
+  .tbox h3 { font-size: 10.5pt; margin: 1pt 0 1pt; line-height: 1.15; }
+  .tbox .base { font-size: 7pt; color: #333; }
+  .tbox .ctl { font-size: 6.6pt; color: #333; margin-top: 3pt; display: flex; gap: 10pt; }
+  .tbox + .q { border-top: none; padding-top: 0; }
+  .gtema { font-family: "Inter", sans-serif; font-size: 7.6pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; margin: 6pt 0 2pt; column-span: none; }

@@ -1,0 +1,74 @@
+caderno: 1
+materia: Direito Tributário
+meta: 45
+temas:
+  - titulo: Obrigação Tributária, Fato Gerador e Sujeição Passiva
+    base: CTN, arts. 113 a 127
+    questoes:
+      - nivel: 1
+        assunto: Obrigação principal e acessória
+        enunciado: De acordo com o Código Tributário Nacional, a obrigação tributária
+        alternativas:
+          A: principal surge com a ocorrência do fato gerador, tem por objeto o pagamento de tributo ou penalidade pecuniária e extingue-se juntamente com o crédito dela decorrente.
+          B: acessória decorre exclusivamente de lei em sentido estrito e tem por objeto o pagamento de multa moratória.
+          C: acessória, pelo simples fato da sua inobservância, converte-se em obrigação principal relativamente ao tributo cujo recolhimento ela visava assegurar.
+          D: principal tem por objeto as prestações, positivas ou negativas, nela previstas no interesse da arrecadação ou da fiscalização dos tributos.
+          E: acessória somente pode ser exigida de quem seja contribuinte do tributo, não alcançando as pessoas imunes ou isentas.
+        resposta: A
+        comentario: (A) reproduz o art. 113, §1º. (B) está errada porque a obrigação acessória decorre da <i>legislação tributária</i>, não só da lei, e tem por objeto prestações positivas ou negativas, e não multa. (C) está errada porque a conversão se dá relativamente à <i>penalidade pecuniária</i>, e não ao tributo. (D) está errada porque descreve a obrigação <i>acessória</i>. (E) está errada porque imunes e isentos também se sujeitam a obrigações acessórias.
+        fundamento: CTN, art. 113, §§ 1º a 3º; art. 175, parágrafo único; art. 194, parágrafo único.
+      - nivel: 1
+        assunto: Momento do fato gerador
+        enunciado: Salvo disposição de lei em contrário, tratando-se de ato ou negócio jurídico sob condição <u>resolutória</u>, considera-se ocorrido o fato gerador, nos termos do CTN,
+        alternativas:
+          A: desde o momento do implemento da condição.
+          B: somente após o decurso do prazo decadencial sem que a condição se implemente.
+          C: desde o momento da prática do ato ou da celebração do negócio.
+          D: desde que definitivamente constituída a situação jurídica, após o implemento da condição.
+          E: na data do registro do negócio jurídico no órgão competente.
+        resposta: C
+        comentario: Na condição <i>resolutória</i>, o fato gerador ocorre desde a prática do ato ou a celebração do negócio. É na condição <i>suspensiva</i> que ele ocorre só com o implemento da condição, que é a alternativa (A).
+        fundamento: CTN, art. 117, I e II.
+      - nivel: 2
+        assunto: Interpretação do fato gerador
+        enunciado: Em ação fiscal, a Receita Estadual constatou que determinado estabelecimento promovia saídas habituais de mercadorias sem estar inscrito no Cadastro Geral de Contribuintes de Tributos Estaduais e sem alvará municipal de funcionamento. Lavrado o auto de lançamento, o responsável alegou que, sendo irregular a atividade, não poderia ela dar origem à obrigação tributária. À luz do CTN, a alegação
+        alternativas:
+          A: procede, pois a capacidade tributária passiva das pessoas jurídicas pressupõe sua regular constituição.
+          B: procede, pois a definição legal do fato gerador depende da validade jurídica dos atos efetivamente praticados.
+          C: não procede, mas o crédito tributário somente poderá ser exigido após a regularização cadastral do estabelecimento.
+          D: procede em relação às penalidades pecuniárias, sendo devido apenas o tributo.
+          E: não procede, pois a definição legal do fato gerador é interpretada abstraindo-se da validade jurídica dos atos efetivamente praticados, bem como da natureza do seu objeto ou dos seus efeitos.
+        resposta: E
+        comentario: Vale o princípio do <i>pecunia non olet</i>, e a irregularidade da atividade não afasta a tributação. (A) está errada porque a capacidade tributária passiva independe de a pessoa jurídica estar regularmente constituída, bastando que configure unidade econômica ou profissional. (C) e (D) não têm amparo legal.
+        fundamento: CTN, art. 118, I; art. 126, III.
+      - nivel: 2
+        assunto: Sujeito passivo, capacidade e domicílio
+        enunciado: Considere as afirmações abaixo, à luz do CTN.
+        itens:
+          - Sujeito passivo da obrigação principal é a pessoa obrigada ao pagamento de tributo ou penalidade pecuniária, e diz-se contribuinte quando tenha relação pessoal e direta com a situação que constitua o respectivo fato gerador.
+          - Salvo disposição de lei em contrário, as convenções particulares relativas à responsabilidade pelo pagamento de tributos podem ser opostas à Fazenda Pública para modificar a definição legal do sujeito passivo, desde que registradas em cartório.
+          - A capacidade tributária passiva independe da capacidade civil das pessoas naturais.
+          - Na falta de eleição do domicílio tributário, considera-se como tal, quanto às pessoas jurídicas de direito privado, exclusivamente o lugar da sua sede.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: II, III e IV.
+        resposta: B
+        comentario: I reproduz o art. 121 e está correta. II está errada porque as convenções particulares <i>não</i> podem ser opostas à Fazenda, e o registro em cartório não muda isso. III reproduz o art. 126, I, e está correta. IV está errada por causa do “exclusivamente”, já que vale o lugar da sede <i>ou</i>, em relação aos atos ou fatos que derem origem à obrigação, o de cada estabelecimento.
+        fundamento: CTN, arts. 121, 123, 126, I, e 127, II.
+      - nivel: 3
+        assunto: Solidariedade
+        enunciado: X, Y e Z são solidariamente obrigados ao pagamento de determinado tributo, por terem interesse comum na situação que constitui o fato gerador. Lei posterior concede remissão do crédito, outorgada pessoalmente a X. Nessa situação, conforme o CTN,
+        alternativas:
+          A: a remissão exonera todos os obrigados, por se tratar de causa de extinção do crédito tributário.
+          B: Y e Z podem invocar o benefício de ordem, exigindo que a Fazenda execute primeiramente os bens de X.
+          C: a interrupção da prescrição em relação a Y não prejudica Z, por se tratar de efeito pessoal.
+          D: subsiste a solidariedade quanto a Y e Z pelo saldo.
+          E: o pagamento eventualmente efetuado por Y não aproveita a Z, salvo previsão em lei específica.
+        resposta: D
+        comentario: Quando a remissão é outorgada pessoalmente a um dos obrigados, subsiste a solidariedade quanto aos demais pelo saldo. (A) está errada pela mesma razão. (B) está errada porque a solidariedade tributária não comporta benefício de ordem. (C) e (E) invertem os efeitos legais, já que a interrupção da prescrição contra um prejudica os demais e o pagamento feito por um aproveita aos demais.
+        fundamento: CTN, art. 124, parágrafo único; art. 125, I a III.
+dica: "<b>Olho na FCC:</b> a banca troca palavras-chave da lei, como “tributo” por “penalidade”, “suspensiva” por “resolutória”, ou acrescenta “exclusivamente” e “desde que registradas”. Ao errar, sublinhe a palavra trocada."
