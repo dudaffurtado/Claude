@@ -1,0 +1,339 @@
+caderno: 10
+materia: Língua Portuguesa
+meta: 25
+temas:
+  - titulo: Compreensão e Interpretação de Texto
+    base: Texto inédito — leia antes de responder às questões do tema
+    texto:
+      - A arrecadação de tributos costuma ser lembrada apenas na hora de pagar. Poucos se dão conta, porém, de que é ela que financia a escola, o posto de saúde e a estrada por onde escoa a safra.
+      - "Nesse sentido, a administração tributária não se limita a cobrar: cabe-lhe também orientar o contribuinte, simplificar procedimentos e combater a sonegação, que transfere para os que pagam corretamente o peso dos que se esquivam."
+      - Não por acaso, a Constituição atribui às administrações tributárias o caráter de atividades essenciais ao funcionamento do Estado.
+      - "Ainda assim, o desafio permanece: como conciliar a eficiência da fiscalização com o respeito aos direitos do contribuinte?"
+      - A resposta, ao que tudo indica, passa pela transparência. Quando as regras são claras e os critérios de fiscalização, conhecidos, o cidadão tende a cumprir espontaneamente suas obrigações, e o Fisco pode concentrar esforços onde o risco é maior.
+      - Trata-se, em suma, de substituir a lógica do confronto pela da cooperação — princípio que, aliás, passou a figurar expressamente no texto constitucional.
+    questoes:
+      - nivel: 1
+        assunto: Ideia central
+        enunciado: O texto defende, essencialmente, que
+        alternativas:
+          A: a fiscalização tributária deve tornar-se mais rigorosa e punitiva.
+          B: a carga tributária deve ser reduzida para estimular o pagamento espontâneo.
+          C: a sonegação é inevitável em qualquer sistema tributário.
+          D: a transparência e a cooperação são caminhos para conciliar a eficiência fiscal com o respeito ao contribuinte.
+          E: a Constituição deve ser alterada para ampliar os poderes do Fisco.
+        resposta: D
+        comentario: "O 4º parágrafo propõe o problema (eficiência × direitos) e o 5º e o 6º dão a resposta: transparência e “lógica da cooperação”. (A) contraria a tese. (B) e (E) não são mencionadas no texto."
+        fundamento: Interpretação de texto — ideia central.
+      - nivel: 1
+        assunto: Informação implícita
+        enunciado: De acordo com o texto, a sonegação
+        alternativas:
+          A: beneficia indiretamente a coletividade.
+          B: prejudica os contribuintes que pagam corretamente, sobre os quais recai o peso dos que se esquivam.
+          C: é tolerada pela Constituição.
+          D: decorre exclusivamente da falta de orientação ao contribuinte.
+          E: não afeta o financiamento dos serviços públicos.
+        resposta: B
+        comentario: (B) parafraseia o 2º parágrafo, segundo o qual a sonegação “transfere para os que pagam corretamente o peso dos que se esquivam”. (D) extrapola ao usar “exclusivamente”, e (E) contraria o 1º parágrafo.
+        fundamento: Interpretação de texto — paráfrase.
+      - nivel: 2
+        assunto: Coesão referencial
+        enunciado: No trecho “cabe-lhe também orientar o contribuinte” (2º parágrafo), o pronome “lhe” retoma
+        alternativas:
+          A: “arrecadação de tributos”.
+          B: “o contribuinte”.
+          C: “a sonegação”.
+          D: “a Constituição”.
+          E: “a administração tributária”.
+        resposta: E
+        comentario: "O pronome se refere ao sujeito da oração anterior: “a administração tributária não se limita a cobrar: cabe-lhe (= cabe a ela) também orientar...”."
+        fundamento: Coesão referencial.
+      - nivel: 2
+        assunto: Conectivos
+        enunciado: Sem prejuízo do sentido original, a expressão “Ainda assim” (4º parágrafo) pode ser substituída por
+        alternativas:
+          A: Apesar disso.
+          B: Por isso.
+          C: Portanto.
+          D: Além disso.
+          E: Desde que.
+        resposta: A
+        comentario: “Ainda assim” tem valor concessivo e opõe o desafio ao que se disse antes. “Por isso” e “Portanto” indicam conclusão, “Além disso”, adição, e “Desde que”, condição.
+        fundamento: Conectivos — valor semântico.
+      - nivel: 2
+        assunto: Pontuação e elipse
+        enunciado: Em “Quando as regras são claras e os critérios de fiscalização, conhecidos” (5º parágrafo), a vírgula após “fiscalização”
+        alternativas:
+          A: isola um aposto explicativo.
+          B: separa um vocativo.
+          C: indica a omissão do verbo “são”.
+          D: separa o sujeito de seu predicado, o que é admitido pela norma-padrão.
+          E: é facultativa e pode ser substituída por ponto e vírgula.
+        resposta: C
+        comentario: A vírgula marca a elipse (zeugma) do verbo já expresso, como em “e os critérios de fiscalização [são] conhecidos”. A norma-padrão não admite vírgula entre sujeito e predicado (D).
+        fundamento: Pontuação — vírgula indicativa de elipse.
+      - nivel: 3
+        assunto: Referência e valor de “aliás”
+        enunciado: No último parágrafo, em “princípio que, aliás, passou a figurar expressamente no texto constitucional”, o termo “princípio” refere-se
+        alternativas:
+          A: à cooperação, e “aliás” introduz informação adicional que reforça o argumento.
+          B: ao confronto, e “aliás” introduz uma ressalva.
+          C: à lógica do confronto, e “aliás” indica oposição.
+          D: à transparência, e “aliás” indica conclusão.
+          E: à sonegação, e “aliás” indica causa.
+        resposta: A
+        comentario: "“Princípio” é aposto resumitivo de “cooperação”, que a EC 132/2023 de fato incluiu no art. 145, § 3º, da Constituição. “Aliás” acrescenta um dado que reforça a tese."
+        fundamento: Coesão e operadores argumentativos.
+
+  - titulo: Ortografia e Acentuação
+    base: Acordo Ortográfico (Decreto 6.583/2008)
+    questoes:
+      - nivel: 1
+        assunto: Acentuação
+        enunciado: Estão grafadas de acordo com o Acordo Ortográfico vigente as palavras
+        alternativas:
+          A: idéia – heróico – vôo – pôde.
+          B: ideia – heróico – vôo – pode (pretérito).
+          C: ideia – heroico – voo – pôde (pretérito).
+          D: idéia – heroico – voo – pode (pretérito).
+          E: ideia – heroico – vôo – pôde (pretérito).
+        resposta: C
+        comentario: O Acordo eliminou o acento dos ditongos abertos “ei” e “oi” em paroxítonas (ideia, heroico) e do hiato “oo” (voo). O acento diferencial de “pôde”, no pretérito, foi mantido.
+        fundamento: Acordo Ortográfico, Base IX.
+      - nivel: 2
+        assunto: Porquês
+        enunciado: O emprego das formas do “porquê” está correto em
+        alternativas:
+          A: Não sei porque o prazo foi prorrogado, mas sei o por quê.
+          B: O contribuinte recorreu por que discordava do lançamento.
+          C: Por quê o prazo foi prorrogado?
+          D: Ninguém explicou por que o prazo foi prorrogado, e o contribuinte quis saber o porquê da decisão.
+          E: Ele saiu cedo porquê estava cansado.
+        resposta: D
+        comentario: Usa-se “por que” (separado) na interrogativa direta ou indireta e “o porquê” (substantivo) com artigo. “Porque” é conjunção causal, e “por quê” se usa em final de frase.
+        fundamento: Ortografia — emprego dos porquês.
+      - nivel: 2
+        assunto: Hífen
+        enunciado: Estão corretamente grafadas, quanto ao uso do hífen, as palavras
+        alternativas:
+          A: auto-avaliação – anti-social – microondas.
+          B: autoavaliação – anti-social – micro-ondas.
+          C: auto-avaliação – antissocial – microondas.
+          D: autoavaliação – antisocial – microondas.
+          E: autoavaliação – antissocial – micro-ondas.
+        resposta: E
+        comentario: Sem hífen quando o prefixo termina em vogal e o segundo elemento começa por vogal diferente (autoavaliação). Diante de “r” ou “s”, a consoante dobra (antissocial). Com hífen quando as vogais são iguais (micro-ondas).
+        fundamento: Acordo Ortográfico, Base XVI.
+
+  - titulo: Crase
+    base: Gramática normativa
+    questoes:
+      - nivel: 1
+        assunto: Emprego da crase
+        enunciado: O sinal indicativo de crase está empregado corretamente em
+        alternativas:
+          A: Entregou o documento à ela.
+          B: Refiro-me à legislação estadual.
+          C: Começou à estudar para o concurso.
+          D: Ficaram frente à frente na reunião.
+          E: Chegou à uma conclusão.
+        resposta: B
+        comentario: Em (B), “referir-se a” mais “a legislação” resulta em crase. Não há crase antes de pronome pessoal (A), de verbo (C), em expressões com palavras repetidas (D) e antes de artigo indefinido (E).
+        fundamento: Crase — regra geral e casos proibidos.
+      - nivel: 2
+        assunto: Crase facultativa
+        enunciado: O sinal indicativo de crase é facultativo em
+        alternativas:
+          A: Dirigiu-se à Receita Estadual.
+          B: Chegaram às 10 horas.
+          C: Encaminhei o relatório a/à sua chefia.
+          D: Fez referência à lei complementar.
+          E: Saiu à procura de documentos.
+        resposta: C
+        comentario: Antes de pronome possessivo feminino singular, o artigo é opcional, e por isso a crase também é. Nos demais casos, a crase é obrigatória, seja por regência, por hora determinada ou por locução.
+        fundamento: Crase facultativa.
+      - nivel: 3
+        assunto: Crase — revisão
+        enunciado: O sinal indicativo de crase está corretamente empregado em todas as ocorrências da frase
+        alternativas:
+          A: Assistiu à uma palestra às 9 horas.
+          B: Dirigiu-se à aquele setor às 14 horas.
+          C: Voltou à casa cedo, devido à chuva.
+          D: Ficou à espera, de 8 às 18 horas.
+          E: Dirigiu-se àquele setor às 14 horas, devido à alta demanda.
+        resposta: E
+        comentario: Em (E), “àquele” vem de “a + aquele”, “às 14 horas” indica hora determinada e “devido à” une a preposição ao artigo. Há erros em (A), antes de artigo indefinido, em (B), onde o correto é “àquele”, em (C), porque “casa” no sentido de lar não leva artigo, e em (D), porque se escreve “de 8 às 18” só com artigo, “das 8 às 18”, ou “de 8 a 18”.
+        fundamento: Crase — casos especiais.
+
+  - titulo: Concordância Verbal e Nominal
+    base: Gramática normativa
+    questoes:
+      - nivel: 1
+        assunto: Verbo haver
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: Haviam muitas dúvidas sobre o edital.
+          B: Houve problemas na fiscalização do mês passado.
+          C: Devem haver novas vagas no próximo concurso.
+          D: Fazem dois anos que o edital foi publicado.
+          E: Existe muitos candidatos inscritos.
+        resposta: B
+        comentario: “Haver”, no sentido de existir ou ocorrer, e “fazer”, indicando tempo, são impessoais e ficam no singular, inclusive o auxiliar (“deve haver”). “Existir” é pessoal e concorda com o sujeito (“existem muitos candidatos”).
+        fundamento: Concordância verbal — verbos impessoais.
+      - nivel: 2
+        assunto: Partícula “se”
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: Analisou-se os processos pendentes.
+          B: Precisam-se de novos auditores.
+          C: Aluga-se salas comerciais.
+          D: Analisaram-se os processos, e precisa-se de novos auditores.
+          E: Consertam-se relógios e precisam-se de ajudantes.
+        resposta: D
+        comentario: "Com verbo transitivo direto, o “se” é apassivador e o verbo concorda com o sujeito (“analisaram-se os processos”). Com verbo transitivo indireto, o “se” indetermina o sujeito e o verbo fica no singular (“precisa-se de”)."
+        fundamento: Concordância verbal — voz passiva sintética.
+      - nivel: 2
+        assunto: Concordância nominal
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: Seguem anexas as planilhas, e a auditora ficou meio cansada.
+          B: Seguem anexo as planilhas solicitadas.
+          C: A auditora ficou meia cansada após a reunião.
+          D: É proibida entrada de pessoas estranhas.
+          E: Havia bastante pessoas na reunião.
+        resposta: A
+        comentario: “Anexo” é adjetivo e concorda com o substantivo (anexas). “Meio”, como advérbio, é invariável. “É proibido entrada” fica invariável quando não há artigo. “Bastante”, como adjetivo, varia (bastantes pessoas).
+        fundamento: Concordância nominal.
+      - nivel: 3
+        assunto: Casos especiais
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: Faltava ainda três documentos para concluir o processo.
+          B: Os Estados Unidos aprovou a medida.
+          C: Deve fazer dez anos que ocorreram o fato.
+          D: Para mim fazer o relatório, preciso dos dados.
+          E: Mais de um auditor participou da operação, e cerca de vinte empresas foram autuadas.
+        resposta: E
+        comentario: “Mais de um” leva o verbo ao singular, e “cerca de vinte” leva ao plural. Os erros são (A) “faltavam três documentos”, (B) “aprovaram”, com nome de país antecedido de artigo plural, (C) “ocorreu o fato” e (D) “para eu fazer”.
+        fundamento: Concordância verbal — casos especiais.
+
+  - titulo: Regência Verbal e Nominal
+    base: Gramática normativa
+    questoes:
+      - nivel: 1
+        assunto: Regência verbal
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: O candidato aspira ao cargo de auditor.
+          B: Todos assistiram o debate pela televisão.
+          C: Prefiro estudar do que trabalhar.
+          D: Obedeça o regulamento do concurso.
+          E: Chegou no escritório antes das oito.
+        resposta: A
+        comentario: “Aspirar”, no sentido de desejar, é transitivo indireto (aspirar a). A norma-padrão exige “assistiram ao debate”, “prefiro estudar a trabalhar”, “obedeça ao regulamento” e “chegou ao escritório”.
+        fundamento: Regência verbal.
+      - nivel: 2
+        assunto: Regência e pronome relativo
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: Esta é a norma que o contribuinte deve obedecer.
+          B: O cargo que aspiro exige dedicação.
+          C: Esta é a norma a que o contribuinte deve obedecer.
+          D: O auditor cujo o relatório foi aprovado será promovido.
+          E: A lei que precisamos ainda não foi publicada.
+        resposta: C
+        comentario: A preposição exigida pelo verbo vem antes do pronome relativo, como em “obedecer a”, que dá “a que”. Os erros são “a que aspiro” (B), “cujo relatório” sem artigo (D) e “de que precisamos” (E).
+        fundamento: Regência e pronomes relativos.
+      - nivel: 3
+        assunto: Regência — casos especiais
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: A irregularidade implica em responsabilidade do sócio.
+          B: A irregularidade implica responsabilidade, e o auditor procedeu à análise dos documentos.
+          C: O auditor procedeu a análise dos documentos.
+          D: O fiscal informou-lhe de que o prazo terminara.
+          E: Esqueci do prazo de entrega da declaração.
+        resposta: B
+        comentario: “Implicar”, no sentido de acarretar, é transitivo direto. “Proceder”, no sentido de realizar, rege “a”, e por isso há crase em “à análise”. A norma-padrão exige “informou-o de que” e “esqueci o prazo” ou “esqueci-me do prazo”.
+        fundamento: Regência verbal.
+
+  - titulo: Pontuação
+    base: Gramática normativa
+    questoes:
+      - nivel: 1
+        assunto: Vírgula
+        enunciado: A pontuação está correta em
+        alternativas:
+          A: Os auditores fiscais, participaram do curso de atualização.
+          B: O contribuinte que, paga em dia recebe desconto.
+          C: Ontem os auditores, visitaram a empresa.
+          D: Os auditores fiscais, que atuam na Receita Estadual, participaram do curso.
+          E: Precisamos, de mais dados para concluir.
+        resposta: D
+        comentario: Em (D), as vírgulas isolam uma oração adjetiva explicativa. As demais alternativas separam sujeito e verbo ou verbo e complemento, o que a norma-padrão não admite.
+        fundamento: Pontuação — emprego da vírgula.
+      - nivel: 2
+        assunto: Restritiva e explicativa
+        enunciado: "Considere a frase: Os contribuintes que pagaram em dia receberão desconto. A inserção de vírgulas, resultando em “Os contribuintes, que pagaram em dia, receberão desconto”,"
+        alternativas:
+          A: mantém o sentido original, pois a vírgula é facultativa.
+          B: altera o sentido, pois a oração passa a ser explicativa, indicando que todos os contribuintes pagaram em dia.
+          C: torna a frase incorreta, pois não se admite vírgula antes de “que”.
+          D: transforma a oração em restritiva.
+          E: altera apenas a ênfase, sem mudança de sentido.
+        resposta: B
+        comentario: Sem vírgulas, a oração é restritiva, e só os que pagaram em dia recebem o desconto. Com vírgulas, passa a explicativa e generaliza, indicando que todos pagaram em dia.
+        fundamento: Orações adjetivas restritivas e explicativas.
+      - nivel: 3
+        assunto: Dois-pontos e enumeração
+        enunciado: A pontuação está correta em
+        alternativas:
+          A: "A fiscalização identificou: três irregularidades graves no estabelecimento."
+          B: A fiscalização identificou três irregularidades; notas sem destaque, e créditos indevidos.
+          C: A fiscalização, identificou três irregularidades e lavrou o auto.
+          D: "A fiscalização identificou três irregularidades: notas sem destaque do imposto, créditos indevidos e estoques não escriturados."
+          E: A fiscalização identificou, três irregularidades no estabelecimento.
+        resposta: D
+        comentario: Os dois-pontos introduzem a enumeração que explicita “três irregularidades”. Em (A), os dois-pontos separam o verbo do objeto. Em (C) e (E), a vírgula separa termos essenciais. Em (B), o ponto e vírgula e a vírgula estão mal empregados.
+        fundamento: Pontuação — dois-pontos.
+
+  - titulo: Pronomes, Colocação Pronominal e Reescrita
+    base: Gramática normativa
+    questoes:
+      - nivel: 1
+        assunto: Colocação pronominal
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: Não se sabe ainda quando o edital será publicado.
+          B: Me informaram que o edital sairá em breve.
+          C: Nunca deixou-se intimidar pela fiscalização.
+          D: Quem disse-lhe que o prazo acabou?
+          E: Tudo fez-se conforme o regulamento.
+        resposta: A
+        comentario: Palavras negativas, pronomes interrogativos e indefinidos atraem o pronome, o que exige próclise. A norma-padrão não admite iniciar frase com pronome oblíquo átono (B).
+        fundamento: Colocação pronominal — próclise.
+      - nivel: 2
+        assunto: Pronomes pessoais
+        enunciado: Está de acordo com a norma-padrão a frase
+        alternativas:
+          A: O relatório ficou para mim revisar.
+          B: Entre eu e você não há divergência.
+          C: O relatório ficou para eu revisar, e entre mim e você não há divergência.
+          D: Vossa Senhoria deveis assinar o termo.
+          E: Eu vi ele saindo da repartição.
+        resposta: C
+        comentario: Antes de infinitivo, o sujeito vem com pronome reto (“para eu revisar”). Depois de preposição, usa-se o oblíquo tônico (“entre mim e você”). Pronomes de tratamento levam o verbo à 3ª pessoa (“deve”), e o objeto direto pede “vi-o”.
+        fundamento: Emprego dos pronomes pessoais.
+      - nivel: 3
+        assunto: Reescrita
+        enunciado: "A frase “Embora a fiscalização seja rigorosa, a sonegação persiste” mantém o sentido e a correção na seguinte reescrita:"
+        alternativas:
+          A: Como a fiscalização é rigorosa, a sonegação persiste.
+          B: A fiscalização é rigorosa, portanto a sonegação persiste.
+          C: Se a fiscalização for rigorosa, a sonegação persistirá.
+          D: Embora a fiscalização é rigorosa, a sonegação persiste.
+          E: A sonegação persiste, ainda que a fiscalização seja rigorosa.
+        resposta: E
+        comentario: “Ainda que” tem o mesmo valor concessivo de “embora” e também exige o subjuntivo. (A) indica causa, (B) conclusão e (C) condição. (D) usa o indicativo, quando “embora” exige subjuntivo.
+        fundamento: Reescrita de frases — conjunções concessivas.
+dica: "<b>Olho na FCC:</b> em Português, a banca adora reescrita (“preserva o sentido e a correção”). Para cada conectivo, identifique o valor (causa, concessão, condição, conclusão) antes de olhar as alternativas."

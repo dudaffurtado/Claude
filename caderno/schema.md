@@ -7,6 +7,7 @@ meta: 45                   # quantidade prevista (checada com --meta)
 temas:
   - titulo: Nome do tema
     base: CTN, arts. 113 a 127
+    texto: [parágrafo 1, parágrafo 2]   # opcional: texto-base, numerado [1], [2]...
     questoes:              # em ordem crescente de nível
       - nivel: 1           # 1 fácil, 2 média, 3 difícil
         assunto: Rótulo curto

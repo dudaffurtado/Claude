@@ -48,3 +48,12 @@ def test_itens_renderizados():
     c["temas"][0]["questoes"][0]["comando"] = "Está correto o que se afirma APENAS em"
     html_q, _ = render.html_caderno(c, inicio=1)
     assert "<b>II.</b>" in html_q and "APENAS em" in html_q
+
+
+def test_texto_do_tema_renderizado():
+    c = cad(1)
+    c["temas"][0]["texto"] = ["Primeiro parágrafo.", "Segundo parágrafo."]
+    html_q, _ = render.html_caderno(c, inicio=1)
+    assert '<div class="texto">' in html_q
+    assert "<p><b>[2]</b> Segundo parágrafo.</p>" in html_q
+    assert html_q.index('class="texto"') < html_q.index('class="q"')

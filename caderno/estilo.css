@@ -87,3 +87,6 @@
   .tbox .ctl { font-size: 6.6pt; color: #333; margin-top: 3pt; display: flex; gap: 10pt; }
   .tbox + .q { border-top: none; padding-top: 0; }
   .gtema { break-after: avoid; break-inside: avoid; font-family: "Inter", sans-serif; font-size: 7.6pt; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; margin: 6pt 0 2pt; column-span: none; }
+  .texto { border-left: 2pt solid #111; padding: 2pt 0 2pt 6pt; margin: 0 0 6pt; font-size: 8.8pt; text-align: justify; hyphens: auto; }
+  .texto p { margin: 0 0 3pt; }
+  .texto p b { font-family: "Inter", sans-serif; font-size: 7pt; }

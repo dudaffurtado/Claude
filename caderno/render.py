@@ -61,6 +61,9 @@ def html_caderno(caderno, inicio):
                      f'<h3>{t["titulo"]}</h3><div class="base">Base: {t["base"]}</div>'
                      f'<div class="ctl"><span>1ª resolução __/__ · acertos __/{n}</span>'
                      f'<span>Revisão __/__ · acertos __/{n}</span></div></div>')
+        if t.get("texto"):
+            paras = "".join(f"<p><b>[{i}]</b> {p}</p>" for i, p in enumerate(t["texto"], 1))
+            corpo.append(f'<div class="texto">{paras}</div>')
         gab.append(f'<div class="gtema">Tema {ti} · {t["titulo"]}</div>')
         for q in t["questoes"]:
             corpo.append(_questao(num, q))
