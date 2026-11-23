@@ -1,0 +1,206 @@
+caderno: 5
+materia: Contabilidade de Custos
+meta: 15
+temas:
+  - titulo: Terminologia, Classificação e Apuração de Custos
+    base: Contabilidade de Custos — conceitos fundamentais
+    questoes:
+      - nivel: 1
+        assunto: Terminologia
+        enunciado: Na terminologia de custos, o gasto com energia elétrica consumida pelas máquinas da fábrica no processo produtivo é classificado como
+        alternativas:
+          A: investimento.
+          B: despesa.
+          C: perda.
+          D: custo de produção.
+          E: mero desembolso, sem efeito no custo.
+        resposta: D
+        comentario: Custo é o gasto relativo a bem ou serviço usado na produção de outros bens. Despesa é o gasto consumido para obter receitas, como na administração e nas vendas. Perda é um consumo anormal e involuntário.
+        fundamento: Terminologia de custos.
+      - nivel: 1
+        assunto: Classificação
+        enunciado: A matéria-prima consumida na fabricação de um único tipo de produto é classificada como
+        alternativas:
+          A: custo direto e variável.
+          B: custo indireto e fixo.
+          C: custo direto e fixo.
+          D: custo indireto e variável.
+          E: despesa variável.
+        resposta: A
+        comentario: O consumo da matéria-prima pode ser medido por produto, então ela é custo direto. O seu total varia com o volume produzido, então é custo variável.
+        fundamento: Classificação dos custos.
+      - nivel: 2
+        assunto: Classificação
+        enunciado: Considere os gastos e sua classificação.
+        itens:
+          - Depreciação linear das máquinas da fábrica — custo indireto fixo.
+          - Comissão sobre vendas paga aos vendedores — despesa variável.
+          - Aluguel do escritório administrativo — custo fixo.
+          - Mão de obra direta — custo direto.
+        comando: Está correta a classificação APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: C
+        comentario: III está errada porque gastos da administração são <i>despesas</i>, e não custos. O aluguel do escritório é despesa fixa.
+        fundamento: Classificação dos custos e despesas.
+      - nivel: 2
+        assunto: CPP, CPA e CPV
+        enunciado: "Uma indústria apresentou os seguintes dados, em reais. Matéria-prima consumida de 50.000, mão de obra direta de 30.000 e custos indiretos de 20.000. Produtos em elaboração com estoque inicial de 10.000 e final de 15.000. Produtos acabados com estoque inicial de 5.000 e final de 20.000. O custo dos produtos vendidos foi de"
+        alternativas:
+          A: R$ 100.000,00.
+          B: R$ 95.000,00.
+          C: R$ 85.000,00.
+          D: R$ 90.000,00.
+          E: R$ 80.000,00.
+        resposta: E
+        comentario: "CPP = 50 + 30 + 20 = 100 mil. CPA = CPP + EI elaboração − EF elaboração = 100 + 10 − 15 = 95 mil. CPV = CPA + EI acabados − EF acabados = 95 + 5 − 20 = R$ 80.000,00."
+        fundamento: Apuração do custo da produção.
+
+  - titulo: Custeio por Absorção e Custeio Variável
+    base: CPC 16; métodos de custeio
+    questoes:
+      - nivel: 1
+        assunto: Custeio por absorção
+        enunciado: O custeio por absorção
+        alternativas:
+          A: apropria aos produtos apenas os custos variáveis.
+          B: apropria aos produtos todos os custos de produção, fixos e variáveis, e é o método aceito pela legislação societária e fiscal para avaliação de estoques.
+          C: apropria aos produtos também as despesas administrativas e de vendas.
+          D: não é aceito para fins de elaboração das demonstrações contábeis.
+          E: trata os custos fixos como despesa do período.
+        resposta: B
+        comentario: O custeio por absorção leva aos produtos todos os custos de produção. (A) e (E) descrevem o custeio variável, útil para decisões, mas não aceito para avaliar estoques. (C) descreve o RKW.
+        fundamento: CPC 16 (R1), itens 12 e 13.
+      - nivel: 2
+        assunto: Custo unitário
+        enunciado: Indústria produziu 1.000 unidades no mês, com custos variáveis de R$ 20,00 por unidade, custos fixos de produção de R$ 30.000,00 e despesas fixas de R$ 10.000,00. O custo unitário pelo custeio por absorção e pelo custeio variável é, respectivamente,
+        alternativas:
+          A: R$ 60,00 e R$ 20,00.
+          B: R$ 50,00 e R$ 20,00.
+          C: R$ 50,00 e R$ 50,00.
+          D: R$ 20,00 e R$ 50,00.
+          E: R$ 60,00 e R$ 30,00.
+        resposta: B
+        comentario: "No custeio por absorção, o custo é 20 + 30.000 ÷ 1.000 = R$ 50,00. No custeio variável, é apenas R$ 20,00. As despesas não entram no custo em nenhum dos dois métodos, o que afasta (A)."
+        fundamento: Métodos de custeio.
+      - nivel: 2
+        assunto: Lucro nos dois métodos
+        enunciado: Com os dados da questão anterior, a empresa vendeu 800 unidades a R$ 100,00 cada, sem despesas variáveis. Não havia estoque inicial. O lucro pelo custeio por absorção e pelo custeio variável é, respectivamente,
+        alternativas:
+          A: R$ 24.000,00 e R$ 30.000,00.
+          B: R$ 30.000,00 e R$ 30.000,00.
+          C: R$ 40.000,00 e R$ 24.000,00.
+          D: R$ 32.000,00 e R$ 24.000,00.
+          E: R$ 30.000,00 e R$ 24.000,00.
+        resposta: E
+        comentario: "Absorção: 80.000 − 800 × 50 − 10.000 = 30.000. Variável: 800 × (100 − 20) − 30.000 − 10.000 = 24.000. A diferença de 6.000 são os custos fixos que ficaram no estoque final (200 × 30)."
+        fundamento: Métodos de custeio.
+      - nivel: 2
+        assunto: Margem de contribuição
+        enunciado: Produto vendido a R$ 100,00 tem custo variável de R$ 60,00 e despesa variável de venda de R$ 10,00 por unidade. Sua margem de contribuição unitária é de
+        alternativas:
+          A: R$ 30,00.
+          B: R$ 40,00.
+          C: R$ 90,00.
+          D: R$ 70,00.
+          E: R$ 50,00.
+        resposta: A
+        comentario: "MCu = preço − custos variáveis − despesas variáveis = 100 − 60 − 10 = R$ 30,00. A alternativa (B) esquece a despesa variável."
+        fundamento: Margem de contribuição.
+      - nivel: 3
+        assunto: Fator limitante
+        enunciado: Empresa fabrica os produtos X e Y. X tem margem de contribuição unitária de R$ 30,00 e consome 2 horas-máquina por unidade. Y tem margem de R$ 40,00 e consome 4 horas-máquina. A capacidade de horas-máquina é insuficiente para atender toda a demanda. Para maximizar o resultado, a empresa deve
+        alternativas:
+          A: priorizar Y, por ter maior margem de contribuição unitária.
+          B: produzir quantidades iguais de X e Y.
+          C: priorizar X, por apresentar maior margem de contribuição por hora-máquina.
+          D: priorizar Y, por ter menor custo fixo por unidade.
+          E: distribuir as horas proporcionalmente à demanda.
+        resposta: C
+        comentario: "Com um fator limitante, compara-se a margem por unidade desse fator. X rende 30 ÷ 2 = R$ 15 por hora-máquina e Y rende 40 ÷ 4 = R$ 10. A alternativa (A) é a pegadinha clássica."
+        fundamento: Margem de contribuição e fator limitante.
+
+  - titulo: Análise Custo-Volume-Lucro
+    base: Ponto de equilíbrio, margem de segurança e alavancagem
+    questoes:
+      - nivel: 1
+        assunto: Ponto de equilíbrio contábil
+        enunciado: Empresa vende seu produto a R$ 50,00, com custo variável de R$ 30,00 por unidade e custos e despesas fixos de R$ 60.000,00 por mês. O ponto de equilíbrio contábil é de
+        alternativas:
+          A: 1.200 unidades.
+          B: 2.000 unidades.
+          C: 1.500 unidades.
+          D: 3.000 unidades.
+          E: 4.000 unidades.
+        resposta: D
+        comentario: "PEC = custos fixos ÷ MCu = 60.000 ÷ (50 − 30) = 3.000 unidades. A alternativa (B) divide pelo custo variável, e a (A), pelo preço."
+        fundamento: Ponto de equilíbrio.
+      - nivel: 2
+        assunto: Pontos de equilíbrio
+        enunciado: Com os dados da questão anterior, considere que os custos fixos incluem depreciação de R$ 10.000,00 e que os sócios desejam remuneração mínima (custo de oportunidade) de R$ 20.000,00 por mês. Os pontos de equilíbrio financeiro e econômico são, respectivamente,
+        alternativas:
+          A: 3.000 e 3.000 unidades.
+          B: 2.500 e 3.500 unidades.
+          C: 2.500 e 4.000 unidades.
+          D: 3.500 e 4.000 unidades.
+          E: 3.000 e 4.000 unidades.
+        resposta: C
+        comentario: "No PE financeiro, exclui-se a parte que não é desembolso (depreciação): (60.000 − 10.000) ÷ 20 = 2.500. No PE econômico, soma-se o lucro desejado: (60.000 + 20.000) ÷ 20 = 4.000."
+        fundamento: Ponto de equilíbrio financeiro e econômico.
+      - nivel: 3
+        assunto: Margem de segurança e alavancagem
+        enunciado: Ainda com os dados das duas questões anteriores (preço R$ 50,00, custo variável R$ 30,00 e custos fixos R$ 60.000,00), a empresa vende 4.000 unidades por mês. A margem de segurança e o grau de alavancagem operacional são, respectivamente,
+        alternativas:
+          A: 33% e 4.
+          B: 25% e 2.
+          C: 75% e 4.
+          D: 25% e 4.
+          E: 33% e 3.
+        resposta: D
+        comentario: "MS = (4.000 − 3.000) ÷ 4.000 = 25%. A MC total é 4.000 × 20 = 80.000 e o lucro é 80.000 − 60.000 = 20.000, então GAO = 80.000 ÷ 20.000 = 4. Confira que GAO = 1 ÷ MS."
+        fundamento: Margem de segurança e alavancagem operacional.
+
+  - titulo: Rateio, Departamentalização e Custo-Padrão
+    base: Custos indiretos; custo-padrão
+    questoes:
+      - nivel: 1
+        assunto: Rateio de custos indiretos
+        enunciado: Os custos indiretos de fabricação de R$ 90.000,00 são rateados com base nas horas-máquina. O produto A consumiu 1.000 horas-máquina e o produto B, 2.000. O custo indireto atribuído ao produto A é de
+        alternativas:
+          A: R$ 45.000,00.
+          B: R$ 30.000,00.
+          C: R$ 60.000,00.
+          D: R$ 90.000,00.
+          E: R$ 15.000,00.
+        resposta: B
+        comentario: "A taxa é 90.000 ÷ 3.000 h = R$ 30 por hora. O produto A recebe 1.000 × 30 = R$ 30.000,00."
+        fundamento: Rateio de custos indiretos.
+      - nivel: 2
+        assunto: Departamentalização
+        enunciado: Na departamentalização dos custos indiretos,
+        alternativas:
+          A: os custos dos departamentos de serviço são transferidos aos departamentos de produção, que os apropriam aos produtos.
+          B: os produtos recebem custos diretamente dos departamentos de serviço, sem passar pelos de produção.
+          C: apenas os custos diretos são departamentalizados.
+          D: o procedimento é vedado no custeio por absorção.
+          E: elimina-se integralmente a arbitrariedade dos rateios.
+        resposta: A
+        comentario: Os departamentos de serviço, como manutenção e almoxarifado, não trabalham diretamente nos produtos. Seus custos são rateados aos departamentos produtivos, que os apropriam aos produtos. A departamentalização reduz a arbitrariedade do rateio, mas não a elimina.
+        fundamento: Departamentalização.
+      - nivel: 3
+        assunto: Análise de variações
+        enunciado: O padrão de matéria-prima de um produto é de 2 kg por unidade, a R$ 5,00 o quilo. No mês, foram produzidas 1.000 unidades, com consumo real de 2.200 kg ao preço de R$ 4,80 o quilo. As variações de quantidade e de preço são, respectivamente,
+        alternativas:
+          A: R$ 1.000,00 favorável e R$ 440,00 desfavorável.
+          B: R$ 960,00 desfavorável e R$ 400,00 favorável.
+          C: R$ 560,00 favorável no total, sem decomposição.
+          D: R$ 1.100,00 desfavorável e R$ 440,00 favorável.
+          E: R$ 1.000,00 desfavorável e R$ 440,00 favorável.
+        resposta: E
+        comentario: "Quantidade = (2.200 − 2.000) × 5,00 = 1.000, desfavorável porque se consumiu mais. Preço = (5,00 − 4,80) × 2.200 = 440, favorável porque se pagou menos. A variação total é 560 desfavorável (10.560 − 10.000)."
+        fundamento: Custo-padrão e análise de variações.
+dica: "<b>Olho na FCC:</b> em custos, as alternativas trazem o resultado de cada erro comum, como incluir despesas no custo, esquecer a despesa variável na margem ou dividir pelo preço em vez da margem de contribuição."
