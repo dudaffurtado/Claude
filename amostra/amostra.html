@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Amostra – Caderno de Questões SEFAZ-RS</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm 16mm 24mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Caladea", "Liberation Serif", serif; font-size: 11pt; line-height: 1.32; color: #111; }
+  .sans { font-family: "Inter", "Liberation Sans", sans-serif; }
+
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* Cabeçalho corrido */
+  .runhead { display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 1.2pt solid #111; padding-bottom: 3pt; margin-bottom: 10pt;
+    font-family: "Inter", sans-serif; font-size: 7.8pt; letter-spacing: .04em; text-transform: uppercase; }
+  .runhead b { font-weight: 700; }
+
+  /* Abertura do tema */
+  .tema { display: grid; grid-template-columns: 1fr auto; gap: 10pt; align-items: end; margin-bottom: 10pt; }
+  .tema .kicker { font-family: "Inter", sans-serif; font-size: 8pt; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: #555; }
+  .tema h1 { font-family: "Inter", sans-serif; font-size: 16pt; font-weight: 700; margin: 1pt 0 2pt; letter-spacing: -.01em; }
+  .tema .base { font-size: 9pt; color: #333; }
+  .controle { font-family: "Inter", sans-serif; font-size: 7.6pt; border: .8pt solid #111; border-collapse: collapse; }
+  .controle td { border: .8pt solid #111; padding: 3pt 6pt; min-width: 22mm; height: 15pt; vertical-align: top; }
+  .controle td:first-child { min-width: 0; font-weight: 600; background: #eee; }
+
+  /* Questões */
+  .q { border-top: .5pt solid #999; padding: 7pt 0 6pt; break-inside: avoid; }
+  .qhead { display: flex; align-items: center; gap: 7pt; margin-bottom: 3pt; font-family: "Inter", sans-serif; font-size: 8pt; }
+  .num { font-weight: 800; font-size: 10.5pt; background: #111; color: #fff; padding: 1pt 6pt; border-radius: 2pt; }
+  .nivel { letter-spacing: .1em; }
+  .assunto { color: #444; text-transform: uppercase; letter-spacing: .04em; }
+  .enun { margin: 0 0 3pt; text-align: justify; hyphens: auto; }
+  ol.alt { list-style: none; margin: 0; padding: 0 0 0 2pt; }
+  ol.alt li { display: grid; grid-template-columns: 17pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
+  ol.alt li b { font-family: "Inter", sans-serif; font-size: 9pt; }
+  ol.itens { list-style: none; margin: 2pt 0 4pt; padding: 0 0 0 4pt; }
+  ol.itens li { display: grid; grid-template-columns: 22pt 1fr; margin: 1.5pt 0; text-align: justify; hyphens: auto; }
+
+  .marca { display: flex; gap: 12pt; align-items: center; margin-top: 5pt; font-family: "Inter", sans-serif; font-size: 7.8pt; color: #333; }
+  .bolhas span { display: inline-block; width: 13pt; height: 13pt; border: .8pt solid #111; border-radius: 50%;
+    text-align: center; line-height: 12pt; font-size: 7.5pt; font-weight: 600; margin-right: 3pt; }
+  .chk { display: inline-block; width: 9pt; height: 9pt; border: .8pt solid #111; vertical-align: -1pt; margin-right: 2pt; }
+  .notas { flex: 1; border-bottom: .6pt dotted #777; height: 11pt; }
+
+  /* Gabarito */
+  .aviso { font-family: "Inter", sans-serif; font-size: 8pt; border: .8pt dashed #111; padding: 5pt 8pt; margin-bottom: 10pt; }
+  .gtab { width: 100%; border-collapse: collapse; font-family: "Inter", sans-serif; font-size: 9pt; margin-bottom: 12pt; }
+  .gtab td { border: .8pt solid #111; text-align: center; padding: 3pt; }
+  .gtab tr:first-child td { background: #eee; font-weight: 700; }
+  .gc { border-top: .5pt solid #999; padding: 6pt 0; break-inside: avoid; }
+  .gc h3 { font-family: "Inter", sans-serif; font-size: 9pt; margin: 0 0 2pt; }
+  .gc h3 .letra { background: #111; color: #fff; padding: 0 5pt; border-radius: 2pt; margin-left: 4pt; }
+  .gc p { margin: 0; text-align: justify; hyphens: auto; }
+  .gc .fund { font-family: "Inter", sans-serif; font-size: 7.8pt; color: #333; margin-top: 2pt; }
+  .pegadinha { font-family: "Inter", sans-serif; font-size: 8pt; border-left: 2.5pt solid #111; padding: 4pt 8pt; margin-top: 8pt; background: #f2f2f2; }
+  .rodape { font-family: "Inter", sans-serif; font-size: 7pt; color: #666; text-align: right; margin-top: 8pt; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PÁGINA DE QUESTÕES ===================== -->
+<section class="page">
+  <div class="runhead"><span><b>SEFAZ-RS · Auditor-Fiscal da Receita Estadual</b> · Caderno 1 — Direito Tributário</span><span>Estilo FCC</span></div>
+
+  <div class="tema">
+    <div>
+      <div class="kicker">Tema 4 de 12</div>
+      <h1>Obrigação Tributária, Fato Gerador e Sujeição Passiva</h1>
+      <div class="base">Base legal: CTN, arts. 113 a 127 &nbsp;·&nbsp; Dificuldade: ● fácil &nbsp;●● média &nbsp;●●● difícil</div>
+    </div>
+    <table class="controle">
+      <tr><td>1ª resolução</td><td>__/__ &nbsp; acertos: __/5</td></tr>
+      <tr><td>Revisão</td><td>__/__ &nbsp; acertos: __/5</td></tr>
+    </table>
+  </div>
+
+  <div class="q">
+    <div class="qhead"><span class="num">01</span><span class="nivel">●</span><span class="assunto">Obrigação principal e acessória</span></div>
+    <p class="enun">De acordo com o Código Tributário Nacional, a obrigação tributária</p>
+    <ol class="alt">
+      <li><b>(A)</b><span>principal surge com a ocorrência do fato gerador, tem por objeto o pagamento de tributo ou penalidade pecuniária e extingue-se juntamente com o crédito dela decorrente.</span></li>
+      <li><b>(B)</b><span>acessória decorre exclusivamente de lei em sentido estrito e tem por objeto o pagamento de multa moratória.</span></li>
+      <li><b>(C)</b><span>acessória, pelo simples fato da sua inobservância, converte-se em obrigação principal relativamente ao tributo cujo recolhimento ela visava assegurar.</span></li>
+      <li><b>(D)</b><span>principal tem por objeto as prestações, positivas ou negativas, nela previstas no interesse da arrecadação ou da fiscalização dos tributos.</span></li>
+      <li><b>(E)</b><span>acessória somente pode ser exigida de quem seja contribuinte do tributo, não alcançando as pessoas imunes ou isentas.</span></li>
+    </ol>
+    <div class="marca"><span class="bolhas"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span></span><span><i class="chk"></i>dúvida</span><span><i class="chk"></i>revisar</span><span class="notas"></span></div>
+  </div>
+
+  <div class="q">
+    <div class="qhead"><span class="num">02</span><span class="nivel">●</span><span class="assunto">Momento do fato gerador</span></div>
+    <p class="enun">Salvo disposição de lei em contrário, tratando-se de ato ou negócio jurídico sob condição <u>resolutória</u>, considera-se ocorrido o fato gerador, nos termos do CTN,</p>
+    <ol class="alt">
+      <li><b>(A)</b><span>desde o momento da prática do ato ou da celebração do negócio.</span></li>
+      <li><b>(B)</b><span>desde o momento do implemento da condição.</span></li>
+      <li><b>(C)</b><span>somente após o decurso do prazo decadencial sem que a condição se implemente.</span></li>
+      <li><b>(D)</b><span>desde que definitivamente constituída a situação jurídica, após o implemento da condição.</span></li>
+      <li><b>(E)</b><span>na data do registro do negócio jurídico no órgão competente.</span></li>
+    </ol>
+    <div class="marca"><span class="bolhas"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span></span><span><i class="chk"></i>dúvida</span><span><i class="chk"></i>revisar</span><span class="notas"></span></div>
+  </div>
+
+  <div class="q">
+    <div class="qhead"><span class="num">03</span><span class="nivel">●●</span><span class="assunto">Interpretação do fato gerador</span></div>
+    <p class="enun">Em ação fiscal, a Receita Estadual constatou que determinado estabelecimento promovia saídas habituais de mercadorias sem estar inscrito no Cadastro Geral de Contribuintes de Tributos Estaduais e sem alvará municipal de funcionamento. Lavrado o auto de lançamento, o responsável alegou que, sendo irregular a atividade, não poderia ela dar origem à obrigação tributária. À luz do CTN, a alegação</p>
+    <ol class="alt">
+      <li><b>(A)</b><span>procede, pois a capacidade tributária passiva das pessoas jurídicas pressupõe sua regular constituição.</span></li>
+      <li><b>(B)</b><span>procede, pois a definição legal do fato gerador depende da validade jurídica dos atos efetivamente praticados.</span></li>
+      <li><b>(C)</b><span>não procede, pois a definição legal do fato gerador é interpretada abstraindo-se da validade jurídica dos atos efetivamente praticados, bem como da natureza do seu objeto ou dos seus efeitos.</span></li>
+      <li><b>(D)</b><span>não procede, mas o crédito tributário somente poderá ser exigido após a regularização cadastral do estabelecimento.</span></li>
+      <li><b>(E)</b><span>procede em relação às penalidades pecuniárias, sendo devido apenas o tributo.</span></li>
+    </ol>
+    <div class="marca"><span class="bolhas"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span></span><span><i class="chk"></i>dúvida</span><span><i class="chk"></i>revisar</span><span class="notas"></span></div>
+  </div>
+
+  <div class="q">
+    <div class="qhead"><span class="num">04</span><span class="nivel">●●</span><span class="assunto">Sujeito passivo, capacidade e domicílio</span></div>
+    <p class="enun">Considere as afirmações abaixo, à luz do CTN.</p>
+    <ol class="itens">
+      <li><b>I.</b><span>Sujeito passivo da obrigação principal é a pessoa obrigada ao pagamento de tributo ou penalidade pecuniária, e diz-se contribuinte quando tenha relação pessoal e direta com a situação que constitua o respectivo fato gerador.</span></li>
+      <li><b>II.</b><span>Salvo disposição de lei em contrário, as convenções particulares relativas à responsabilidade pelo pagamento de tributos podem ser opostas à Fazenda Pública para modificar a definição legal do sujeito passivo, desde que registradas em cartório.</span></li>
+      <li><b>III.</b><span>A capacidade tributária passiva independe da capacidade civil das pessoas naturais.</span></li>
+      <li><b>IV.</b><span>Na falta de eleição do domicílio tributário, considera-se como tal, quanto às pessoas jurídicas de direito privado, exclusivamente o lugar da sua sede.</span></li>
+    </ol>
+    <p class="enun">Está correto o que se afirma APENAS em</p>
+    <ol class="alt" style="display:grid;grid-template-columns:repeat(5,1fr)">
+      <li><b>(A)</b><span>I e II.</span></li>
+      <li><b>(B)</b><span>I e III.</span></li>
+      <li><b>(C)</b><span>II e IV.</span></li>
+      <li><b>(D)</b><span>I, III e IV.</span></li>
+      <li><b>(E)</b><span>II, III e IV.</span></li>
+    </ol>
+    <div class="marca"><span class="bolhas"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span></span><span><i class="chk"></i>dúvida</span><span><i class="chk"></i>revisar</span><span class="notas"></span></div>
+  </div>
+
+  <div class="q">
+    <div class="qhead"><span class="num">05</span><span class="nivel">●●●</span><span class="assunto">Solidariedade</span></div>
+    <p class="enun">X, Y e Z são solidariamente obrigados ao pagamento de determinado tributo, por terem interesse comum na situação que constitui o fato gerador. Lei posterior concede remissão do crédito, outorgada pessoalmente a X. Nessa situação, conforme o CTN,</p>
+    <ol class="alt">
+      <li><b>(A)</b><span>a remissão exonera todos os obrigados, por se tratar de causa de extinção do crédito tributário.</span></li>
+      <li><b>(B)</b><span>subsiste a solidariedade quanto a Y e Z pelo saldo.</span></li>
+      <li><b>(C)</b><span>Y e Z podem invocar o benefício de ordem, exigindo que a Fazenda execute primeiramente os bens de X.</span></li>
+      <li><b>(D)</b><span>a interrupção da prescrição em relação a Y não prejudica Z, por se tratar de efeito pessoal.</span></li>
+      <li><b>(E)</b><span>o pagamento eventualmente efetuado por Y não aproveita a Z, salvo previsão em lei específica.</span></li>
+    </ol>
+    <div class="marca"><span class="bolhas"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span></span><span><i class="chk"></i>dúvida</span><span><i class="chk"></i>revisar</span><span class="notas"></span></div>
+  </div>
+</section>
+
+<!-- ===================== PÁGINA DE GABARITO ===================== -->
+<section class="page">
+  <div class="runhead"><span><b>Gabarito comentado</b> · Caderno 1 — Direito Tributário · Tema 4</span><span>Estilo FCC</span></div>
+
+  <div class="aviso">No material completo, os gabaritos ficam no <b>fim de cada caderno</b>, longe das questões, para você não ver a resposta sem querer.</div>
+
+  <table class="gtab">
+    <tr><td>Questão</td><td>01</td><td>02</td><td>03</td><td>04</td><td>05</td></tr>
+    <tr><td>Resposta</td><td>A</td><td>A</td><td>C</td><td>B</td><td>B</td></tr>
+  </table>
+
+  <div class="gc">
+    <h3>Questão 01 <span class="letra">A</span></h3>
+    <p>(A) reproduz o art. 113, §1º. (B) está errada porque a obrigação acessória decorre da <i>legislação tributária</i>, não só da lei, e tem por objeto prestações positivas ou negativas, e não multa. (C) está errada porque a conversão se dá relativamente à <i>penalidade pecuniária</i>, e não ao tributo. (D) está errada porque descreve a obrigação <i>acessória</i>. (E) está errada porque imunes e isentos também se sujeitam a obrigações acessórias.</p>
+    <div class="fund">Fundamento: CTN, art. 113, §§ 1º a 3º; art. 175, parágrafo único; art. 194, parágrafo único.</div>
+  </div>
+
+  <div class="gc">
+    <h3>Questão 02 <span class="letra">A</span></h3>
+    <p>Na condição <i>resolutória</i>, o fato gerador ocorre desde a prática do ato ou a celebração do negócio. É na condição <i>suspensiva</i> que ele ocorre só com o implemento da condição, que é a alternativa (B).</p>
+    <div class="fund">Fundamento: CTN, art. 117, I e II.</div>
+  </div>
+
+  <div class="gc">
+    <h3>Questão 03 <span class="letra">C</span></h3>
+    <p>Vale o princípio do <i>pecunia non olet</i>: a irregularidade da atividade não afasta a tributação. (A) está errada porque a capacidade tributária passiva independe de a pessoa jurídica estar regularmente constituída; basta que configure unidade econômica ou profissional. (D) e (E) não têm amparo legal.</p>
+    <div class="fund">Fundamento: CTN, art. 118, I; art. 126, III.</div>
+  </div>
+
+  <div class="gc">
+    <h3>Questão 04 <span class="letra">B</span></h3>
+    <p>I reproduz o art. 121 e está correta. II está errada: as convenções particulares <i>não</i> podem ser opostas à Fazenda, e o registro em cartório não muda isso. III reproduz o art. 126, I, e está correta. IV está errada por causa do “exclusivamente”: vale o lugar da sede <i>ou</i>, em relação aos atos ou fatos que derem origem à obrigação, o de cada estabelecimento.</p>
+    <div class="fund">Fundamento: CTN, arts. 121, 123, 126, I, e 127, II.</div>
+  </div>
+
+  <div class="gc">
+    <h3>Questão 05 <span class="letra">B</span></h3>
+    <p>Quando a remissão é outorgada pessoalmente a um dos obrigados, subsiste a solidariedade quanto aos demais pelo saldo. (A) está errada pela mesma razão. (C) está errada porque a solidariedade tributária não comporta benefício de ordem. (D) e (E) invertem os efeitos legais: a interrupção da prescrição contra um prejudica os demais, e o pagamento feito por um aproveita aos demais.</p>
+    <div class="fund">Fundamento: CTN, art. 124, parágrafo único; art. 125, I a III.</div>
+  </div>
+
+  <div class="pegadinha"><b>Olho na FCC:</b> a banca troca palavras-chave da lei, como “tributo” por “penalidade”, “suspensiva” por “resolutória”, ou acrescenta “exclusivamente” e “desde que registradas”. Ao errar, sublinhe a palavra trocada.</div>
+
+  <div class="rodape">Questões inéditas elaboradas no estilo da banca, com base na legislação vigente em nov./2026.</div>
+</section>
+
+</body>
+</html>
