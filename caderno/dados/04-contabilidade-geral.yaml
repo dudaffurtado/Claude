@@ -1,0 +1,624 @@
+caderno: 4
+materia: Contabilidade Geral e Avançada
+meta: 45
+temas:
+  - titulo: Patrimônio e Fatos Contábeis
+    base: Teoria da Contabilidade; equação patrimonial
+    questoes:
+      - nivel: 1
+        assunto: Equação patrimonial
+        enunciado: "Determinada empresa apresenta os seguintes saldos, em reais: Caixa 5.000; Estoques 12.000; Contas a Receber 8.000; Fornecedores 10.000; Empréstimos a Pagar 6.000. O Patrimônio Líquido da empresa é de"
+        alternativas:
+          A: R$ 9.000,00.
+          B: R$ 25.000,00.
+          C: R$ 16.000,00.
+          D: R$ 41.000,00.
+          E: R$ 3.000,00.
+        resposta: A
+        comentario: "O ativo soma 5.000 + 12.000 + 8.000 = 25.000, e o passivo exigível, 10.000 + 6.000 = 16.000. Pela equação patrimonial, PL = Ativo − Passivo = 25.000 − 16.000 = R$ 9.000,00."
+        fundamento: Equação patrimonial (A = P + PL).
+      - nivel: 1
+        assunto: Situações patrimoniais
+        enunciado: Empresa com ativo total de R$ 50.000,00 e passivo exigível de R$ 60.000,00 apresenta
+        alternativas:
+          A: patrimônio líquido positivo de R$ 10.000,00.
+          B: situação líquida nula.
+          C: passivo a descoberto, com patrimônio líquido negativo de R$ 10.000,00.
+          D: ativo a descoberto de R$ 110.000,00.
+          E: patrimônio líquido de R$ 110.000,00.
+        resposta: C
+        comentario: "Quando as obrigações superam o ativo, o PL é negativo (50.000 − 60.000 = −10.000), situação chamada de passivo a descoberto."
+        fundamento: Equação patrimonial; situações líquidas.
+      - nivel: 2
+        assunto: Classificação dos fatos
+        enunciado: O recebimento de uma duplicata de R$ 1.000,00, com juros de R$ 50,00 por atraso, constitui fato contábil
+        alternativas:
+          A: permutativo.
+          B: modificativo aumentativo.
+          C: modificativo diminutivo.
+          D: misto diminutivo.
+          E: misto aumentativo.
+        resposta: E
+        comentario: "O lançamento é D Caixa 1.050, C Duplicatas a Receber 1.000 e C Receita de Juros 50. Há troca entre elementos do ativo (parte permutativa) e uma receita que aumenta o PL. Por isso o fato é misto aumentativo."
+        fundamento: Classificação dos fatos contábeis.
+      - nivel: 2
+        assunto: Classificação dos fatos
+        enunciado: Considere os fatos e sua classificação.
+        itens:
+          - Compra de máquina a prazo — fato permutativo.
+          - Pagamento de salários do mês — fato modificativo diminutivo.
+          - Recebimento de cliente com desconto concedido — fato misto diminutivo.
+          - Pagamento de fornecedor com juros por atraso — fato misto aumentativo.
+        comando: Está correta a classificação APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: B
+        comentario: IV está errada porque os juros pagos são <i>despesa</i>, o que reduz o PL, então o fato é misto diminutivo. Nos demais, a compra a prazo só troca elementos, o salário é despesa pura e o desconto concedido é despesa junto com a baixa do crédito.
+        fundamento: Classificação dos fatos contábeis.
+
+  - titulo: Escrituração e Lançamentos
+    base: Método das partidas dobradas; regime de competência
+    questoes:
+      - nivel: 1
+        assunto: Lançamento
+        enunciado: O pagamento, em dinheiro, de uma dívida com fornecedor é registrado pelo seguinte lançamento
+        alternativas:
+          A: D Caixa / C Fornecedores.
+          B: D Despesas Diversas / C Caixa.
+          C: D Fornecedores / C Despesas Diversas.
+          D: D Fornecedores / C Caixa.
+          E: D Caixa / C Receitas Diversas.
+        resposta: D
+        comentario: O passivo diminui por débito e o ativo diminui por crédito. O fato é permutativo e não afeta o resultado.
+        fundamento: Método das partidas dobradas.
+      - nivel: 1
+        assunto: Natureza das contas
+        enunciado: São contas de natureza credora
+        alternativas:
+          A: Caixa, Estoques e Fornecedores.
+          B: Despesas Administrativas, Capital Social e Clientes.
+          C: Ações em Tesouraria, Receitas de Vendas e Salários a Pagar.
+          D: Clientes, Perdas Estimadas com Créditos de Liquidação Duvidosa e Fornecedores.
+          E: Fornecedores, Capital Social e Depreciação Acumulada.
+        resposta: E
+        comentario: Passivo e PL têm saldo credor. A Depreciação Acumulada também tem, por ser retificadora do ativo. Caixa, Estoques, Clientes e as despesas são devedoras. Ações em Tesouraria é retificadora do PL e, por isso, devedora.
+        fundamento: Natureza das contas.
+      - nivel: 2
+        assunto: Venda de mercadorias
+        enunciado: Empresa que adota o inventário permanente vende a prazo, por R$ 10.000,00, mercadorias que custaram R$ 6.000,00. Desconsiderando tributos, os efeitos dessa venda no ativo e no patrimônio líquido são, respectivamente,
+        alternativas:
+          A: aumento de R$ 10.000,00 e aumento de R$ 10.000,00.
+          B: aumento de R$ 4.000,00 e aumento de R$ 4.000,00.
+          C: aumento de R$ 10.000,00 e aumento de R$ 4.000,00.
+          D: redução de R$ 6.000,00 e aumento de R$ 4.000,00.
+          E: aumento de R$ 4.000,00 e nenhuma alteração.
+        resposta: B
+        comentario: "Os lançamentos são D Clientes 10.000 / C Receita 10.000 e D CMV 6.000 / C Estoques 6.000. O ativo varia +10.000 − 6.000 = +4.000. O resultado de 4.000 (receita − CMV) aumenta o PL."
+        fundamento: Inventário permanente; regime de competência.
+      - nivel: 2
+        assunto: Despesas antecipadas
+        enunciado: Em 1º de outubro de X1, empresa pagou à vista R$ 12.000,00 por seguro com vigência de doze meses a partir dessa data. Em 31 de dezembro de X1, a despesa do exercício e o saldo de seguros a apropriar são, respectivamente,
+        alternativas:
+          A: R$ 12.000,00 e zero.
+          B: zero e R$ 12.000,00.
+          C: R$ 9.000,00 e R$ 3.000,00.
+          D: R$ 3.000,00 e R$ 9.000,00.
+          E: R$ 3.000,00 no resultado e R$ 9.000,00 no passivo.
+        resposta: D
+        comentario: "Pelo regime de competência, apropriam-se 3 meses (out–dez) de 1.000 = 3.000 como despesa. Os 9.000 restantes ficam no ativo circulante, em Seguros a Apropriar (despesa antecipada)."
+        fundamento: Regime de competência; CPC 00 (R2).
+
+  - titulo: Estrutura Conceitual
+    base: CPC 00 (R2)
+    questoes:
+      - nivel: 1
+        assunto: Características fundamentais
+        enunciado: Segundo a Estrutura Conceitual, as características qualitativas fundamentais da informação contábil-financeira útil são
+        alternativas:
+          A: relevância e representação fidedigna.
+          B: comparabilidade e verificabilidade.
+          C: tempestividade e compreensibilidade.
+          D: prudência e competência.
+          E: materialidade e custo.
+        resposta: A
+        comentario: Relevância e representação fidedigna são as características fundamentais. Comparabilidade, verificabilidade, tempestividade e compreensibilidade são de <i>melhoria</i>. Materialidade é um aspecto da relevância, e o custo é uma restrição.
+        fundamento: CPC 00 (R2), itens 2.5 a 2.23.
+      - nivel: 1
+        assunto: Definição de ativo
+        enunciado: De acordo com a Estrutura Conceitual (CPC 00 R2), ativo é
+        alternativas:
+          A: o bem de propriedade da entidade do qual se esperam benefícios econômicos futuros certos.
+          B: o conjunto de bens e direitos registrados pelo custo histórico.
+          C: um recurso econômico presente controlado pela entidade como resultado de eventos passados.
+          D: o recurso cujo valor possa ser mensurado exclusivamente pelo custo de aquisição.
+          E: a obrigação presente da entidade de transferir um recurso econômico.
+        resposta: C
+        comentario: (C) reproduz o item 4.3 do CPC 00 (R2). O critério é o <i>controle</i>, e não a propriedade. Basta o potencial de produzir benefícios, sem certeza. (E) define passivo.
+        fundamento: CPC 00 (R2), itens 4.3 e 4.26.
+      - nivel: 2
+        assunto: Características qualitativas
+        enunciado: Considere as afirmações abaixo sobre a Estrutura Conceitual.
+        itens:
+          - A comparabilidade é característica qualitativa de melhoria.
+          - A materialidade é um aspecto de relevância específico da entidade.
+          - A prudência é característica qualitativa fundamental.
+          - Para ser representação perfeitamente fidedigna, a informação deve ser completa, neutra e livre de erro.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: I, II e IV.
+          E: III e IV.
+        resposta: D
+        comentario: III está errada porque a prudência (cautela em condições de incerteza) apoia a neutralidade, mas não é característica fundamental. As demais afirmações reproduzem o CPC 00 (R2).
+        fundamento: CPC 00 (R2), itens 2.11, 2.13, 2.16 e 2.23.
+      - nivel: 3
+        assunto: Bases de mensuração
+        enunciado: Segundo a Estrutura Conceitual, são bases de mensuração de valor atual
+        alternativas:
+          A: o valor justo, o valor em uso (para ativos) ou de cumprimento (para passivos) e o custo corrente.
+          B: o custo histórico e o valor presente.
+          C: o valor realizável líquido e o custo de reposição, apenas.
+          D: o valor de liquidação e o valor nominal.
+          E: o custo amortizado e o valor justo.
+        resposta: A
+        comentario: O CPC 00 (R2) divide as bases de mensuração em custo histórico, que inclui o custo amortizado, e valor atual. O valor atual compreende valor justo, valor em uso ou de cumprimento e custo corrente.
+        fundamento: CPC 00 (R2), itens 6.4 a 6.22.
+
+  - titulo: Estoques
+    base: CPC 16 (R1)
+    questoes:
+      - nivel: 1
+        assunto: Mensuração
+        enunciado: De acordo com o CPC 16, os estoques devem ser mensurados
+        alternativas:
+          A: pelo maior valor entre o custo e o valor realizável líquido.
+          B: pelo valor justo.
+          C: pelo menor valor entre o custo e o valor realizável líquido.
+          D: pelo custo de reposição.
+          E: pelo preço de venda.
+        resposta: C
+        comentario: A regra do menor valor evita registrar o estoque acima do que se espera recuperar com a venda. A diferença, quando houver, é reconhecida como perda no resultado.
+        fundamento: CPC 16 (R1), item 9.
+      - nivel: 2
+        assunto: PEPS
+        enunciado: "A movimentação de uma mercadoria no mês foi a seguinte. Estoque inicial de 100 unidades a R$ 10,00. Compra de 200 unidades a R$ 12,00. Venda de 250 unidades. Pelo método PEPS, o custo das mercadorias vendidas e o estoque final são, respectivamente,"
+        alternativas:
+          A: R$ 2.833,33 e R$ 566,67.
+          B: R$ 3.400,00 e zero.
+          C: R$ 2.900,00 e R$ 500,00.
+          D: R$ 2.500,00 e R$ 900,00.
+          E: R$ 2.800,00 e R$ 600,00.
+        resposta: E
+        comentario: "No PEPS, saem primeiro as unidades mais antigas. CMV = 100 × 10 + 150 × 12 = 2.800. Estoque final = 50 × 12 = 600. A alternativa (A) usa a média ponderada e a (C), o UEPS, que é vedado pelo CPC 16."
+        fundamento: CPC 16 (R1), itens 25 a 27.
+      - nivel: 2
+        assunto: Custo de aquisição
+        enunciado: "Empresa comercial, contribuinte do ICMS e não contribuinte do IPI, adquiriu mercadorias para revenda com os seguintes dados. Preço da nota de R$ 10.000,00, já incluído o ICMS recuperável de R$ 1.700,00. IPI de R$ 1.000,00. Frete pago de R$ 500,00. Desconto comercial incondicional de R$ 300,00. O custo de aquisição do estoque é de"
+        alternativas:
+          A: R$ 11.200,00.
+          B: R$ 9.500,00.
+          C: R$ 11.500,00.
+          D: R$ 8.500,00.
+          E: R$ 10.200,00.
+        resposta: B
+        comentario: "Custo = 10.000 − 1.700 (ICMS recuperável) + 1.000 (IPI não recuperável) + 500 (frete) − 300 (desconto) = R$ 9.500,00. Tributos recuperáveis ficam fora do custo, e os não recuperáveis integram o custo."
+        fundamento: CPC 16 (R1), item 11.
+      - nivel: 2
+        assunto: Valor realizável líquido
+        enunciado: Estoque com custo de R$ 50.000,00 tem preço de venda estimado de R$ 55.000,00 e despesas estimadas necessárias para a venda de R$ 8.000,00. Pelo CPC 16,
+        alternativas:
+          A: não há ajuste, pois o preço de venda supera o custo.
+          B: deve ser reconhecida perda de R$ 3.000,00, ficando o estoque em R$ 47.000,00.
+          C: deve ser reconhecida perda de R$ 8.000,00.
+          D: deve ser reconhecido ganho de R$ 5.000,00.
+          E: o estoque deve ser ajustado para R$ 55.000,00.
+        resposta: B
+        comentario: "VRL = 55.000 − 8.000 = 47.000. Como é menor que o custo de 50.000, reconhece-se perda de 3.000. A alternativa (A) esquece as despesas de venda."
+        fundamento: CPC 16 (R1), itens 6, 9 e 28 a 34.
+      - nivel: 3
+        assunto: Inventário periódico
+        enunciado: "Uma empresa comercial apresentou os seguintes dados no período. Estoque inicial de R$ 20.000,00. Compras brutas de R$ 100.000,00, com ICMS recuperável incluso de R$ 12.000,00. Devoluções de compras de R$ 10.000,00, com ICMS incluso de R$ 1.200,00. Fretes sobre compras de R$ 2.000,00. Estoque final de R$ 30.000,00. O custo das mercadorias vendidas foi de"
+        alternativas:
+          A: R$ 82.000,00.
+          B: R$ 70.000,00.
+          C: R$ 74.000,00.
+          D: R$ 71.200,00.
+          E: R$ 61.200,00.
+        resposta: D
+        comentario: "As compras líquidas são (100.000 − 12.000) − (10.000 − 1.200) + 2.000 = 88.000 − 8.800 + 2.000 = 81.200. Então CMV = EI + compras líquidas − EF = 20.000 + 81.200 − 30.000 = R$ 71.200,00. A alternativa (A) ignora o ICMS."
+        fundamento: CPC 16 (R1); CMV = EI + C − EF.
+
+  - titulo: Ativo Imobilizado e Depreciação
+    base: CPC 27; CPC 23
+    questoes:
+      - nivel: 1
+        assunto: Custo do imobilizado
+        enunciado: Segundo o CPC 27, integram o custo de um item do ativo imobilizado
+        alternativas:
+          A: os custos de instalação e montagem.
+          B: os custos de treinamento do pessoal.
+          C: os gastos com propaganda e atividades promocionais.
+          D: os custos administrativos e outros custos indiretos.
+          E: os custos de abertura de nova instalação.
+        resposta: A
+        comentario: Integram o custo os gastos diretamente atribuíveis para colocar o ativo no local e na condição de funcionamento, como instalação e montagem. Os demais itens são expressamente excluídos pelo CPC 27.
+        fundamento: CPC 27, itens 16 a 19.
+      - nivel: 2
+        assunto: Depreciação linear
+        enunciado: Máquina adquirida em 1º de abril de X1 por R$ 100.000,00 tem valor residual estimado de R$ 10.000,00 e vida útil de dez anos. Pelo método linear, a despesa de depreciação de X1 é de
+        alternativas:
+          A: R$ 9.000,00.
+          B: R$ 10.000,00.
+          C: R$ 6.750,00.
+          D: R$ 7.500,00.
+          E: R$ 4.500,00.
+        resposta: C
+        comentario: "A depreciação anual é (100.000 − 10.000) ÷ 10 = 9.000. Em X1 são 9 meses (abr–dez), então 9.000 × 9/12 = R$ 6.750,00. A alternativa (D) esquece o valor residual."
+        fundamento: CPC 27, itens 50 a 62.
+      - nivel: 2
+        assunto: Soma dos dígitos
+        enunciado: Equipamento com custo de R$ 66.000,00, valor residual de R$ 6.000,00 e vida útil de quatro anos é depreciado pelo método da soma dos dígitos dos anos (decrescente). A depreciação do segundo ano é de
+        alternativas:
+          A: R$ 15.000,00.
+          B: R$ 24.000,00.
+          C: R$ 12.000,00.
+          D: R$ 16.500,00.
+          E: R$ 18.000,00.
+        resposta: E
+        comentario: "A soma dos dígitos é 1 + 2 + 3 + 4 = 10, e o valor depreciável é 66.000 − 6.000 = 60.000. No 1º ano, deprecia-se 60.000 × 4/10 = 24.000, e no 2º ano, 60.000 × 3/10 = R$ 18.000,00. A alternativa (A) é a depreciação linear."
+        fundamento: CPC 27, item 62.
+      - nivel: 2
+        assunto: Revisão da vida útil
+        enunciado: Máquina com custo de R$ 120.000,00, valor residual nulo e vida útil de dez anos foi depreciada linearmente por quatro anos. No início do quinto ano, a empresa revisou a vida útil remanescente para oito anos. A depreciação anual a partir de então será de
+        alternativas:
+          A: R$ 12.000,00.
+          B: R$ 15.000,00.
+          C: R$ 9.000,00.
+          D: R$ 7.200,00.
+          E: R$ 10.000,00.
+        resposta: C
+        comentario: "O valor contábil é 120.000 − 4 × 12.000 = 72.000, e 72.000 ÷ 8 = R$ 9.000,00. A revisão é mudança de estimativa, aplicada prospectivamente, sem ajustar os exercícios anteriores."
+        fundamento: CPC 27, item 51; CPC 23, itens 32 a 38.
+      - nivel: 3
+        assunto: Baixa de imobilizado
+        enunciado: Veículo com custo de R$ 80.000,00 e depreciação acumulada de R$ 50.000,00 foi vendido à vista por R$ 35.000,00. Segundo o CPC 27,
+        alternativas:
+          A: há perda de R$ 45.000,00.
+          B: há ganho de R$ 35.000,00, classificado como receita de vendas.
+          C: há ganho de R$ 5.000,00, classificado como receita de vendas.
+          D: há perda de R$ 15.000,00.
+          E: há ganho de R$ 5.000,00, reconhecido no resultado e não classificado como receita de vendas.
+        resposta: E
+        comentario: "O valor contábil é 80.000 − 50.000 = 30.000, então o ganho é 35.000 − 30.000 = 5.000. O CPC 27 determina que ganhos na baixa não sejam classificados como receita de vendas, e sim como outras receitas."
+        fundamento: CPC 27, itens 67 a 72.
+
+  - titulo: Redução ao Valor Recuperável
+    base: CPC 01 (R1)
+    questoes:
+      - nivel: 1
+        assunto: Valor recuperável
+        enunciado: Segundo o CPC 01, o valor recuperável de um ativo é
+        alternativas:
+          A: o menor valor entre o valor justo líquido de despesas de venda e o valor em uso.
+          B: o maior valor entre o valor justo líquido de despesas de venda e o valor em uso.
+          C: o custo histórico atualizado.
+          D: o valor justo, sem dedução das despesas de venda.
+          E: o valor contábil líquido de depreciação.
+        resposta: B
+        comentario: Usa-se o maior dos dois valores porque a entidade escolheria a melhor alternativa, entre vender o ativo e continuar a usá-lo. Há perda quando o valor contábil supera o valor recuperável.
+        fundamento: CPC 01 (R1), itens 6 e 18.
+      - nivel: 2
+        assunto: Teste de recuperabilidade
+        enunciado: Ativo com valor contábil de R$ 500.000,00 tem valor justo líquido de despesas de venda de R$ 420.000,00 e valor em uso de R$ 450.000,00. Deve ser reconhecida
+        alternativas:
+          A: perda de R$ 80.000,00.
+          B: nenhuma perda, pois o valor em uso é positivo.
+          C: perda de R$ 30.000,00.
+          D: perda de R$ 50.000,00.
+          E: reversão de R$ 50.000,00.
+        resposta: D
+        comentario: "O valor recuperável é o maior entre 420.000 e 450.000, ou seja, 450.000. A perda é 500.000 − 450.000 = R$ 50.000,00. A alternativa (A) usa o menor valor."
+        fundamento: CPC 01 (R1), itens 18 e 59.
+      - nivel: 3
+        assunto: Reversão e periodicidade
+        enunciado: Considere as afirmações abaixo sobre o CPC 01.
+        itens:
+          - A perda por desvalorização reconhecida para o ágio por expectativa de rentabilidade futura (goodwill) não pode ser revertida.
+          - A reversão de perda de outros ativos está limitada ao valor contábil que teria sido determinado, líquido de depreciação, caso nenhuma perda tivesse sido reconhecida.
+          - Ativos intangíveis com vida útil indefinida devem ser testados anualmente, independentemente de haver indicação de desvalorização.
+          - O teste do goodwill só é exigido quando houver indicação de desvalorização.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e III.
+          B: I e II.
+          C: II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: A
+        comentario: IV está errada porque o goodwill, assim como o intangível de vida indefinida e o que ainda não está disponível para uso, deve ser testado anualmente. As demais afirmações reproduzem o CPC 01.
+        fundamento: CPC 01 (R1), itens 10, 117 e 124.
+
+  - titulo: Balanço Patrimonial
+    base: Lei 6.404/1976, arts. 178 a 182; CPC 26
+    questoes:
+      - nivel: 1
+        assunto: Grupos do ativo não circulante
+        enunciado: Nos termos da Lei 6.404/1976, o ativo não circulante é composto por
+        alternativas:
+          A: ativo realizável a longo prazo, investimentos, imobilizado e intangível.
+          B: realizável a longo prazo, investimentos, imobilizado, intangível e diferido.
+          C: ativo permanente e realizável a longo prazo.
+          D: investimentos, imobilizado e diferido.
+          E: realizável a longo prazo e ativo permanente.
+        resposta: A
+        comentario: (A) reproduz o art. 178, § 1º, II. O ativo diferido foi extinto pela Lei 11.941/2009, e o “ativo permanente” deixou de existir como grupo.
+        fundamento: Lei 6.404/1976, art. 178, § 1º.
+      - nivel: 1
+        assunto: Patrimônio líquido
+        enunciado: Segundo a Lei 6.404/1976, o patrimônio líquido é dividido em
+        alternativas:
+          A: capital social, reservas de capital, reservas de reavaliação, reservas de lucros e lucros acumulados.
+          B: capital social, reservas de capital, reservas de lucros e lucros ou prejuízos acumulados, apenas.
+          C: capital social, reservas de capital, ajustes de avaliação patrimonial, reservas de lucros, ações em tesouraria e prejuízos acumulados.
+          D: capital social, resultados de exercícios futuros e reservas de lucros.
+          E: capital social, reservas e provisões.
+        resposta: C
+        comentario: (C) reproduz o art. 178, § 2º, III. As reservas de reavaliação não fazem mais parte da lista, porque novas reavaliações foram vedadas pela Lei 11.638/2007. As sociedades por ações não podem manter saldo de lucros acumulados no balanço.
+        fundamento: Lei 6.404/1976, art. 178, § 2º, III.
+      - nivel: 2
+        assunto: Realizável a longo prazo
+        enunciado: Companhia concedeu empréstimo a um de seus diretores, com vencimento em 90 dias, em operação que não constitui negócio usual na exploração de seu objeto. No balanço, o direito deve ser classificado no
+        alternativas:
+          A: ativo circulante.
+          B: grupo de investimentos.
+          C: patrimônio líquido, como conta redutora.
+          D: resultado, como despesa.
+          E: ativo realizável a longo prazo.
+        resposta: E
+        comentario: Pelo art. 179, II, empréstimos a coligadas, controladas, diretores e acionistas que não constituam negócios usuais vão para o realizável a longo prazo, <i>independentemente do prazo</i>.
+        fundamento: Lei 6.404/1976, art. 179, II.
+      - nivel: 2
+        assunto: Ciclo operacional longo
+        enunciado: Estaleiro cujo ciclo operacional dura três anos possui contas a receber de clientes com vencimento em dois anos. Esse direito deve ser classificado no
+        alternativas:
+          A: realizável a longo prazo, por vencer após o término do exercício seguinte.
+          B: ativo circulante, pois a classificação terá por base o prazo do ciclo operacional.
+          C: grupo de investimentos.
+          D: ativo imobilizado.
+          E: grupo definido livremente pela administração.
+        resposta: B
+        comentario: Pelo parágrafo único do art. 179, quando o ciclo operacional é maior que o exercício social, a classificação entre circulante e longo prazo segue o prazo desse ciclo.
+        fundamento: Lei 6.404/1976, art. 179, parágrafo único.
+      - nivel: 3
+        assunto: Índices de liquidez
+        enunciado: "O balanço de uma empresa apresenta, em reais, Ativo Circulante 150.000 (dos quais Estoques 60.000), Realizável a Longo Prazo 50.000, Passivo Circulante 100.000 e Passivo Não Circulante 100.000. Os índices de liquidez corrente, seca e geral são, respectivamente,"
+        alternativas:
+          A: 1,5; 0,6; e 1,0.
+          B: 0,9; 1,5; e 1,0.
+          C: 1,5; 0,9; e 2,0.
+          D: 1,5; 0,9; e 1,0.
+          E: 1,0; 0,9; e 1,5.
+        resposta: D
+        comentario: "LC = AC ÷ PC = 150 ÷ 100 = 1,5. LS = (AC − Estoques) ÷ PC = 90 ÷ 100 = 0,9. LG = (AC + RLP) ÷ (PC + PNC) = 200 ÷ 200 = 1,0."
+        fundamento: Análise das demonstrações contábeis.
+
+  - titulo: Resultado, Reservas e Dividendos
+    base: Lei 6.404/1976, arts. 182, 187, 189 a 202
+    questoes:
+      - nivel: 1
+        assunto: Receita líquida
+        enunciado: Na Demonstração do Resultado, a receita líquida é obtida deduzindo-se da receita bruta
+        alternativas:
+          A: o custo das mercadorias vendidas.
+          B: as despesas com vendas.
+          C: o imposto de renda.
+          D: as participações nos lucros.
+          E: as vendas canceladas, os abatimentos e os tributos incidentes sobre as vendas.
+        resposta: E
+        comentario: (E) segue o art. 187, I. O CMV é deduzido da receita líquida para chegar ao lucro bruto. As despesas operacionais, o IR e as participações vêm depois.
+        fundamento: Lei 6.404/1976, art. 187.
+      - nivel: 2
+        assunto: Lucro bruto
+        enunciado: "Uma empresa apresentou, em reais, Receita Bruta de 500.000, ICMS sobre vendas de 85.000, Devoluções de vendas de 15.000, CMV de 250.000 e Despesas operacionais de 80.000. O lucro bruto foi de"
+        alternativas:
+          A: R$ 250.000,00.
+          B: R$ 150.000,00.
+          C: R$ 70.000,00.
+          D: R$ 165.000,00.
+          E: R$ 235.000,00.
+        resposta: B
+        comentario: "A receita líquida é 500.000 − 85.000 − 15.000 = 400.000. O lucro bruto é 400.000 − 250.000 = R$ 150.000,00. As despesas operacionais só entram depois do lucro bruto, e o resultado operacional seria 70.000 (C)."
+        fundamento: Lei 6.404/1976, art. 187, I a III.
+      - nivel: 2
+        assunto: Reserva legal
+        enunciado: Companhia com capital social de R$ 1.000.000,00 e saldo de reserva legal de R$ 195.000,00 apurou lucro líquido de R$ 200.000,00. Não há reservas de capital. O valor a ser destinado à reserva legal é de
+        alternativas:
+          A: R$ 10.000,00.
+          B: zero.
+          C: R$ 40.000,00.
+          D: R$ 5.000,00.
+          E: R$ 2.500,00.
+        resposta: D
+        comentario: "O percentual de 5% do lucro daria 10.000, mas a reserva legal não pode exceder 20% do capital, que é 200.000. Como o saldo já é 195.000, constituem-se apenas R$ 5.000,00."
+        fundamento: Lei 6.404/1976, art. 193.
+      - nivel: 3
+        assunto: Dividendo mínimo obrigatório
+        enunciado: Companhia cujo estatuto é omisso quanto ao dividendo apurou lucro líquido de R$ 200.000,00, destinou R$ 10.000,00 à reserva legal e constituiu reserva para contingências de R$ 20.000,00. O dividendo mínimo obrigatório é de
+        alternativas:
+          A: R$ 85.000,00.
+          B: R$ 100.000,00.
+          C: R$ 95.000,00.
+          D: R$ 42.500,00.
+          E: R$ 50.000,00.
+        resposta: A
+        comentario: "O lucro ajustado é 200.000 − 10.000 (reserva legal) − 20.000 (contingências) = 170.000. Com o estatuto omisso, o dividendo mínimo é metade disso, R$ 85.000,00."
+        fundamento: Lei 6.404/1976, art. 202, I.
+      - nivel: 3
+        assunto: Reservas
+        enunciado: Considere as afirmações abaixo, nos termos da Lei 6.404/1976.
+        itens:
+          - A contribuição do subscritor de ações que ultrapassar o valor nominal é classificada como reserva de capital.
+          - O produto da alienação de partes beneficiárias e bônus de subscrição é classificado como reserva de capital.
+          - As subvenções para investimento são classificadas como reserva de capital.
+          - A reserva legal tem por fim assegurar a integridade do capital social e somente poderá ser utilizada para compensar prejuízos ou aumentar o capital.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: C
+        comentario: I e II reproduzem o art. 182, § 1º, e IV reproduz o art. 193, § 2º. III está errada porque, desde a Lei 11.638/2007, as subvenções para investimento transitam pelo resultado e podem ser destinadas à reserva de incentivos fiscais, que é reserva de <i>lucros</i> (art. 195-A).
+        fundamento: Lei 6.404/1976, arts. 182, § 1º, 193 e 195-A.
+
+  - titulo: Demonstração dos Fluxos de Caixa
+    base: CPC 03 (R2); Lei 6.404/1976, art. 176
+    questoes:
+      - nivel: 1
+        assunto: Classificação
+        enunciado: Na Demonstração dos Fluxos de Caixa, o pagamento pela aquisição de máquinas para o ativo imobilizado é classificado nas atividades
+        alternativas:
+          A: operacionais.
+          B: de financiamento.
+          C: que não afetam o caixa.
+          D: de investimento.
+          E: operacionais ou de financiamento, à escolha da entidade.
+        resposta: D
+        comentario: Aquisições e alienações de ativos de longo prazo, como imobilizado, intangível e investimentos, são atividades de investimento.
+        fundamento: CPC 03 (R2), item 16.
+      - nivel: 2
+        assunto: Atividades de financiamento
+        enunciado: São classificadas como atividades de financiamento na DFC
+        alternativas:
+          A: a captação de empréstimo bancário e a integralização de capital em dinheiro.
+          B: o recebimento de clientes e o pagamento a fornecedores.
+          C: a compra de imobilizado e a venda de investimentos.
+          D: o pagamento de salários e a captação de empréstimos.
+          E: a venda de imobilizado e a integralização de capital em dinheiro.
+        resposta: A
+        comentario: Financiamento abrange as operações com credores de empréstimos e com sócios (capital). Clientes, fornecedores e salários são atividades operacionais. Imobilizado e investimentos são atividades de investimento.
+        fundamento: CPC 03 (R2), item 17.
+      - nivel: 2
+        assunto: Método indireto
+        enunciado: "Uma empresa apresentou, em reais, lucro líquido de 100.000, depreciação de 20.000, aumento de clientes de 30.000, aumento de fornecedores de 15.000 e redução de estoques de 5.000. Pelo método indireto, o caixa líquido das atividades operacionais foi de"
+        alternativas:
+          A: R$ 100.000,00.
+          B: R$ 80.000,00.
+          C: R$ 110.000,00.
+          D: R$ 140.000,00.
+          E: R$ 70.000,00.
+        resposta: C
+        comentario: "FCO = 100.000 + 20.000 (depreciação, que não envolve caixa) − 30.000 (aumento de ativo) + 15.000 (aumento de passivo) + 5.000 (redução de ativo) = R$ 110.000,00."
+        fundamento: CPC 03 (R2), itens 18 a 20.
+      - nivel: 3
+        assunto: Regras gerais da DFC
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Transações de investimento e financiamento que não envolvem caixa devem ser excluídas da DFC e divulgadas em outra parte das demonstrações.
+          - No método indireto, o lucro líquido é ajustado pelos efeitos de transações que não envolvem caixa e pelas variações de ativos e passivos operacionais.
+          - A DFC é obrigatória para a companhia fechada com patrimônio líquido, na data do balanço, inferior a R$ 2.000.000,00.
+          - Equivalentes de caixa são aplicações de curto prazo, de alta liquidez, prontamente conversíveis em montante conhecido de caixa e sujeitas a insignificante risco de mudança de valor.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: III e IV.
+          E: I, II e IV.
+        resposta: E
+        comentario: III está errada porque o art. 176, § 6º, dispensa da DFC a companhia fechada com PL inferior a R$ 2 milhões. As demais afirmações reproduzem o CPC 03, itens 6, 18 e 43.
+        fundamento: Lei 6.404/1976, art. 176, § 6º; CPC 03 (R2).
+
+  - titulo: Investimentos — Método da Equivalência Patrimonial
+    base: CPC 18 (R2); Lei 6.404/1976, art. 243
+    questoes:
+      - nivel: 1
+        assunto: Influência significativa
+        enunciado: Nos termos da Lei 6.404/1976, presume-se influência significativa quando a investidora for titular de
+        alternativas:
+          A: 10% ou mais do capital total da investida.
+          B: 20% ou mais do capital votante da investida, sem controlá-la.
+          C: mais de 50% do capital votante da investida.
+          D: 25% ou mais do capital total da investida.
+          E: 5% ou mais do capital votante da investida.
+        resposta: B
+        comentario: (B) reproduz o art. 243, § 5º. É uma presunção relativa. A influência significativa caracteriza a coligada, avaliada pela equivalência patrimonial.
+        fundamento: Lei 6.404/1976, art. 243, §§ 1º e 5º; CPC 18 (R2), item 5.
+      - nivel: 2
+        assunto: Cálculo da equivalência
+        enunciado: A investidora detém 30% da coligada X, cujo investimento tinha saldo inicial de R$ 300.000,00. No exercício, X apurou lucro líquido de R$ 200.000,00 e declarou dividendos de R$ 80.000,00. Na investidora, o resultado de equivalência e o saldo final do investimento são, respectivamente,
+        alternativas:
+          A: R$ 60.000,00 e R$ 360.000,00.
+          B: R$ 60.000,00 e R$ 336.000,00.
+          C: R$ 24.000,00 e R$ 324.000,00.
+          D: R$ 84.000,00 e R$ 384.000,00.
+          E: R$ 36.000,00 e R$ 336.000,00.
+        resposta: B
+        comentario: "A equivalência é 30% × 200.000 = 60.000 (receita). Os dividendos de 30% × 80.000 = 24.000 reduzem o investimento, e não são receita. Saldo = 300.000 + 60.000 − 24.000 = R$ 336.000,00."
+        fundamento: CPC 18 (R2), item 10.
+      - nivel: 3
+        assunto: Lucros não realizados
+        enunciado: A investidora detém 40% da coligada Y, que apurou lucro líquido de R$ 300.000,00. No período, Y vendeu mercadorias à investidora com lucro de R$ 50.000,00, e essas mercadorias permanecem integralmente no estoque da investidora. O resultado de equivalência patrimonial a ser reconhecido pela investidora é de
+        alternativas:
+          A: R$ 120.000,00.
+          B: R$ 140.000,00.
+          C: R$ 80.000,00.
+          D: R$ 100.000,00.
+          E: R$ 20.000,00.
+        resposta: D
+        comentario: "Elimina-se a parcela da investidora no lucro não realizado. Conta: 40% × (300.000 − 50.000) = 120.000 − 20.000 = R$ 100.000,00."
+        fundamento: CPC 18 (R2), itens 28 e 29.
+
+  - titulo: Provisões, Passivos e Ativos Contingentes
+    base: CPC 25
+    questoes:
+      - nivel: 1
+        assunto: Reconhecimento de provisão
+        enunciado: Segundo o CPC 25, uma provisão deve ser reconhecida quando
+        alternativas:
+          A: a entidade tem uma obrigação presente, legal ou não formalizada, resultante de evento passado, é provável a saída de recursos para liquidá-la e pode ser feita estimativa confiável do seu valor.
+          B: existe obrigação possível, cuja existência será confirmada por eventos futuros incertos.
+          C: há possibilidade remota de saída de recursos.
+          D: a administração deseja constituir reserva para perdas futuras.
+          E: há obrigação presente, ainda que não seja possível estimar seu valor.
+        resposta: A
+        comentario: (A) reúne as três condições do item 14 do CPC 25. A obrigação possível (B) é passivo contingente, que só se divulga. Sem estimativa confiável (E), também cabe apenas divulgação.
+        fundamento: CPC 25, item 14.
+      - nivel: 2
+        assunto: Classificação das contingências
+        enunciado: "Uma empresa responde a três processos. O processo 1 tem perda provável, estimada com confiabilidade em R$ 100.000,00. O processo 2 tem perda possível, estimada em R$ 200.000,00. O processo 3 tem perda remota, estimada em R$ 300.000,00. Segundo o CPC 25, a empresa deve"
+        alternativas:
+          A: reconhecer provisão de R$ 600.000,00.
+          B: reconhecer provisão de R$ 300.000,00, relativa aos processos 1 e 2.
+          C: reconhecer provisão de R$ 100.000,00 e divulgar o processo 2 em nota explicativa.
+          D: reconhecer provisão de R$ 100.000,00 e divulgar os processos 2 e 3 em nota explicativa.
+          E: apenas divulgar os três processos, sem reconhecer provisão.
+        resposta: C
+        comentario: Perda provável e estimável gera provisão. Perda possível é passivo contingente, que só se divulga. Perda remota não exige nem reconhecimento nem divulgação.
+        fundamento: CPC 25, itens 14, 27, 28 e 86.
+      - nivel: 3
+        assunto: Situações específicas
+        enunciado: Considere as afirmações abaixo sobre o CPC 25.
+        itens:
+          - Não devem ser reconhecidas provisões para perdas operacionais futuras.
+          - Se a entidade tiver contrato oneroso, a obrigação presente segundo o contrato deve ser reconhecida e mensurada como provisão.
+          - O ativo contingente deve ser reconhecido quando a entrada de benefícios econômicos for provável.
+          - Quando a realização do ganho for praticamente certa, o ativo relacionado não é ativo contingente e seu reconhecimento é adequado.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: III e IV.
+          E: I, II e IV.
+        resposta: E
+        comentario: III está errada porque o ativo contingente <i>não</i> se reconhece. Quando a entrada de benefícios é provável, ele apenas é divulgado. As demais afirmações reproduzem os itens 63, 66, 31 e 33 do CPC 25.
+        fundamento: CPC 25, itens 31 a 35, 63 e 66.
+dica: "<b>Olho na FCC:</b> nas questões de contabilidade, monte sempre os razonetes ou a conta passo a passo no rascunho. A banca coloca nas alternativas o resultado de cada erro típico, como esquecer o valor residual, usar a média em vez do PEPS ou tratar dividendo como receita."
