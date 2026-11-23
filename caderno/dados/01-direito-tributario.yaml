@@ -2,6 +2,244 @@ caderno: 1
 materia: Direito Tributário
 meta: 45
 temas:
+  - titulo: Tributo, Espécies Tributárias e Competência
+    base: CTN, arts. 3º a 5º, 16, 77 a 82; CF, arts. 145 a 149-A
+    questoes:
+      - nivel: 1
+        assunto: Conceito de tributo
+        enunciado: De acordo com o Código Tributário Nacional, tributo
+        alternativas:
+          A: pode constituir sanção de ato ilícito, desde que instituído em lei.
+          B: é cobrado mediante atividade administrativa discricionária, segundo critérios de conveniência e oportunidade.
+          C: tem sua natureza jurídica específica determinada pela destinação legal do produto da sua arrecadação.
+          D: é toda prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, instituída em lei e cobrada mediante atividade administrativa plenamente vinculada.
+          E: tem sua natureza jurídica específica determinada pela denominação e demais características formais adotadas pela lei.
+        resposta: D
+        comentario: (D) reproduz o art. 3º do CTN. (A) está errada porque o tributo <i>não</i> constitui sanção de ato ilícito. (B) está errada porque a cobrança é <i>plenamente vinculada</i>. (C) e (E) estão erradas porque a natureza jurídica do tributo é determinada pelo fato gerador, sendo irrelevantes a denominação e a destinação legal da arrecadação.
+        fundamento: CTN, arts. 3º e 4º.
+      - nivel: 1
+        assunto: Taxas
+        enunciado: Sobre as taxas, é correto afirmar que
+        alternativas:
+          A: podem ter base de cálculo idêntica à que corresponda a imposto, desde que instituídas por lei complementar.
+          B: podem ser cobradas em razão da utilização potencial de serviço público específico e divisível, posto à disposição do contribuinte.
+          C: têm por fato gerador situação independente de qualquer atividade estatal específica relativa ao contribuinte.
+          D: podem ser calculadas em função do capital das empresas.
+          E: podem ser cobradas pela simples possibilidade de exercício do poder de polícia, ainda que este não seja efetivamente exercido.
+        resposta: B
+        comentario: (B) está correta porque a utilização potencial autoriza a taxa de <i>serviço</i>. (A) está errada porque a taxa não pode ter base de cálculo própria de impostos. (C) descreve o imposto. (D) é vedada pelo parágrafo único do art. 77. (E) está errada porque a taxa de polícia exige o exercício <i>regular</i> do poder de polícia, e a utilização potencial vale apenas para serviços.
+        fundamento: CF, art. 145, II e § 2º; CTN, arts. 16, 77 a 79.
+      - nivel: 2
+        assunto: Competência tributária
+        enunciado: De acordo com a Constituição Federal,
+        alternativas:
+          A: os Estados podem instituir empréstimos compulsórios, mediante lei complementar, para atender a despesas extraordinárias decorrentes de calamidade pública.
+          B: a União pode instituir, mediante lei ordinária, impostos não previstos na Constituição, desde que não cumulativos.
+          C: os Estados instituirão, por meio de lei, contribuições para custeio de regime próprio de previdência social, cobradas dos servidores ativos, dos aposentados e dos pensionistas.
+          D: os Municípios podem instituir contribuições de intervenção no domínio econômico.
+          E: a contribuição para o custeio do serviço de iluminação pública é de competência dos Estados.
+        resposta: C
+        comentario: (C) reproduz o art. 149, § 1º. (A) está errada porque o empréstimo compulsório é de competência exclusiva da União. (B) está errada porque a competência residual exige <i>lei complementar</i>, além de vedar fato gerador ou base de cálculo próprios dos impostos discriminados. (D) está errada porque a CIDE é da União. (E) está errada porque essa contribuição cabe aos Municípios e ao DF.
+        fundamento: CF, arts. 148, 149, 149-A e 154, I.
+      - nivel: 3
+        assunto: Contribuição de melhoria
+        enunciado: Determinado Município realizou obra pública de pavimentação ao custo total de R$ 10 milhões. Laudo técnico apurou valorização total de R$ 15 milhões nos imóveis beneficiados, dos quais R$ 200 mil correspondem ao imóvel X. Nos termos do CTN, a contribuição de melhoria poderá arrecadar, no máximo,
+        alternativas:
+          A: R$ 15 milhões no total, limitada a contribuição do proprietário de X a R$ 200 mil.
+          B: R$ 10 milhões no total, rateados entre os imóveis beneficiados proporcionalmente à área de cada um, sem limite individual.
+          C: R$ 25 milhões no total, correspondentes à soma do custo da obra e da valorização obtida.
+          D: R$ 15 milhões no total, rateados proporcionalmente à testada de cada imóvel.
+          E: R$ 10 milhões no total, limitada a contribuição do proprietário de X a R$ 200 mil.
+        resposta: E
+        comentario: A contribuição de melhoria tem dois limites. O limite total é a despesa realizada (R$ 10 milhões) e o limite individual é o acréscimo de valor que a obra trouxe a cada imóvel (R$ 200 mil para X). As demais alternativas ignoram um ou outro limite.
+        fundamento: CTN, art. 81; CF, art. 145, III.
+
+  - titulo: Limitações Constitucionais ao Poder de Tributar
+    base: CF, arts. 150 a 152; art. 62, § 2º
+    questoes:
+      - nivel: 1
+        assunto: Princípios
+        enunciado: Nos termos da Constituição Federal, é vedado cobrar tributos em relação a fatos geradores ocorridos antes do início da vigência da lei que os houver instituído ou aumentado. Trata-se do princípio da
+        alternativas:
+          A: anterioridade do exercício financeiro.
+          B: anterioridade nonagesimal.
+          C: legalidade estrita.
+          D: capacidade contributiva.
+          E: irretroatividade.
+        resposta: E
+        comentario: O texto reproduz o art. 150, III, “a”, que trata da irretroatividade. A anterioridade (alíneas “b” e “c”) trata do momento a partir do qual a lei nova pode ser aplicada, e não de fatos passados.
+        fundamento: CF, art. 150, III, “a”.
+      - nivel: 1
+        assunto: Legalidade e suas exceções
+        enunciado: Constitui exceção ao princípio da legalidade tributária a possibilidade de o Poder Executivo, atendidas as condições e os limites estabelecidos em lei, alterar as alíquotas do imposto sobre
+        alternativas:
+          A: renda e proventos de qualquer natureza.
+          B: propriedade territorial rural.
+          C: produtos industrializados.
+          D: grandes fortunas.
+          E: transmissão causa mortis e doação.
+        resposta: C
+        comentario: O art. 153, § 1º, faculta ao Executivo alterar as alíquotas do II, do IE, do IPI e do IOF. Os demais impostos listados exigem lei para alterar a alíquota.
+        fundamento: CF, art. 153, § 1º.
+      - nivel: 2
+        assunto: Anterioridade anual e nonagesimal
+        enunciado: Lei estadual publicada em 15 de dezembro de 2026 majora a alíquota do ICMS incidente sobre determinadas mercadorias (não combustíveis) e fixa nova base de cálculo do IPVA. Considerando as regras constitucionais de anterioridade,
+        alternativas:
+          A: ambas as alterações podem ser aplicadas a partir de 1º de janeiro de 2027.
+          B: a majoração do ICMS somente pode ser exigida após decorridos noventa dias da publicação da lei, e a nova base de cálculo do IPVA pode ser aplicada a partir de 1º de janeiro de 2027.
+          C: ambas as alterações somente podem ser aplicadas após decorridos noventa dias da publicação da lei.
+          D: a majoração do ICMS pode ser exigida a partir de 1º de janeiro de 2027, e a nova base de cálculo do IPVA somente após noventa dias da publicação.
+          E: ambas as alterações têm aplicação imediata, pois os impostos estaduais não se sujeitam à anterioridade nonagesimal.
+        resposta: B
+        comentario: O ICMS se submete às duas anterioridades, e o prazo de noventa dias termina depois de 1º de janeiro. A fixação da base de cálculo do IPVA é exceção apenas à noventena, mas respeita a anterioridade anual, por isso vale a partir de 1º/1/2027.
+        fundamento: CF, art. 150, III, “b” e “c”, e § 1º.
+      - nivel: 2
+        assunto: Vedações à União e aos Estados
+        enunciado: Considere as afirmações abaixo, à luz da Constituição Federal.
+        itens:
+          - É vedado aos Estados estabelecer diferença tributária entre bens e serviços, de qualquer natureza, em razão de sua procedência ou destino.
+          - É vedado à União instituir isenções de tributos da competência dos Estados, do Distrito Federal ou dos Municípios.
+          - É vedado à União instituir tributo que não seja uniforme em todo o território nacional, sendo proibida inclusive a concessão de incentivos fiscais destinados a promover o equilíbrio do desenvolvimento socioeconômico entre as regiões.
+          - É vedado à União, aos Estados, ao Distrito Federal e aos Municípios utilizar tributo com efeito de confisco.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e IV.
+          B: I e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: A
+        comentario: I reproduz o art. 152. II reproduz o art. 151, III. IV reproduz o art. 150, IV. III está errada porque a própria Constituição <i>admite</i> incentivos fiscais para o equilíbrio do desenvolvimento entre as regiões.
+        fundamento: CF, arts. 150, IV; 151, I e III; 152.
+      - nivel: 3
+        assunto: Medida provisória e anterioridade
+        enunciado: Medida provisória editada em agosto de 2026 majora o imposto sobre a renda. Considerando a Constituição Federal, a majoração
+        alternativas:
+          A: é inválida, pois medida provisória não pode tratar de matéria tributária.
+          B: produz efeitos imediatos, pois o imposto sobre a renda é exceção à anterioridade do exercício financeiro.
+          C: produz efeitos noventa dias após a edição, independentemente da conversão da medida provisória em lei.
+          D: só produzirá efeitos no exercício financeiro seguinte se a medida provisória houver sido convertida em lei até o último dia de 2026.
+          E: dependeria de lei complementar, sendo vedada sua veiculação por medida provisória.
+        resposta: D
+        comentario: Pelo art. 62, § 2º, a MP que institui ou majora impostos só produz efeitos no exercício seguinte se for convertida em lei até o último dia do exercício em que foi editada. A regra não se aplica a II, IE, IPI, IOF e ao imposto extraordinário de guerra. (B) está errada porque o IR é exceção apenas à noventena, e não à anterioridade anual.
+        fundamento: CF, art. 62, § 2º; art. 150, § 1º.
+
+  - titulo: Imunidades Tributárias
+    base: CF, art. 150, VI e §§ 2º a 4º; CTN, art. 14
+    questoes:
+      - nivel: 1
+        assunto: Imunidade recíproca
+        enunciado: A imunidade tributária recíproca, prevista na Constituição Federal,
+        alternativas:
+          A: alcança todos os tributos, inclusive taxas e contribuições de melhoria.
+          B: veda à União, aos Estados, ao Distrito Federal e aos Municípios instituir impostos sobre patrimônio, renda ou serviços uns dos outros.
+          C: não se estende às autarquias, ainda que instituídas e mantidas pelo Poder Público.
+          D: aplica-se ao patrimônio relacionado com a exploração de atividades econômicas regidas pelas normas aplicáveis a empreendimentos privados.
+          E: exonera o promitente comprador de imóvel pertencente a ente público da obrigação de pagar imposto relativamente ao bem.
+        resposta: B
+        comentario: (B) reproduz o art. 150, VI, “a”. (A) está errada porque as imunidades do art. 150, VI, alcançam só impostos. (C) contraria o § 2º. (D) e (E) contrariam expressamente o § 3º.
+        fundamento: CF, art. 150, VI, “a”, §§ 2º e 3º.
+      - nivel: 2
+        assunto: Imunidade cultural
+        enunciado: "Livraria estabelecida em Porto Alegre comercializa: (1) livros impressos; (2) livros eletrônicos (e-books); (3) leitores digitais (e-readers) destinados exclusivamente a fixar livros eletrônicos; (4) cadernos escolares. Segundo a Constituição e a jurisprudência do STF, estão abrangidos pela imunidade dos livros os itens"
+        alternativas:
+          A: 1, apenas.
+          B: 1 e 2, apenas.
+          C: 1, 2 e 3, apenas.
+          D: 1, 2, 3 e 4.
+          E: 1 e 4, apenas.
+        resposta: C
+        comentario: Pela Súmula Vinculante 57, a imunidade alcança o livro eletrônico e os suportes exclusivamente utilizados para fixá-lo, como os e-readers. Cadernos escolares não são livros, jornais ou periódicos, então não são imunes.
+        fundamento: CF, art. 150, VI, “d”; Súmula Vinculante 57.
+      - nivel: 2
+        assunto: Requisitos da imunidade das entidades
+        enunciado: Para gozarem da imunidade, as instituições de educação e de assistência social sem fins lucrativos devem observar os requisitos do CTN, entre os quais
+        itens:
+          - não distribuir qualquer parcela de seu patrimônio ou de suas rendas, a qualquer título.
+          - aplicar integralmente, no País, os seus recursos na manutenção dos seus objetivos institucionais.
+          - manter escrituração de suas receitas e despesas em livros revestidos de formalidades capazes de assegurar sua exatidão.
+          - não remunerar, por qualquer forma, os seus dirigentes.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e IV.
+          C: II, III e IV.
+          D: I, II, III e IV.
+          E: I, II e III.
+        resposta: E
+        comentario: Os itens I a III reproduzem os três requisitos do art. 14 do CTN. A proibição de remunerar dirigentes (IV) não consta desse artigo.
+        fundamento: CTN, art. 14; CF, art. 150, VI, “c”.
+      - nivel: 3
+        assunto: Imunidade e contribuinte de fato
+        enunciado: Entidade de assistência social sem fins lucrativos, que preenche os requisitos legais, adquire medicamentos de distribuidora situada no RS e pleiteia que a operação seja desonerada do ICMS em razão de sua imunidade. Segundo o entendimento firmado pelo STF em repercussão geral, a pretensão
+        alternativas:
+          A: não procede, pois a imunidade subjetiva aplica-se ao ente beneficiário apenas na condição de contribuinte de direito, não alcançando a operação em que figura como contribuinte de fato.
+          B: procede, pois a entidade suporta o ônus econômico do imposto embutido no preço.
+          C: procede, desde que os medicamentos sejam utilizados nas atividades essenciais da entidade.
+          D: depende de convênio celebrado no âmbito do CONFAZ.
+          E: não procede, mas a entidade pode pleitear a restituição do ICMS embutido no preço.
+        resposta: A
+        comentario: No Tema 342, o STF decidiu que a imunidade subjetiva só vale quando o ente imune é contribuinte de direito. Na compra, a contribuinte de direito é a distribuidora, e a entidade é mera contribuinte de fato. Por isso (B), (C) e (E) estão erradas, e a imunidade não depende de convênio (D).
+        fundamento: STF, RE 608.872 (Tema 342).
+
+  - titulo: Legislação Tributária — Vigência, Aplicação, Interpretação e Integração
+    base: CTN, arts. 96 a 112 e 144
+    questoes:
+      - nivel: 1
+        assunto: Reserva legal
+        enunciado: Segundo o CTN, NÃO depende de lei
+        alternativas:
+          A: a fixação de alíquota do tributo.
+          B: a cominação de penalidades para as infrações à legislação tributária.
+          C: a atualização do valor monetário da respectiva base de cálculo.
+          D: a definição do fato gerador da obrigação tributária principal.
+          E: o estabelecimento das hipóteses de exclusão do crédito tributário.
+        resposta: C
+        comentario: Pelo art. 97, § 2º, a atualização monetária da base de cálculo não é majoração de tributo, então dispensa lei. As demais matérias são reservadas à lei pelo art. 97.
+        fundamento: CTN, art. 97, II a VI e § 2º.
+      - nivel: 2
+        assunto: Normas complementares
+        enunciado: Contribuinte apurou o ICMS conforme orientação expressa de instrução normativa da Receita Estadual. Posteriormente, a orientação foi alterada por ser contrária à lei, e o Fisco lançou a diferença do imposto. Nos termos do CTN,
+        alternativas:
+          A: nada é devido, pois o contribuinte agiu de boa-fé.
+          B: é devido o tributo, excluídas a imposição de penalidades, a cobrança de juros de mora e a atualização do valor monetário da base de cálculo.
+          C: são devidos o tributo e os juros de mora, excluída apenas a multa.
+          D: são devidos o tributo e a multa, reduzida pela metade.
+          E: são devidos o tributo e todos os encargos, pois instrução normativa não integra a legislação tributária.
+        resposta: B
+        comentario: O parágrafo único do art. 100 protege quem segue normas complementares. O tributo continua devido, mas ficam excluídas as penalidades, os juros de mora e a atualização monetária da base de cálculo. Instruções normativas são atos normativos e, portanto, normas complementares.
+        fundamento: CTN, art. 100, I e parágrafo único.
+      - nivel: 2
+        assunto: Interpretação e integração
+        enunciado: Considere as afirmações abaixo, nos termos do CTN.
+        itens:
+          - Na ausência de disposição expressa, a autoridade utilizará sucessivamente, na ordem indicada, a analogia, os princípios gerais de direito tributário, os princípios gerais de direito público e a equidade.
+          - O emprego da analogia poderá resultar na exigência de tributo não previsto em lei, desde que haja identidade de razão.
+          - Interpreta-se literalmente a legislação tributária que disponha sobre outorga de isenção.
+          - A lei tributária que define infrações interpreta-se da maneira mais favorável ao Fisco, em caso de dúvida quanto à capitulação legal do fato.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, III e IV.
+          D: I e III.
+          E: II e III.
+        resposta: D
+        comentario: I reproduz o art. 108. III reproduz o art. 111, II. II está errada porque a analogia <i>não</i> pode resultar em tributo não previsto em lei. IV está errada porque, na dúvida, a interpretação deve ser a mais favorável ao <i>acusado</i>.
+        fundamento: CTN, arts. 108, § 1º; 111, II; 112.
+      - nivel: 3
+        assunto: Retroatividade benigna
+        enunciado: Em 2025, foi lavrado auto de lançamento por falta de recolhimento de ICMS relativo a fatos geradores de 2024, com multa de 100% do imposto. Em 2026, com o processo ainda pendente de julgamento administrativo, lei estadual reduziu essa multa para 60% e, na mesma ocasião, majorou a alíquota do imposto. Nos termos do CTN,
+        alternativas:
+          A: aplicam-se a multa de 100% e a alíquota vigente em 2024, pois o lançamento rege-se pela lei da data do fato gerador.
+          B: aplicam-se a multa de 60% e a nova alíquota, pois a lei posterior incide sobre atos não definitivamente julgados.
+          C: aplicam-se a multa de 100% e a nova alíquota.
+          D: a multa somente seria reduzida se o contribuinte pagasse o débito à vista.
+          E: aplicam-se a multa de 60% e a alíquota vigente em 2024.
+        resposta: E
+        comentario: A lei que comina penalidade menos severa retroage a ato não definitivamente julgado (art. 106, II, “c”), então vale a multa de 60%. Já o tributo segue a lei vigente na data do fato gerador, ainda que depois modificada (art. 144), por isso a alíquota é a de 2024.
+        fundamento: CTN, arts. 106, II, “c”, e 144.
+
   - titulo: Obrigação Tributária, Fato Gerador e Sujeição Passiva
     base: CTN, arts. 113 a 127
     questoes:
@@ -71,4 +309,340 @@ temas:
         resposta: D
         comentario: Quando a remissão é outorgada pessoalmente a um dos obrigados, subsiste a solidariedade quanto aos demais pelo saldo. (A) está errada pela mesma razão. (B) está errada porque a solidariedade tributária não comporta benefício de ordem. (C) e (E) invertem os efeitos legais, já que a interrupção da prescrição contra um prejudica os demais e o pagamento feito por um aproveita aos demais.
         fundamento: CTN, art. 124, parágrafo único; art. 125, I a III.
-dica: "<b>Olho na FCC:</b> a banca troca palavras-chave da lei, como “tributo” por “penalidade”, “suspensiva” por “resolutória”, ou acrescenta “exclusivamente” e “desde que registradas”. Ao errar, sublinhe a palavra trocada."
+
+  - titulo: Responsabilidade Tributária
+    base: CTN, arts. 128 a 138; Súmulas 360 e 430 do STJ
+    questoes:
+      - nivel: 1
+        assunto: Sucessão imobiliária
+        enunciado: Imóvel urbano com débitos de IPTU de exercícios anteriores foi adquirido em hasta pública. Nos termos do CTN, em relação a esses débitos,
+        alternativas:
+          A: o arrematante responde integralmente, como sucessor.
+          B: o arrematante responde até o limite do valor venal do imóvel.
+          C: a sub-rogação ocorre sobre o respectivo preço.
+          D: o crédito tributário extingue-se com a arrematação.
+          E: arrematante e antigo proprietário respondem solidariamente.
+        resposta: C
+        comentario: Em regra, o adquirente de imóvel sucede nos tributos relativos ao bem. Na arrematação em hasta pública, porém, a sub-rogação ocorre sobre o preço pago, e o arrematante recebe o imóvel livre desses débitos.
+        fundamento: CTN, art. 130 e parágrafo único.
+      - nivel: 2
+        assunto: Sucessão empresarial
+        enunciado: Considere as afirmações abaixo sobre a responsabilidade de quem adquire fundo de comércio ou estabelecimento comercial e continua a respectiva exploração.
+        itens:
+          - Responde integralmente pelos tributos relativos ao estabelecimento adquirido, devidos até a data do ato, se o alienante cessar a exploração do comércio, indústria ou atividade.
+          - Responde subsidiariamente com o alienante, se este iniciar, dentro de seis meses a contar da alienação, nova atividade no mesmo ou em outro ramo.
+          - A regra aplica-se também à alienação judicial de filial em processo de falência.
+          - A responsabilidade alcança os tributos relativos ao fundo ou estabelecimento adquirido, devidos até a data do ato.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e IV.
+          C: I, III e IV.
+          D: II e III.
+          E: III e IV.
+        resposta: B
+        comentario: I, II e IV reproduzem o art. 133, caput e incisos. III está errada porque o § 1º afasta a responsabilidade na alienação judicial em processo de falência e na de filial ou unidade produtiva isolada em recuperação judicial.
+        fundamento: CTN, art. 133, I, II e § 1º.
+      - nivel: 2
+        assunto: Responsabilidade de terceiros (art. 135)
+        enunciado: Sociedade limitada deixou de recolher ICMS regularmente declarado. Sem outros elementos, a Fazenda requereu o redirecionamento da execução fiscal ao sócio-administrador, fundamentando-se apenas no inadimplemento. De acordo com o CTN e a jurisprudência do STJ, o pedido
+        alternativas:
+          A: procede, pois o inadimplemento do tributo configura, por si só, infração de lei.
+          B: procede, pois os sócios respondem solidariamente por todos os tributos da sociedade.
+          C: não procede, pois o sócio-administrador jamais responde por tributos da pessoa jurídica.
+          D: não procede, pois o simples inadimplemento não gera a responsabilidade do sócio-gerente, que depende de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos.
+          E: procede, desde que o sócio detenha a maioria do capital social.
+        resposta: D
+        comentario: A Súmula 430 do STJ afirma que o inadimplemento não gera, por si só, a responsabilidade do sócio-gerente. É preciso ato com excesso de poderes ou infração de lei, contrato ou estatuto, como a dissolução irregular da sociedade (Súmula 435). (C) está errada porque o art. 135 prevê essa responsabilidade pessoal.
+        fundamento: CTN, art. 135, III; Súmulas 430 e 435 do STJ.
+      - nivel: 2
+        assunto: Denúncia espontânea
+        enunciado: Contribuinte declarou o ICMS devido na guia de informação e apuração, mas não o recolheu no prazo. Meses depois, antes de qualquer procedimento fiscal, pagou o imposto com juros de mora e pretende afastar a multa invocando a denúncia espontânea. Segundo o STJ, o contribuinte
+        alternativas:
+          A: não tem direito, pois a denúncia espontânea não se aplica aos tributos sujeitos a lançamento por homologação regularmente declarados, mas pagos a destempo.
+          B: tem direito, pois pagou antes de iniciado qualquer procedimento administrativo ou medida de fiscalização.
+          C: tem direito à exclusão apenas da multa punitiva, sendo devida a multa moratória.
+          D: tem direito, desde que o débito seja parcelado.
+          E: não tem direito, pois a denúncia espontânea exige depósito judicial do montante integral.
+        resposta: A
+        comentario: Pela Súmula 360 do STJ, a declaração já constituiu o crédito, então não há infração a ser denunciada espontaneamente. (D) está errada porque o parcelamento também não equivale a pagamento para esse fim.
+        fundamento: CTN, art. 138; Súmula 360 do STJ.
+      - nivel: 3
+        assunto: Responsabilidade por infrações
+        enunciado: Considere as afirmações abaixo, nos termos do CTN.
+        itens:
+          - Salvo disposição de lei em contrário, a responsabilidade por infrações da legislação tributária independe da intenção do agente ou do responsável.
+          - É pessoal ao agente a responsabilidade quanto às infrações conceituadas por lei como crimes, ainda que praticadas no cumprimento de ordem expressa emitida por quem de direito.
+          - É pessoal ao agente a responsabilidade quanto às infrações em cuja definição o dolo específico do agente seja elementar.
+          - A responsabilidade por infrações depende da efetividade, natureza e extensão dos efeitos do ato.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I e III.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: C
+        comentario: I reproduz o art. 136 e III reproduz o art. 137, II. II está errada porque o art. 137, I, exclui a responsabilidade pessoal quando o ato é praticado no cumprimento de ordem expressa. IV contraria o art. 136, segundo o qual a responsabilidade <i>independe</i> da efetividade, natureza e extensão dos efeitos do ato.
+        fundamento: CTN, arts. 136 e 137.
+
+  - titulo: Crédito Tributário e Lançamento
+    base: CTN, arts. 139 a 150 e 173; Súmula 555 do STJ
+    questoes:
+      - nivel: 1
+        assunto: Natureza do lançamento
+        enunciado: Nos termos do CTN, a atividade administrativa de lançamento é
+        alternativas:
+          A: discricionária, cabendo à autoridade avaliar a conveniência de sua realização.
+          B: privativa do Poder Judiciário, quando houver litígio.
+          C: delegável ao particular, nos tributos sujeitos a lançamento por homologação.
+          D: facultativa quando o valor do crédito for inferior ao custo da cobrança.
+          E: vinculada e obrigatória, sob pena de responsabilidade funcional.
+        resposta: E
+        comentario: O parágrafo único do art. 142 diz que o lançamento é atividade vinculada e obrigatória. Ele compete <i>privativamente</i> à autoridade administrativa, o que afasta (B) e (C).
+        fundamento: CTN, art. 142 e parágrafo único.
+      - nivel: 2
+        assunto: Modalidades de lançamento
+        enunciado: Considerando as modalidades de lançamento e a sistemática usual de cada tributo, o ICMS, o IPVA e o ITCD — este quando o contribuinte presta declaração ao Fisco para o cálculo do imposto — são lançados, respectivamente, por
+        alternativas:
+          A: homologação, de ofício e declaração.
+          B: declaração, de ofício e homologação.
+          C: de ofício, homologação e declaração.
+          D: homologação, declaração e de ofício.
+          E: homologação, homologação e homologação.
+        resposta: A
+        comentario: No ICMS, o contribuinte apura e paga o imposto antes de qualquer exame do Fisco, o que é lançamento por homologação. O IPVA é lançado de ofício com base no cadastro de veículos. No ITCD, a declaração do contribuinte serve de base para o cálculo pelo Fisco, o que é lançamento por declaração.
+        fundamento: CTN, arts. 147, 149 e 150.
+      - nivel: 2
+        assunto: Alteração de critério jurídico
+        enunciado: Após notificar o sujeito passivo de diversos lançamentos, a autoridade fiscal passa a adotar novo critério jurídico na interpretação da legislação. Nos termos do CTN, o novo critério
+        alternativas:
+          A: pode ser aplicado retroativamente a todos os lançamentos ainda não pagos.
+          B: pode ser aplicado a fatos geradores anteriores, desde que o lançamento não tenha sido impugnado.
+          C: somente pode ser aplicado, em relação ao mesmo sujeito passivo, quanto a fato gerador ocorrido posteriormente à sua introdução.
+          D: autoriza a revisão de ofício dos lançamentos anteriores, por se tratar de erro de fato.
+          E: depende de lei complementar estadual para ser aplicado.
+        resposta: C
+        comentario: O art. 146 protege a segurança jurídica e impede aplicar o novo critério a fatos geradores anteriores. Mudança de critério jurídico não é erro de fato, então não autoriza revisão de ofício (D).
+        fundamento: CTN, arts. 145, 146 e 149.
+      - nivel: 3
+        assunto: Decadência
+        enunciado: Contribuinte de ICMS deixou de declarar e de recolher o imposto relativo a fatos geradores ocorridos em março de 2021, sem dolo, fraude ou simulação. Segundo o CTN e a jurisprudência do STJ, o prazo decadencial para o lançamento de ofício
+        alternativas:
+          A: conta-se da data do fato gerador, encerrando-se em março de 2026.
+          B: conta-se da data em que o Fisco tomou conhecimento da omissão.
+          C: é de dez anos, por se tratar de tributo sujeito a lançamento por homologação.
+          D: conta-se do primeiro dia do exercício seguinte àquele em que o lançamento poderia ter sido efetuado, encerrando-se em 31 de dezembro de 2026.
+          E: não corre enquanto o contribuinte não apresentar a declaração.
+        resposta: D
+        comentario: Sem declaração e sem pagamento, não há o que homologar, então se aplica o art. 173, I, e não o art. 150, § 4º (Súmula 555 do STJ). O prazo começa em 1º/1/2022 e termina em 31/12/2026. A contagem a partir do fato gerador (A) vale quando há pagamento antecipado, ainda que parcial.
+        fundamento: CTN, arts. 150, § 4º, e 173, I; Súmula 555 do STJ.
+
+  - titulo: Suspensão da Exigibilidade do Crédito
+    base: CTN, arts. 151 a 155-A; Súmula 112 do STJ
+    questoes:
+      - nivel: 1
+        assunto: Hipóteses de suspensão
+        enunciado: NÃO suspende a exigibilidade do crédito tributário
+        alternativas:
+          A: a remissão.
+          B: a moratória.
+          C: o parcelamento.
+          D: o depósito do seu montante integral.
+          E: a concessão de medida liminar em mandado de segurança.
+        resposta: A
+        comentario: A remissão <i>extingue</i> o crédito (art. 156, IV). As demais hipóteses estão no art. 151, que lista as causas de suspensão.
+        fundamento: CTN, arts. 151 e 156, IV.
+      - nivel: 2
+        assunto: Efeitos da suspensão
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - A suspensão da exigibilidade do crédito não dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal.
+          - Concedida liminar em mandado de segurança, fica a Fazenda impedida de efetuar o lançamento, ainda que para prevenir a decadência.
+          - O depósito somente suspende a exigibilidade do crédito tributário se for integral e em dinheiro.
+          - A moratória concedida em caráter individual gera direito adquirido ao beneficiado.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: B
+        comentario: I reproduz o parágrafo único do art. 151. III reproduz a Súmula 112 do STJ. II está errada porque a suspensão impede a cobrança, não o lançamento, que pode ser feito para evitar a decadência. IV contraria o art. 155, pelo qual a moratória individual não gera direito adquirido.
+        fundamento: CTN, arts. 151, parágrafo único, e 155; Súmula 112 do STJ.
+      - nivel: 2
+        assunto: Parcelamento
+        enunciado: Lei estadual institui programa de parcelamento de débitos de ICMS, sem dispor sobre encargos. Segundo o CTN,
+        alternativas:
+          A: o parcelamento exclui a incidência de juros e multas.
+          B: o parcelamento exclui a multa, mas não os juros.
+          C: o parcelamento extingue o crédito tributário com o pagamento da primeira parcela.
+          D: salvo disposição de lei em contrário, o parcelamento não exclui a incidência de juros e multas.
+          E: o parcelamento depende de autorização do Senado Federal.
+        resposta: D
+        comentario: O § 1º do art. 155-A diz que, salvo disposição de lei em contrário, o parcelamento não exclui juros e multas. Ele apenas <i>suspende</i> a exigibilidade, e o crédito só se extingue com o pagamento integral.
+        fundamento: CTN, art. 155-A, §§ 1º e 2º.
+      - nivel: 3
+        assunto: Moratória
+        enunciado: Considere as afirmações abaixo sobre a moratória, nos termos do CTN.
+        itens:
+          - Pode ser concedida pela União quanto a tributos de competência dos Estados, quando simultaneamente concedida quanto aos tributos federais e às obrigações de direito privado.
+          - Salvo disposição de lei em contrário, abrange somente os créditos definitivamente constituídos à data da lei ou do despacho que a conceder, ou cujo lançamento já tenha sido iniciado àquela data por ato regularmente notificado ao sujeito passivo.
+          - Se concedida em caráter individual e revogada por ter o beneficiado agido com dolo, não se admite a cobrança de penalidade.
+          - Revogada por simulação do beneficiado, o tempo decorrido entre a concessão e a revogação não se computa para efeito da prescrição.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: III e IV.
+          E: I, II e IV.
+        resposta: E
+        comentario: I reproduz o art. 152, I, “b”, II reproduz o art. 154, e IV reproduz o parágrafo único do art. 155. III está errada porque, havendo dolo ou simulação, a revogação vem <i>com</i> imposição da penalidade cabível.
+        fundamento: CTN, arts. 152, 154 e 155.
+
+  - titulo: Extinção do Crédito Tributário
+    base: CTN, arts. 156 a 174; LC 118/2005; Súmula 436 do STJ
+    questoes:
+      - nivel: 1
+        assunto: Modalidades de extinção
+        enunciado: Extingue o crédito tributário
+        alternativas:
+          A: a dação em pagamento em bens imóveis, na forma e condições estabelecidas em lei.
+          B: a anistia.
+          C: a moratória.
+          D: a isenção.
+          E: o depósito do montante integral.
+        resposta: A
+        comentario: A dação em bens imóveis está no art. 156, XI. Anistia e isenção <i>excluem</i> o crédito, enquanto moratória e depósito <i>suspendem</i> sua exigibilidade.
+        fundamento: CTN, arts. 151, 156 e 175.
+      - nivel: 2
+        assunto: Imputação do pagamento
+        enunciado: Sujeito passivo tem, perante o mesmo Estado, débitos vencidos de imposto, de taxa e de contribuição de melhoria, todos decorrentes de obrigação própria. Ao realizar pagamento insuficiente para quitar todos, a autoridade fará a imputação na seguinte ordem
+        alternativas:
+          A: impostos, taxas e contribuição de melhoria.
+          B: contribuição de melhoria, taxas e impostos.
+          C: taxas, impostos e contribuição de melhoria.
+          D: ordem decrescente dos prazos de prescrição.
+          E: ordem crescente dos montantes.
+        resposta: B
+        comentario: A ordem do art. 163 tem quatro critérios. Primeiro os débitos por obrigação própria; depois contribuições de melhoria, taxas e, por último, impostos; em seguida a ordem <i>crescente</i> dos prazos de prescrição; e, por fim, a ordem <i>decrescente</i> dos montantes.
+        fundamento: CTN, art. 163.
+      - nivel: 2
+        assunto: Restituição e compensação
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - É vedada a compensação mediante o aproveitamento de tributo objeto de contestação judicial pelo sujeito passivo, antes do trânsito em julgado da respectiva decisão.
+          - A restituição de ICMS pago indevidamente somente será feita a quem prove haver assumido o encargo financeiro ou, no caso de tê-lo transferido a terceiro, estar por este expressamente autorizado.
+          - O direito de pleitear a restituição extingue-se em dez anos, contados do fato gerador, nos tributos sujeitos a lançamento por homologação.
+          - Prescreve em dois anos a ação anulatória da decisão administrativa que denegar a restituição.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, II e IV.
+          D: I, III e IV.
+          E: II, III e IV.
+        resposta: C
+        comentario: I reproduz o art. 170-A, II reproduz o art. 166 (o ICMS comporta transferência do encargo) e IV reproduz o art. 169. III está errada porque o prazo é de <i>cinco</i> anos, e, no lançamento por homologação, a extinção do crédito ocorre no pagamento antecipado (LC 118/2005, art. 3º).
+        fundamento: CTN, arts. 166, 168, 169 e 170-A; LC 118/2005, art. 3º.
+      - nivel: 3
+        assunto: Prescrição
+        enunciado: Considerando o CTN e a jurisprudência do STJ sobre a prescrição tributária, é correto afirmar que
+        alternativas:
+          A: a entrega de declaração pelo contribuinte reconhecendo débito fiscal constitui o crédito tributário, dispensada qualquer outra providência por parte do Fisco.
+          B: a prescrição interrompe-se somente pela citação pessoal do devedor.
+          C: o prazo prescricional conta-se da data do fato gerador.
+          D: o pedido de parcelamento não interrompe a prescrição, por não importar reconhecimento do débito.
+          E: a prescrição atinge apenas o direito de ação, sem extinguir o crédito tributário.
+        resposta: A
+        comentario: (A) reproduz a Súmula 436 do STJ. (B) está errada porque basta o despacho do juiz que ordena a citação (art. 174, I). (C) está errada porque o prazo conta da constituição definitiva do crédito. (D) está errada porque o pedido de parcelamento é ato inequívoco de reconhecimento do débito (art. 174, IV). (E) está errada porque a prescrição extingue o crédito (art. 156, V).
+        fundamento: CTN, arts. 156, V, e 174; Súmula 436 do STJ.
+      - nivel: 3
+        assunto: Remissão
+        enunciado: A lei pode autorizar a autoridade administrativa a conceder, por despacho fundamentado, remissão total ou parcial do crédito tributário, atendendo, entre outros fatores,
+        alternativas:
+          A: ao erro ou ignorância escusáveis do sujeito passivo quanto a matéria de direito.
+          B: à conveniência da Administração em reduzir o estoque da dívida ativa.
+          C: ao grau de cooperação do sujeito passivo com a fiscalização.
+          D: à diminuta importância do crédito tributário.
+          E: ao tempo decorrido desde o fato gerador.
+        resposta: D
+        comentario: A diminuta importância do crédito está no art. 172, III. (A) está errada porque o CTN fala em erro ou ignorância escusáveis quanto a matéria de <i>fato</i>, e não de direito. Os outros fatores do art. 172 são a situação econômica do sujeito passivo, a equidade e as condições peculiares a determinada região.
+        fundamento: CTN, art. 172.
+
+  - titulo: Exclusão do Crédito — Isenção e Anistia
+    base: CTN, arts. 175 a 182; Súmula 544 do STF
+    questoes:
+      - nivel: 1
+        assunto: Isenção
+        enunciado: Salvo disposição de lei em contrário, a isenção
+        alternativas:
+          A: é extensiva aos tributos instituídos posteriormente à sua concessão.
+          B: dispensa o cumprimento das obrigações acessórias.
+          C: pode ser concedida por decreto do Poder Executivo.
+          D: aplica-se a todas as espécies tributárias do ente que a concedeu.
+          E: não é extensiva às taxas e às contribuições de melhoria.
+        resposta: E
+        comentario: (E) reproduz o art. 177, I. (A) contraria o art. 177, II. (B) contraria o parágrafo único do art. 175. (C) está errada porque a isenção decorre sempre de lei (art. 176). (D) contraria o próprio art. 177, I.
+        fundamento: CTN, arts. 175 a 177.
+      - nivel: 2
+        assunto: Anistia
+        enunciado: Lei estadual concede anistia de multas por infrações à legislação do ICMS. Nos termos do CTN, a anistia
+        alternativas:
+          A: alcança os atos qualificados como crimes, desde que o tributo seja pago.
+          B: abrange exclusivamente as infrações cometidas anteriormente à vigência da lei que a concede.
+          C: aplica-se às infrações resultantes de conluio, independentemente de previsão legal.
+          D: dispensa o pagamento do tributo relativo às infrações anistiadas.
+          E: abrange as infrações praticadas com dolo, fraude ou simulação, se concedida em caráter geral.
+        resposta: B
+        comentario: (B) reproduz o art. 180. (A) e (E) contrariam o inciso I do art. 180. (C) contraria o inciso II, pelo qual a anistia não alcança o conluio salvo disposição em contrário. (D) está errada porque a anistia exclui só a penalidade, e não o tributo.
+        fundamento: CTN, arts. 175, II, e 180.
+      - nivel: 3
+        assunto: Isenção onerosa
+        enunciado: Lei estadual concedeu isenção de IPVA, pelo prazo de cinco anos, aos veículos das empresas de transporte coletivo que renovassem a frota com ônibus elétricos. A empresa Alfa cumpriu as condições e passou a usufruir do benefício. Dois anos depois, nova lei revogou a isenção. Em relação à empresa Alfa,
+        alternativas:
+          A: a isenção deve ser mantida até o fim do prazo, pois concedida por prazo certo e em função de determinadas condições.
+          B: a revogação produz efeitos imediatos, pois a isenção pode ser revogada a qualquer tempo.
+          C: a revogação produz efeitos a partir do exercício seguinte, pela anterioridade anual.
+          D: a revogação é válida, mas gera direito a indenização equivalente ao imposto.
+          E: a isenção somente poderia ter sido concedida por lei complementar.
+        resposta: A
+        comentario: Pelo art. 178 do CTN e pela Súmula 544 do STF, a isenção concedida por prazo certo e sob condição onerosa não pode ser livremente suprimida para quem já cumpriu as condições. A regra geral de revogação a qualquer tempo (B) vale só para as isenções incondicionadas ou sem prazo.
+        fundamento: CTN, art. 178; Súmula 544 do STF.
+
+  - titulo: Garantias e Privilégios; Administração Tributária
+    base: CTN, arts. 183 a 208
+    questoes:
+      - nivel: 2
+        assunto: Garantias e preferências
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - Presume-se fraudulenta a alienação de bens por sujeito passivo em débito com a Fazenda Pública por crédito tributário regularmente inscrito como dívida ativa, salvo se reservados bens ou rendas suficientes ao total pagamento da dívida inscrita.
+          - O crédito tributário prefere a qualquer outro, seja qual for sua natureza ou o tempo de sua constituição, ressalvados os créditos decorrentes da legislação do trabalho ou do acidente de trabalho.
+          - A cobrança judicial do crédito tributário está sujeita a habilitação em falência.
+          - Na falência, o crédito tributário prefere aos créditos com garantia real, no limite do valor do bem gravado.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e III.
+          B: II e IV.
+          C: I e III.
+          D: I e II.
+          E: III e IV.
+        resposta: D
+        comentario: I reproduz o art. 185 e seu parágrafo único. II reproduz o art. 186. III contraria o art. 187, pelo qual a cobrança judicial não se sujeita a habilitação em falência. IV contraria o parágrafo único do art. 186, pelo qual, na falência, o crédito tributário <i>não</i> prefere aos créditos com garantia real, no limite do bem gravado.
+        fundamento: CTN, arts. 185 a 187.
+      - nivel: 3
+        assunto: Fiscalização
+        enunciado: Durante ação fiscal, o contribuinte recusa-se a exibir livros comerciais, alegando que a legislação civil os protege por sigilo. Nos termos do CTN, a recusa
+        alternativas:
+          A: procede, pois o sigilo dos livros comerciais é absoluto.
+          B: procede, salvo se houver autorização judicial para o exame.
+          C: procede quanto aos livros comerciais, mas não quanto aos fiscais.
+          D: não procede, mas os livros somente precisam ser conservados por dois anos.
+          E: não procede, pois não se aplicam disposições legais excludentes ou limitativas do direito de examinar livros e documentos comerciais ou fiscais, que devem ser conservados até a prescrição dos créditos tributários correspondentes.
+        resposta: E
+        comentario: (E) reproduz o art. 195 e seu parágrafo único. Pela Súmula 439 do STF, o exame dos livros comerciais é limitado aos pontos objeto da investigação, mas não depende de autorização judicial. Os livros devem ser conservados até a prescrição dos créditos.
+        fundamento: CTN, art. 195; Súmula 439 do STF.
+dica: "<b>Olho na FCC:</b> a banca troca palavras-chave da lei, como “tributo” por “penalidade”, “suspensiva” por “resolutória”, “fato” por “direito” e “crescente” por “decrescente”, ou acrescenta “exclusivamente” e “desde que registradas”. Ao errar, sublinhe a palavra trocada."
