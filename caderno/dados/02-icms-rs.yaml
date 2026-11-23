@@ -1,0 +1,622 @@
+caderno: 2
+materia: Legislação Tributária Estadual — ICMS, ITCD e IPVA
+meta: 45
+temas:
+  - titulo: O ICMS na Constituição Federal
+    base: CF, art. 155, II e § 2º
+    questoes:
+      - nivel: 1
+        assunto: Características constitucionais
+        enunciado: O ICMS, de competência dos Estados e do Distrito Federal,
+        alternativas:
+          A: será obrigatoriamente seletivo, em função da essencialidade das mercadorias e dos serviços.
+          B: incide sobre operações que destinem mercadorias para o exterior.
+          C: será não cumulativo, compensando-se o que for devido em cada operação com o montante cobrado nas anteriores pelo mesmo ou por outro Estado ou pelo Distrito Federal.
+          D: tem como regra que a isenção ou não incidência implica crédito para compensação com o montante devido nas operações seguintes.
+          E: incide sobre o ouro, quando definido em lei como ativo financeiro.
+        resposta: C
+        comentario: (C) reproduz o art. 155, § 2º, I. (A) está errada porque a Constituição diz que o ICMS “poderá” ser seletivo. (B) está errada porque a exportação é imune. (D) inverte a regra do inciso II. (E) está errada porque o ouro ativo financeiro sofre apenas o IOF.
+        fundamento: CF, art. 155, § 2º, I a III e X, “a” e “c”.
+      - nivel: 1
+        assunto: Benefícios fiscais
+        enunciado: Nos termos da Constituição Federal, a concessão e a revogação de isenções, incentivos e benefícios fiscais do ICMS
+        alternativas:
+          A: dependem de deliberação dos Estados e do Distrito Federal, na forma regulada em lei complementar.
+          B: podem ser feitas por lei estadual, independentemente de qualquer deliberação conjunta.
+          C: dependem de resolução do Senado Federal.
+          D: dependem de lei complementar federal específica para cada benefício.
+          E: são de competência do Ministro de Estado da Fazenda.
+        resposta: A
+        comentario: O art. 155, § 2º, XII, “g”, remete à lei complementar, que é a LC 24/1975. Por ela, os benefícios são concedidos por convênios celebrados no CONFAZ. Benefício concedido por lei estadual isolada é inconstitucional, a chamada “guerra fiscal”.
+        fundamento: CF, art. 155, § 2º, XII, “g”; LC 24/1975.
+      - nivel: 2
+        assunto: Alíquotas e Senado Federal
+        enunciado: Segundo a Constituição Federal, em relação às alíquotas do ICMS,
+        alternativas:
+          A: as alíquotas internas de cada Estado são fixadas por resolução do Senado Federal.
+          B: o Senado Federal estabelecerá alíquotas mínimas nas operações internas mediante resolução de iniciativa privativa do Presidente da República.
+          C: as alíquotas interestaduais são fixadas por convênio celebrado no CONFAZ.
+          D: as alíquotas internas podem ser livremente fixadas em patamar inferior ao das interestaduais.
+          E: resolução do Senado Federal, de iniciativa do Presidente da República ou de um terço dos Senadores, aprovada pela maioria absoluta de seus membros, estabelecerá as alíquotas aplicáveis às operações e prestações interestaduais e de exportação.
+        resposta: E
+        comentario: (E) reproduz o art. 155, § 2º, IV. (B) está errada porque fixar alíquotas mínimas internas é <i>facultado</i> ao Senado, por resolução de iniciativa de um terço dos Senadores. (D) está errada porque, salvo deliberação dos Estados, as alíquotas internas não podem ser inferiores às interestaduais. As alíquotas internas são fixadas por lei de cada Estado (A).
+        fundamento: CF, art. 155, § 2º, IV a VI.
+      - nivel: 2
+        assunto: Incidências especiais
+        enunciado: Considere as afirmações abaixo sobre o ICMS, à luz da Constituição Federal.
+        itens:
+          - Incide sobre a entrada de bem importado do exterior por pessoa física, ainda que não seja contribuinte habitual do imposto, qualquer que seja a sua finalidade.
+          - Na importação, o imposto cabe ao Estado onde estiver situado o porto ou aeroporto de desembarque.
+          - Incide sobre o valor total da operação quando mercadorias forem fornecidas com serviços não compreendidos na competência tributária dos Municípios.
+          - Incide sobre as prestações de serviço de comunicação nas modalidades de radiodifusão sonora e de sons e imagens de recepção livre e gratuita.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: II e III.
+        resposta: B
+        comentario: I e III reproduzem o art. 155, § 2º, IX, “a” e “b”. II está errada porque o imposto cabe ao Estado onde estiver o domicílio ou o estabelecimento do destinatário. IV está errada porque essa radiodifusão é imune (inciso X, “d”).
+        fundamento: CF, art. 155, § 2º, IX e X, “d”.
+      - nivel: 3
+        assunto: Isenção e anulação de créditos
+        enunciado: Comerciante gaúcho adquiriu mercadorias de outro Estado com ICMS destacado de R$ 1.200,00 e as revendeu em operação interna isenta. Não há na legislação disposição específica sobre a manutenção do crédito. Nessa situação, o crédito de R$ 1.200,00
+        alternativas:
+          A: pode ser mantido e utilizado para compensar débitos de outras operações.
+          B: pode ser transferido a outro contribuinte do mesmo Estado.
+          C: deve ser restituído pelo Estado de origem.
+          D: deve ser anulado.
+          E: somente pode ser mantido se a mercadoria se destinar a consumidor final.
+        resposta: D
+        comentario: Pelo art. 155, § 2º, II, “b”, salvo determinação em contrário da legislação, a isenção acarreta a anulação do crédito relativo às operações anteriores. A manutenção do crédito só ocorre quando a legislação a prevê expressamente.
+        fundamento: CF, art. 155, § 2º, II, “a” e “b”.
+
+  - titulo: Imunidades e Não Incidência do ICMS
+    base: CF, art. 155, § 2º, X; LC 87/1996, art. 3º; LC 116/2003
+    questoes:
+      - nivel: 2
+        assunto: Hipóteses de não incidência
+        enunciado: Nos termos da Lei Complementar nº 87/1996, o ICMS incide sobre
+        alternativas:
+          A: as operações de arrendamento mercantil.
+          B: a venda do bem arrendado ao arrendatário.
+          C: as operações de que decorra a transferência de propriedade de estabelecimento comercial.
+          D: as operações de que decorra a transferência de bens móveis salvados de sinistro para companhias seguradoras.
+          E: as operações com ouro definido em lei como ativo financeiro.
+        resposta: B
+        comentario: O art. 3º, VIII, afasta o ICMS do arrendamento mercantil, “não compreendida a venda do bem arrendado ao arrendatário”, então a venda é tributada. As demais alternativas estão entre as hipóteses de não incidência do art. 3º.
+        fundamento: LC 87/1996, art. 3º, IV, VI, VIII e IX.
+      - nivel: 2
+        assunto: Exportação indireta
+        enunciado: Indústria calçadista gaúcha vende sua produção a empresa comercial exportadora, com o fim específico de exportação para o exterior. Nos termos da Constituição e da LC 87/1996,
+        alternativas:
+          A: incide o ICMS normalmente, pois a operação é interna.
+          B: incide o ICMS com a alíquota interestadual.
+          C: não incide o ICMS, mas a indústria deve estornar os créditos das entradas.
+          D: não incide o ICMS, pois a operação equipara-se à exportação, assegurados a manutenção e o aproveitamento do imposto cobrado nas operações anteriores.
+          E: o imposto fica diferido até o embarque da mercadoria para o exterior.
+        resposta: D
+        comentario: O parágrafo único do art. 3º da LC 87/1996 equipara à exportação a saída com fim específico de exportação para empresa comercial exportadora. A Constituição assegura a manutenção dos créditos nas exportações, por isso (C) está errada.
+        fundamento: CF, art. 155, § 2º, X, “a”; LC 87/1996, art. 3º, II e parágrafo único.
+      - nivel: 2
+        assunto: Operações interestaduais imunes
+        enunciado: Nos termos da Constituição Federal, o ICMS não incidirá sobre operações que destinem a outros Estados
+        alternativas:
+          A: petróleo, inclusive lubrificantes, combustíveis líquidos e gasosos dele derivados, e energia elétrica.
+          B: veículos automotores novos.
+          C: produtos industrializados semielaborados.
+          D: medicamentos de uso humano.
+          E: mercadorias destinadas a consumidor final não contribuinte.
+        resposta: A
+        comentario: (A) reproduz o art. 155, § 2º, X, “b”. A regra favorece o Estado de destino, onde o imposto é cobrado na entrada quando não há industrialização ou comercialização. Para os combustíveis com tributação monofásica (art. 155, § 2º, XII, “h”), essa imunidade não se aplica. Semielaborados (C) são tema da imunidade nas exportações.
+        fundamento: CF, art. 155, § 2º, X, “b”, e XII, “h”.
+      - nivel: 3
+        assunto: ICMS e ISS
+        enunciado: Oficina mecânica conserta veículo de cliente, empregando peças novas. Considerando a LC 87/1996 e a LC 116/2003,
+        alternativas:
+          A: incide somente o ISS, sobre o valor total cobrado.
+          B: incide somente o ICMS, sobre o valor total, pois há fornecimento de mercadorias.
+          C: não incide ICMS nem ISS, por se tratar de serviço de manutenção.
+          D: incide o ICMS sobre o valor total e o ISS apenas sobre a mão de obra.
+          E: incide o ISS sobre o serviço e o ICMS sobre as peças e partes empregadas.
+        resposta: E
+        comentario: O item 14.01 da lista da LC 116/2003 ressalva que “peças e partes empregadas” ficam sujeitas ao ICMS. A regra geral do art. 3º, V, da LC 87/1996 (mercadoria usada em serviço do ISS não paga ICMS) cede quando a LC 116 faz ressalva expressa.
+        fundamento: LC 87/1996, arts. 2º, V, e 3º, V; LC 116/2003, item 14.01.
+
+  - titulo: Fato Gerador e Momento da Ocorrência
+    base: LC 87/1996, arts. 2º e 12; Súmula Vinculante 48; STF, ADC 49
+    questoes:
+      - nivel: 1
+        assunto: Incidência sobre transporte
+        enunciado: O ICMS incide sobre a prestação de serviços de transporte
+        alternativas:
+          A: intramunicipal, de pessoas ou de cargas.
+          B: de qualquer natureza, inclusive intramunicipal.
+          C: interestadual e intermunicipal, por qualquer via, de pessoas, bens, mercadorias ou valores.
+          D: apenas de cargas, excluído o transporte de passageiros.
+          E: apenas interestadual, cabendo o intermunicipal ao ISS.
+        resposta: C
+        comentario: (C) reproduz o art. 2º, II, da LC 87/1996. O transporte intramunicipal é tributado pelo ISS.
+        fundamento: LC 87/1996, art. 2º, II.
+      - nivel: 1
+        assunto: Importação
+        enunciado: Na importação de mercadorias do exterior, considera-se ocorrido o fato gerador do ICMS no momento
+        alternativas:
+          A: da celebração do contrato de câmbio.
+          B: do embarque da mercadoria no exterior.
+          C: da entrada da mercadoria no estabelecimento do importador.
+          D: da emissão da fatura comercial.
+          E: do desembaraço aduaneiro.
+        resposta: E
+        comentario: (E) segue o art. 12, IX, da LC 87/1996. A Súmula Vinculante 48 confirma a legitimidade da cobrança por ocasião do desembaraço aduaneiro.
+        fundamento: LC 87/1996, art. 12, IX; Súmula Vinculante 48.
+      - nivel: 2
+        assunto: Transferência entre estabelecimentos
+        enunciado: Indústria com estabelecimentos em Caxias do Sul (RS) e em Joinville (SC) transfere mercadorias de um para o outro. Considerando a decisão do STF na ADC 49 e a LC 87/1996, com a redação dada pela LC 204/2023,
+        alternativas:
+          A: incide o ICMS normalmente, com a alíquota interestadual.
+          B: incide o ICMS, com base de cálculo correspondente ao custo da mercadoria.
+          C: não se considera ocorrido o fato gerador, mantendo-se o crédito relativo às operações e prestações anteriores em favor do contribuinte.
+          D: não incide o ICMS, devendo o contribuinte estornar os créditos das entradas.
+          E: incide o ICMS apenas porque a transferência é interestadual.
+        resposta: C
+        comentario: Na ADC 49, o STF afastou a incidência do ICMS no deslocamento entre estabelecimentos do mesmo titular, porque não há circulação jurídica. A LC 204/2023 incorporou o entendimento e assegurou a manutenção dos créditos.
+        fundamento: LC 87/1996, art. 12, § 4º (LC 204/2023); STF, ADC 49.
+      - nivel: 2
+        assunto: Momento do fato gerador
+        enunciado: Considere as afirmações abaixo sobre o momento em que se considera ocorrido o fato gerador do ICMS, nos termos da LC 87/1996.
+        itens:
+          - No fornecimento de alimentação e bebidas por bares e restaurantes, no momento do fornecimento.
+          - Na prestação de serviço de transporte interestadual, no início da prestação.
+          - Na prestação onerosa de serviço de comunicação, no momento do pagamento da fatura pelo usuário.
+          - Na aquisição em licitação pública de mercadorias importadas apreendidas ou abandonadas, no momento da aquisição.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e IV.
+          C: I, III e IV.
+          D: II e III.
+          E: III e IV.
+        resposta: B
+        comentario: I, II e IV correspondem ao art. 12, II, V e XI. III está errada porque o fato gerador da comunicação ocorre na <i>prestação</i> onerosa do serviço (art. 12, VII), e não no pagamento da fatura.
+        fundamento: LC 87/1996, art. 12, II, V, VII e XI.
+      - nivel: 3
+        assunto: Entrega antes do desembaraço
+        enunciado: Mercadoria importada do exterior por empresa gaúcha foi entregue ao importador antes do desembaraço aduaneiro. Nos termos da LC 87/1996,
+        alternativas:
+          A: o fato gerador somente ocorrerá no desembaraço aduaneiro.
+          B: não ocorre fato gerador, por falta de desembaraço.
+          C: o fato gerador ocorre na entrada da mercadoria no estabelecimento do importador.
+          D: considera-se ocorrido o fato gerador no momento da entrega, devendo a autoridade responsável exigir a comprovação do pagamento do imposto.
+          E: o fato gerador ocorre na data da contratação do câmbio.
+        resposta: D
+        comentario: (D) reproduz o art. 12, § 3º. A regra evita que a entrega antecipada sirva para escapar do imposto. Normalmente, a entrega pelo depositário só é autorizada mediante comprovante de pagamento (§ 2º).
+        fundamento: LC 87/1996, art. 12, IX e §§ 2º e 3º.
+      - nivel: 3
+        assunto: Venda a não contribuinte de outro Estado
+        enunciado: Loja virtual estabelecida em São Paulo vende eletrodoméstico a consumidor final pessoa física, não contribuinte do ICMS, domiciliado em Pelotas (RS). Segundo a Constituição Federal,
+        alternativas:
+          A: adota-se a alíquota interestadual e cabe ao RS o diferencial entre sua alíquota interna e a interestadual, sendo o remetente o responsável pelo recolhimento do diferencial.
+          B: adota-se a alíquota interna de São Paulo, cabendo todo o imposto a esse Estado.
+          C: adota-se a alíquota interestadual, sendo o consumidor o responsável pelo recolhimento do diferencial ao RS.
+          D: adota-se a alíquota interna do RS, cabendo todo o imposto a esse Estado.
+          E: não incide o ICMS, por se tratar de venda a não contribuinte.
+        resposta: A
+        comentario: Desde a EC 87/2015, nas vendas a consumidor final de outro Estado, contribuinte ou não, aplica-se a alíquota interestadual e o diferencial cabe ao Estado de destino. Quando o destinatário não é contribuinte, o responsável é o remetente. (B) descreve a regra anterior à emenda.
+        fundamento: CF, art. 155, § 2º, VII e VIII, “b”; LC 87/1996, art. 12, XVI.
+
+  - titulo: Base de Cálculo
+    base: LC 87/1996, arts. 13 a 18; STF, Tema 299; Súmula 395 do STJ
+    questoes:
+      - nivel: 1
+        assunto: Composição da base
+        enunciado: Nos termos da LC 87/1996, integra a base de cálculo do ICMS
+        alternativas:
+          A: o desconto incondicional concedido ao adquirente.
+          B: o IPI, em operação entre contribuintes com produto destinado à industrialização, que configure fato gerador de ambos os impostos.
+          C: o frete, quando o transporte for contratado pelo destinatário diretamente com terceiro.
+          D: o montante do próprio imposto, constituindo o respectivo destaque mera indicação para fins de controle.
+          E: o valor do financiamento concedido ao adquirente por instituição financeira independente.
+        resposta: D
+        comentario: (D) reproduz o art. 13, § 1º, I. É o cálculo “por dentro”. (A) está errada porque só integram a base os descontos concedidos <i>sob condição</i>. (B) é a hipótese de exclusão do IPI (§ 2º). (C) está errada porque o frete integra a base quando o transporte é feito pelo remetente ou por sua conta e ordem e cobrado em separado.
+        fundamento: LC 87/1996, art. 13, § 1º, I e II, e § 2º.
+      - nivel: 2
+        assunto: Cálculo por dentro
+        enunciado: Mercadoria cujo valor, sem o imposto, é de R$ 830,00 é vendida em operação interna sujeita à alíquota hipotética de 17%. Considerando que o ICMS integra sua própria base de cálculo, a base de cálculo e o imposto são, respectivamente,
+        alternativas:
+          A: R$ 830,00 e R$ 141,10.
+          B: R$ 1.000,00 e R$ 170,00.
+          C: R$ 971,10 e R$ 141,10.
+          D: R$ 1.000,00 e R$ 141,10.
+          E: R$ 830,00 e R$ 170,00.
+        resposta: B
+        comentario: "Base = 830 ÷ (1 − 0,17) = 830 ÷ 0,83 = R$ 1.000,00. ICMS = 1.000 × 17% = R$ 170,00. Confira que 1.000 − 170 = 830. A alternativa (A) aplica a alíquota “por fora”."
+        fundamento: LC 87/1996, art. 13, § 1º, I.
+      - nivel: 2
+        assunto: IPI na base de cálculo
+        enunciado: Indústria vende produto por R$ 10.000,00, com IPI destacado de R$ 1.000,00, em duas operações internas distintas. Na primeira, o adquirente é loja que revenderá o produto. Na segunda, é hospital que o utilizará em seu ativo imobilizado. As bases de cálculo do ICMS são, respectivamente,
+        alternativas:
+          A: R$ 10.000,00 e R$ 10.000,00.
+          B: R$ 11.000,00 e R$ 11.000,00.
+          C: R$ 10.000,00 e R$ 11.000,00.
+          D: R$ 11.000,00 e R$ 10.000,00.
+          E: R$ 10.000,00 e R$ 12.000,00.
+        resposta: C
+        comentario: O IPI fica fora da base do ICMS apenas quando a operação é entre contribuintes, com produto destinado à industrialização ou comercialização, e configura fato gerador dos dois impostos. É o caso da loja. Na venda para o ativo imobilizado do hospital, o IPI integra a base.
+        fundamento: LC 87/1996, art. 13, § 2º.
+      - nivel: 2
+        assunto: Base na importação
+        enunciado: Na entrada de mercadoria importada do exterior, a base de cálculo do ICMS compreende
+        alternativas:
+          A: o valor da mercadoria constante dos documentos de importação, acrescido do imposto de importação, do IPI, do IOF, de quaisquer outros impostos, taxas, contribuições e despesas aduaneiras, e do montante do próprio ICMS.
+          B: apenas o valor aduaneiro da mercadoria.
+          C: o valor da mercadoria acrescido somente do imposto de importação.
+          D: o valor da mercadoria, do imposto de importação e do IPI, excluído o próprio ICMS.
+          E: o preço de venda da mercadoria no mercado interno.
+        resposta: A
+        comentario: (A) reúne o art. 13, V, e o § 1º, I. Na importação, o ICMS também integra a própria base. As demais alternativas omitem algum componente legal.
+        fundamento: LC 87/1996, art. 13, V e § 1º, I.
+      - nivel: 3
+        assunto: Descontos, frete e juros
+        enunciado: "Indústria gaúcha vende mercadorias a comerciante do RS. O preço de tabela é R$ 50.000,00, com desconto incondicional de R$ 5.000,00 destacado no documento fiscal. O frete, por conta do remetente, é cobrado em separado no valor de R$ 2.000,00, e os juros pelo pagamento a prazo, cobrados pelo próprio vendedor, somam R$ 1.000,00. Os valores já incluem o ICMS e não há IPI. A base de cálculo do ICMS é"
+        alternativas:
+          A: R$ 50.000,00.
+          B: R$ 45.000,00.
+          C: R$ 47.000,00.
+          D: R$ 53.000,00.
+          E: R$ 48.000,00.
+        resposta: E
+        comentario: "50.000 − 5.000 (o desconto incondicional não integra a base) + 2.000 (frete por conta do remetente, cobrado em separado) + 1.000 (juros cobrados pelo vendedor) = R$ 48.000,00. A Súmula 395 do STJ confirma que o ICMS incide sobre o valor da venda a prazo."
+        fundamento: LC 87/1996, art. 13, § 1º, II, “a” e “b”; Súmula 395 do STJ.
+      - nivel: 3
+        assunto: Redução de base de cálculo
+        enunciado: Comerciante adquiriu mercadoria com crédito de ICMS de R$ 1.000,00 e a revendeu internamente com redução de base de cálculo que resulta em carga tributária equivalente a 60% da normal. Segundo o STF, salvo disposição em contrário da legislação estadual,
+        alternativas:
+          A: a redução de base de cálculo equivale a isenção parcial, devendo o contribuinte estornar R$ 400,00 do crédito.
+          B: o crédito de R$ 1.000,00 é mantido integralmente, pois a operação é tributada.
+          C: o crédito de R$ 1.000,00 deve ser estornado integralmente.
+          D: o crédito pode ser transferido a outro contribuinte.
+          E: redução de base de cálculo não se confunde com isenção, razão pela qual não há estorno.
+        resposta: A
+        comentario: No Tema 299, o STF equiparou a redução de base de cálculo a isenção parcial, o que atrai a anulação proporcional do crédito. Como a carga é de 60%, estorna-se 40% de R$ 1.000,00, ou seja, R$ 400,00.
+        fundamento: CF, art. 155, § 2º, II, “b”; STF, RE 635.688 (Tema 299).
+
+  - titulo: Contribuintes, Responsáveis e Substituição Tributária
+    base: LC 87/1996, arts. 4º a 10; CF, art. 150, § 7º; STF, Tema 201
+    questoes:
+      - nivel: 1
+        assunto: Contribuinte
+        enunciado: É contribuinte do ICMS, ainda que sem habitualidade ou intuito comercial, a pessoa física ou jurídica que
+        alternativas:
+          A: vende, eventualmente, seu automóvel usado a um vizinho.
+          B: presta serviço de transporte intramunicipal de passageiros.
+          C: adquire mercadorias em loja para uso próprio.
+          D: presta exclusivamente serviços sujeitos ao ISS.
+          E: importa mercadorias ou bens do exterior, qualquer que seja a sua finalidade.
+        resposta: E
+        comentario: (E) reproduz o art. 4º, parágrafo único, I. Em regra, contribuinte é quem realiza operações com habitualidade ou em volume que caracterize intuito comercial, o que não ocorre em (A) e (C). (B) e (D) envolvem serviços do ISS.
+        fundamento: LC 87/1996, art. 4º e parágrafo único.
+      - nivel: 2
+        assunto: Responsabilidade de terceiros
+        enunciado: Transportadora conduz mercadorias desacompanhadas de documento fiscal. Quanto à atribuição de responsabilidade ao transportador pelo ICMS relativo a essas mercadorias,
+        alternativas:
+          A: é vedada, pois somente o contribuinte pode ser sujeito passivo do ICMS.
+          B: depende de lei complementar federal específica.
+          C: somente é possível se o transportador for contribuinte do ICMS no mesmo Estado.
+          D: é admitida, pois a LC 87/1996 permite à lei atribuir a terceiros a responsabilidade pelo pagamento do imposto quando seus atos ou omissões concorrerem para o não recolhimento do tributo.
+          E: depende de convênio celebrado no CONFAZ.
+        resposta: D
+        comentario: (D) segue o art. 5º da LC 87/1996, regra geral de responsabilidade de terceiros. As leis estaduais, como a Lei 8.820/1989 no RS, usam essa autorização para responsabilizar o transportador de mercadoria sem documentação.
+        fundamento: LC 87/1996, art. 5º; CTN, art. 128.
+      - nivel: 2
+        assunto: Substituição tributária progressiva
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - A lei pode atribuir a sujeito passivo a condição de responsável pelo pagamento de imposto cujo fato gerador deva ocorrer posteriormente.
+          - É assegurada a imediata e preferencial restituição da quantia paga, caso não se realize o fato gerador presumido.
+          - Segundo o STF, não cabe restituição quando a base de cálculo efetiva da operação for inferior à presumida, pois esta é definitiva.
+          - A substituição tributária pode ser instituída por decreto do Governador.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e III.
+          B: II e IV.
+          C: I e II.
+          D: I e III.
+          E: III e IV.
+        resposta: C
+        comentario: I e II reproduzem o art. 150, § 7º, da CF. III está errada porque, no Tema 201, o STF reconheceu o direito à restituição da diferença quando a base efetiva for inferior à presumida. IV está errada porque o art. 6º da LC 87/1996 exige lei estadual.
+        fundamento: CF, art. 150, § 7º; LC 87/1996, arts. 6º e 10; STF, RE 593.849 (Tema 201).
+      - nivel: 2
+        assunto: Cálculo do ICMS-ST
+        enunciado: "Indústria gaúcha, substituta tributária, vende mercadoria a varejista do RS por R$ 10.000,00, cobrando frete de R$ 500,00. A margem de valor agregado é de 40% e a alíquota interna, hipotética, de 17%. Não há IPI. O ICMS devido por substituição tributária é"
+        alternativas:
+          A: R$ 680,00.
+          B: R$ 714,00.
+          C: R$ 2.499,00.
+          D: R$ 1.785,00.
+          E: R$ 2.380,00.
+        resposta: B
+        comentario: "Base ST = (10.000 + 500) × 1,40 = R$ 14.700,00. ICMS total = 14.700 × 17% = R$ 2.499,00. ICMS próprio = 10.500 × 17% = R$ 1.785,00. ICMS-ST = 2.499 − 1.785 = R$ 714,00. A alternativa (A) esquece o frete."
+        fundamento: LC 87/1996, art. 8º, II, “a” a “c”.
+      - nivel: 3
+        assunto: Regime de substituição
+        enunciado: Considere as afirmações abaixo, nos termos da LC 87/1996.
+        itens:
+          - A adoção do regime de substituição tributária em operações interestaduais dependerá de acordo específico celebrado pelos Estados interessados.
+          - Lei estadual poderá atribuir a contribuinte do imposto ou a depositário a qualquer título a responsabilidade pelo seu pagamento, hipótese em que assumirá a condição de substituto tributário.
+          - A responsabilidade poderá ser atribuída em relação ao imposto incidente sobre operações antecedentes, concomitantes ou subsequentes.
+          - A substituição tributária somente pode abranger operações subsequentes.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I e IV.
+          C: I, II e III.
+          D: II, III e IV.
+          E: I, II, III e IV.
+        resposta: C
+        comentario: I reproduz o art. 9º, II reproduz o art. 6º e III reproduz o art. 6º, § 1º. IV está errada porque a substituição pode ser “para trás” (antecedentes, como no diferimento), concomitante ou “para frente” (subsequentes).
+        fundamento: LC 87/1996, arts. 6º e 9º.
+      - nivel: 3
+        assunto: Restituição na ST
+        enunciado: Varejista gaúcho, contribuinte substituído, teve furtadas do estoque mercadorias recebidas com ICMS retido por substituição tributária e formulou pedido de restituição. Decorridos noventa dias sem deliberação da Receita Estadual, nos termos da LC 87/1996, o varejista
+        alternativas:
+          A: poderá creditar-se, em sua escrita fiscal, do valor objeto do pedido, devidamente atualizado, e, sobrevindo decisão contrária irrecorrível, deverá estornar os créditos no prazo de quinze dias da notificação, com os acréscimos legais.
+          B: terá o pedido considerado tacitamente indeferido.
+          C: somente poderá obter a restituição pela via judicial.
+          D: poderá creditar-se do valor somente após a homologação expressa do pedido.
+          E: deverá aguardar o prazo de um ano antes de qualquer providência.
+        resposta: A
+        comentario: (A) reproduz o art. 10, §§ 1º e 2º. O silêncio do Fisco por 90 dias autoriza o crédito na escrita fiscal. Se depois vier decisão contrária irrecorrível, o crédito é estornado em 15 dias, com acréscimos.
+        fundamento: LC 87/1996, art. 10, §§ 1º e 2º.
+
+  - titulo: Operações Interestaduais, Alíquotas e Diferencial
+    base: CF, art. 155, § 2º, IV, VII e VIII; Res. SF 22/1989 e 13/2012; LC 190/2022
+    questoes:
+      - nivel: 1
+        assunto: Alíquota interestadual
+        enunciado: Contribuinte estabelecido no RS vende mercadoria nacional a contribuinte estabelecido na Bahia. A alíquota interestadual aplicável é de
+        alternativas:
+          A: 4%.
+          B: 12%.
+          C: 17%.
+          D: 18%.
+          E: 7%.
+        resposta: E
+        comentario: Pela Resolução SF 22/1989, a alíquota geral é 12%. Nas operações originadas no Sul e no Sudeste (exceto Espírito Santo) com destino ao Norte, Nordeste, Centro-Oeste e Espírito Santo, a alíquota é 7%. A Bahia fica no Nordeste.
+        fundamento: Resolução do Senado Federal nº 22/1989.
+      - nivel: 2
+        assunto: Alíquotas interestaduais
+        enunciado: "Considere três vendas de contribuinte gaúcho a contribuintes de outros Estados. A primeira é de mercadoria nacional para Santa Catarina. A segunda é de mercadoria nacional para o Espírito Santo. A terceira é de mercadoria importada do exterior, revendida sem industrialização, para Pernambuco. As alíquotas interestaduais são, respectivamente,"
+        alternativas:
+          A: 12%, 12% e 4%.
+          B: 12%, 7% e 4%.
+          C: 7%, 7% e 12%.
+          D: 12%, 7% e 7%.
+          E: 7%, 12% e 4%.
+        resposta: B
+        comentario: "RS para SC (Sul para Sul): 12%. RS para ES: 7%, porque o Espírito Santo recebe o mesmo tratamento das regiões menos desenvolvidas. Importado revendido sem industrialização: 4%, pela Resolução SF 13/2012, qualquer que seja o destino."
+        fundamento: Resoluções do Senado Federal nº 22/1989 e nº 13/2012.
+      - nivel: 2
+        assunto: Diferencial para contribuinte
+        enunciado: Indústria gaúcha adquire de fornecedor paulista, por R$ 10.000,00, máquina para seu ativo imobilizado, com alíquota interestadual de 12%. A alíquota interna no RS é, hipoteticamente, de 17%. Considerando, para simplificar, que o diferencial é calculado aplicando-se a diferença entre as alíquotas sobre o valor da operação,
+        alternativas:
+          A: o diferencial é de R$ 500,00, devido a São Paulo e recolhido pelo remetente.
+          B: o diferencial é de R$ 1.700,00, devido ao RS e recolhido pelo destinatário.
+          C: não há diferencial, pois o bem destina-se ao ativo imobilizado.
+          D: o diferencial é de R$ 500,00, devido ao RS e recolhido pelo destinatário.
+          E: o diferencial é de R$ 500,00, devido ao RS e recolhido pelo remetente.
+        resposta: D
+        comentario: "Diferencial = (17% − 12%) × 10.000 = R$ 500,00, que cabe ao Estado de destino. Quando o destinatário é contribuinte, ele é o responsável pelo recolhimento (CF, art. 155, § 2º, VIII, “a”)."
+        fundamento: CF, art. 155, § 2º, VII e VIII.
+      - nivel: 3
+        assunto: Conteúdo de importação
+        enunciado: Indústria gaúcha fabrica produto com insumos importados e o vende a contribuinte do Paraná. Se o conteúdo de importação do produto for de 55%, e se for de 30%, as alíquotas interestaduais serão, respectivamente,
+        alternativas:
+          A: 12% e 12%.
+          B: 4% e 12%.
+          C: 4% e 4%.
+          D: 7% e 12%.
+          E: 12% e 4%.
+        resposta: B
+        comentario: A Resolução SF 13/2012 aplica 4% ao produto importado que, após o desembaraço, seja industrializado e resulte em mercadoria com conteúdo de importação <i>superior a 40%</i>. Com 30%, vale a regra geral do Sul para o Sul, que é 12%.
+        fundamento: Resolução do Senado Federal nº 13/2012, art. 1º, § 1º.
+      - nivel: 3
+        assunto: DIFAL e lei complementar
+        enunciado: Sobre o diferencial de alíquotas nas operações destinadas a consumidor final não contribuinte localizado em outro Estado, é correto afirmar que
+        alternativas:
+          A: a responsabilidade pelo recolhimento é do destinatário.
+          B: a cobrança independe de lei complementar, bastando convênio celebrado no CONFAZ.
+          C: todo o imposto cabe ao Estado de origem.
+          D: o STF decidiu que sua cobrança pressupõe lei complementar veiculando normas gerais, o que foi suprido pela LC 190/2022.
+          E: aplica-se a alíquota interna do Estado de origem sobre o valor total da operação.
+        resposta: D
+        comentario: No Tema 1.093, o STF considerou inválida a cobrança baseada apenas no Convênio ICMS 93/2015. A LC 190/2022 alterou a LC 87/1996 para regular o diferencial. Quando o destinatário não é contribuinte, o responsável é o remetente, o que afasta (A).
+        fundamento: CF, art. 155, § 2º, VII e VIII, “b”; STF, Tema 1.093; LC 190/2022.
+
+  - titulo: Não Cumulatividade, Créditos e Estornos
+    base: LC 87/1996, arts. 19 a 33
+    questoes:
+      - nivel: 1
+        assunto: Vedação ao crédito
+        enunciado: Nos termos da LC 87/1996, NÃO dá direito a crédito a entrada de
+        alternativas:
+          A: mercadorias alheias à atividade do estabelecimento.
+          B: mercadoria para revenda, com imposto destacado em documento idôneo.
+          C: matéria-prima utilizada na industrialização de produto tributado.
+          D: bem destinado ao ativo permanente, vinculado à atividade do estabelecimento.
+          E: serviço de transporte intermunicipal de mercadoria destinada à revenda.
+        resposta: A
+        comentario: (A) reproduz o art. 20, § 1º. O bem do ativo permanente (D) gera crédito, apropriado em 48 parcelas mensais. Mercadorias de uso e consumo, por sua vez, só darão crédito a partir de 2033 (art. 33, I).
+        fundamento: LC 87/1996, arts. 20 e 33, I.
+      - nivel: 2
+        assunto: Crédito do ativo permanente
+        enunciado: Contribuinte adquiriu máquina para seu ativo permanente com ICMS de R$ 4.800,00. Em determinado mês, suas saídas tributadas corresponderam a 75% do total das saídas. O crédito apropriável no mês é de
+        alternativas:
+          A: R$ 100,00.
+          B: R$ 4.800,00.
+          C: R$ 3.600,00.
+          D: R$ 1.200,00.
+          E: R$ 75,00.
+        resposta: E
+        comentario: "O crédito é apropriado em 1/48 por mês, proporcionalmente às saídas tributadas. Conta: 4.800 ÷ 48 = R$ 100,00, e 100 × 75% = R$ 75,00. Ao fim do 48º mês, o saldo remanescente é cancelado."
+        fundamento: LC 87/1996, art. 20, § 5º, I a VII.
+      - nivel: 2
+        assunto: Crédito de energia elétrica
+        enunciado: Loja de roupas consome energia elétrica para iluminação e climatização do ambiente de vendas. Em 2026, o crédito do ICMS relativo a essa energia
+        alternativas:
+          A: é admitido integralmente.
+          B: é admitido à razão de 1/48 por mês.
+          C: não é admitido, sendo assegurado nessa hipótese apenas a partir de 1º de janeiro de 2033.
+          D: é admitido na proporção das saídas tributadas.
+          E: é admitido somente se a energia for adquirida de outro Estado.
+        resposta: C
+        comentario: Hoje, o crédito de energia elétrica só é admitido quando ela é objeto de nova saída de energia, quando é consumida na industrialização ou quando o consumo resulta em exportação, na proporção desta. Nas demais hipóteses, o crédito só valerá a partir de 1º/1/2033.
+        fundamento: LC 87/1996, art. 33, II.
+      - nivel: 3
+        assunto: Estorno de crédito
+        enunciado: Considere as situações abaixo, relativas a mercadorias que entraram no estabelecimento com crédito do imposto.
+        itens:
+          - A mercadoria vem a perecer, deteriorar-se ou extraviar-se.
+          - A mercadoria vem a ser utilizada em fim alheio à atividade do estabelecimento.
+          - A mercadoria vem a ser objeto de operação destinada ao exterior.
+          - A mercadoria é consumida em processo de industrialização cuja saída do produto resultante está isenta.
+        comando: Exige-se o estorno do crédito APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: III e IV.
+          E: I, II e IV.
+        resposta: E
+        comentario: I, II e IV correspondem ao art. 21, IV, III e II. III está errada porque não se estornam créditos de mercadorias que venham a ser objeto de operações destinadas ao exterior (art. 21, § 2º).
+        fundamento: LC 87/1996, art. 21, II a IV e § 2º.
+      - nivel: 3
+        assunto: Saldo credor de exportador
+        enunciado: Estabelecimento industrial gaúcho que exporta a maior parte de sua produção acumula saldo credor de ICMS. Nos termos da LC 87/1996, esse saldo, na proporção que as exportações representem do total das saídas,
+        alternativas:
+          A: pode ser transferido livremente a contribuintes de qualquer Estado.
+          B: deve ser estornado, pois a exportação não é tributada.
+          C: pode ser imputado a qualquer estabelecimento do sujeito passivo no Estado e, havendo saldo remanescente, transferido a outros contribuintes do mesmo Estado, mediante documento que reconheça o crédito, emitido pela autoridade competente.
+          D: somente pode ser restituído em dinheiro.
+          E: pode ser compensado com tributos federais.
+        resposta: C
+        comentario: (C) reproduz o art. 25, § 1º. A transferência é restrita a contribuintes do mesmo Estado e depende de reconhecimento pela autoridade competente. Os créditos vinculados à exportação são mantidos, o que afasta (B).
+        fundamento: LC 87/1996, art. 25, § 1º, I e II.
+
+  - titulo: Local da Operação e Estabelecimento
+    base: LC 87/1996, art. 11; STF, Tema 520
+    questoes:
+      - nivel: 1
+        assunto: Mercadoria em situação irregular
+        enunciado: Para efeitos de cobrança do ICMS, tratando-se de mercadoria em situação irregular pela falta de documentação fiscal, o local da operação é
+        alternativas:
+          A: o do estabelecimento remetente.
+          B: onde a mercadoria se encontre.
+          C: o do domicílio do destinatário.
+          D: o da sede da empresa proprietária.
+          E: o do local do pagamento.
+        resposta: B
+        comentario: (B) segue o art. 11, I, “b”, que vale também para mercadoria acompanhada de documentação inidônea.
+        fundamento: LC 87/1996, art. 11, I, “b”.
+      - nivel: 2
+        assunto: Importação e sujeito ativo
+        enunciado: Empresa sediada em Porto Alegre importa mercadoria, desembaraçada no porto de Santos (SP) e remetida diretamente ao seu estabelecimento em Porto Alegre. O ICMS-importação cabe
+        alternativas:
+          A: a São Paulo, Estado onde ocorreu o desembaraço aduaneiro.
+          B: à União, por se tratar de comércio exterior.
+          C: a São Paulo e ao RS, em partes iguais.
+          D: ao RS, Estado onde está situado o estabelecimento destinatário da mercadoria.
+          E: a São Paulo, por ser o local do porto de desembarque.
+        resposta: D
+        comentario: A Constituição atribui o imposto ao Estado onde estiver o estabelecimento do destinatário da mercadoria. No Tema 520, o STF fixou que o sujeito ativo é o Estado do destinatário legal da operação, e o local do desembaraço é irrelevante.
+        fundamento: CF, art. 155, § 2º, IX, “a”; LC 87/1996, art. 11, I, “d”; STF, Tema 520.
+      - nivel: 2
+        assunto: Estabelecimento
+        enunciado: Considere as afirmações abaixo, nos termos da LC 87/1996.
+        itens:
+          - É autônomo cada estabelecimento do mesmo titular.
+          - Respondem pelo crédito tributário todos os estabelecimentos do mesmo titular.
+          - Considera-se também estabelecimento autônomo o veículo usado no comércio ambulante e na captura de pescado.
+          - Estabelecimento é apenas o local edificado e próprio onde o contribuinte exerce suas atividades em caráter permanente.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I, II e III.
+          B: I e II.
+          C: II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: A
+        comentario: I, III e II reproduzem o art. 11, § 3º, II, III e IV. IV está errada porque estabelecimento é o local, privado ou público, edificado ou não, próprio ou de terceiro, onde se exerçam atividades em caráter temporário ou permanente, ou onde se encontrem armazenadas mercadorias.
+        fundamento: LC 87/1996, art. 11, § 3º.
+      - nivel: 3
+        assunto: Local da prestação de transporte
+        enunciado: Transportadora sediada em Santa Catarina presta serviço de transporte de carga com início em Passo Fundo (RS) e término em Florianópolis (SC). O tomador é contribuinte do ICMS estabelecido em Santa Catarina, e o serviço não está vinculado a operação ou prestação subsequente. Nessa situação,
+        alternativas:
+          A: todo o imposto cabe a Santa Catarina, Estado da sede da transportadora.
+          B: todo o imposto cabe a Santa Catarina, Estado de término da prestação.
+          C: não incide o ICMS, por se tratar de prestação interestadual.
+          D: o imposto da prestação cabe ao RS, onde ela teve início, e o diferencial de alíquotas, a Santa Catarina, onde está o estabelecimento destinatário do serviço.
+          E: o imposto é rateado igualmente entre RS e Santa Catarina.
+        resposta: D
+        comentario: No transporte, o local da prestação é onde ela tem início (art. 11, II, “a”). Como o tomador é contribuinte e o serviço não se vincula a operação subsequente, cabe ao Estado do destinatário o diferencial de alíquotas (art. 11, II, “c”, e art. 12, XIII).
+        fundamento: LC 87/1996, arts. 11, II, “a” e “c”, e 12, XIII.
+
+  - titulo: ITCD e IPVA na Constituição
+    base: CF, art. 155, I e III, §§ 1º e 6º (EC 132/2023); STF, Tema 708
+    questoes:
+      - nivel: 1
+        assunto: ITCD — competência
+        enunciado: Pessoa domiciliada em Porto Alegre faleceu deixando um imóvel situado em Florianópolis (SC) e aplicações financeiras. Quanto ao imposto sobre transmissão causa mortis,
+        alternativas:
+          A: todo o imposto cabe ao RS, Estado do domicílio do falecido.
+          B: o imposto sobre o imóvel cabe a Santa Catarina, e o imposto sobre as aplicações financeiras cabe ao RS.
+          C: todo o imposto cabe a Santa Catarina, Estado da situação do imóvel.
+          D: o imposto sobre o imóvel cabe ao RS, e o imposto sobre as aplicações, a Santa Catarina.
+          E: o imposto cabe à União, por envolver bens em mais de um Estado.
+        resposta: B
+        comentario: Bens imóveis são tributados pelo Estado da situação do bem. Bens móveis, títulos e créditos são tributados pelo Estado onde era domiciliado o falecido, regra que a EC 132/2023 passou a adotar no lugar do local do inventário.
+        fundamento: CF, art. 155, § 1º, I e II.
+      - nivel: 2
+        assunto: ITCD após a EC 132/2023
+        enunciado: Considere as afirmações abaixo sobre o imposto sobre transmissão causa mortis e doação, com a redação dada pela EC 132/2023.
+        itens:
+          - Terá suas alíquotas máximas fixadas pelo Senado Federal.
+          - Será progressivo em razão do valor do quinhão, do legado ou da doação.
+          - Não incidirá sobre as transmissões e doações para instituições sem fins lucrativos com finalidade de relevância pública e social, observadas as condições estabelecidas em lei complementar.
+          - Relativamente a bens móveis, títulos e créditos, compete ao Estado onde se processar o inventário.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, II e III.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: C
+        comentario: I reproduz o art. 155, § 1º, IV. II e III foram incluídos pela EC 132/2023 (incisos VI e VII). IV está errada porque, após a emenda, a competência é do Estado onde era domiciliado o falecido.
+        fundamento: CF, art. 155, § 1º, II, IV, VI e VII.
+      - nivel: 2
+        assunto: IPVA após a EC 132/2023
+        enunciado: Com a redação dada pela EC 132/2023, o IPVA
+        alternativas:
+          A: incidirá sobre a propriedade de veículos automotores terrestres, aquáticos e aéreos, ressalvadas as exceções constitucionais, como tratores e máquinas agrícolas.
+          B: incide apenas sobre veículos automotores terrestres.
+          C: não pode ter alíquotas diferenciadas em função do impacto ambiental do veículo.
+          D: terá alíquotas máximas fixadas pelo Senado Federal.
+          E: passou à competência dos Municípios.
+        resposta: A
+        comentario: A EC 132/2023 estendeu o IPVA a veículos aquáticos e aéreos, com exceções como aeronaves agrícolas, embarcações de pesca e de transporte aquaviário, plataformas e tratores e máquinas agrícolas. Também permitiu alíquotas diferenciadas pelo valor e pelo impacto ambiental. O Senado fixa as alíquotas <i>mínimas</i>, o que afasta (D).
+        fundamento: CF, art. 155, III, e § 6º, I a III.
+      - nivel: 3
+        assunto: IPVA — sujeito ativo
+        enunciado: Proprietário domiciliado em Caxias do Sul (RS) registra e licencia seu veículo em outro Estado, que adota alíquota de IPVA inferior à gaúcha. Segundo o entendimento do STF,
+        alternativas:
+          A: o IPVA é devido ao Estado de registro e licenciamento do veículo.
+          B: o proprietário pode escolher livremente o Estado a que pagará o IPVA.
+          C: o IPVA é rateado entre os dois Estados.
+          D: o IPVA é devido à União, por se tratar de conflito entre Estados.
+          E: somente o Estado em que o proprietário tem domicílio pode cobrar o IPVA, sendo o imposto devido ao RS.
+        resposta: E
+        comentario: No Tema 708, o STF decidiu que a Constituição só autoriza a cobrança do IPVA pelo Estado onde o contribuinte tem sede ou domicílio tributário. O registro em outro Estado não desloca a competência.
+        fundamento: CF, art. 155, III; STF, RE 1.016.605 (Tema 708).
+dica: "<b>Olho na FCC:</b> em ICMS, a banca cobra a letra da LC 87/1996, como “não compreendida a venda do bem arrendado” e “salvo determinação em contrário da legislação”. Nos cálculos, confira se o imposto é “por dentro”, se o frete é por conta do remetente e se o desconto é condicional."
