@@ -1,0 +1,260 @@
+caderno: 11
+materia: Raciocínio Lógico e Matemática Financeira
+meta: 20
+temas:
+  - titulo: Lógica Proposicional
+    base: Conectivos, negações, equivalências e argumentos
+    questoes:
+      - nivel: 1
+        assunto: Negação de quantificador
+        enunciado: A negação da proposição “Todo auditor é estudioso” é
+        alternativas:
+          A: Nenhum auditor é estudioso.
+          B: Todo auditor não é estudioso.
+          C: Algum auditor não é estudioso.
+          D: Algum auditor é estudioso.
+          E: Nenhum estudioso é auditor.
+        resposta: C
+        comentario: Para negar “todo”, basta um contraexemplo, ou seja, “algum... não”. Do mesmo modo, a negação de “nenhum” é “algum”. (A) é a contrária, e não a negação.
+        fundamento: Negação de proposições quantificadas.
+      - nivel: 1
+        assunto: Lei de De Morgan
+        enunciado: A negação da proposição “João estuda e Maria trabalha” é
+        alternativas:
+          A: João não estuda ou Maria não trabalha.
+          B: João não estuda e Maria não trabalha.
+          C: João estuda ou Maria trabalha.
+          D: Se João estuda, então Maria não trabalha.
+          E: João não estuda e Maria trabalha.
+        resposta: A
+        comentario: "Pela lei de De Morgan, ~(p ∧ q) ≡ ~p ∨ ~q, ou seja, nega-se cada parte e troca-se “e” por “ou”."
+        fundamento: Leis de De Morgan.
+      - nivel: 2
+        assunto: Equivalência da condicional
+        enunciado: É logicamente equivalente a “Se chove, então a rua fica molhada” a proposição
+        alternativas:
+          A: Se a rua fica molhada, então chove.
+          B: Se não chove, então a rua não fica molhada.
+          C: Chove e a rua não fica molhada.
+          D: Se a rua não fica molhada, então não chove.
+          E: Chove ou a rua fica molhada.
+        resposta: D
+        comentario: "A contrapositiva é equivalente (p → q ≡ ~q → ~p). Também seria equivalente “Não chove ou a rua fica molhada” (~p ∨ q). (A) é a recíproca e (B) é a inversa, nenhuma delas equivalente. (C) é a negação."
+        fundamento: Equivalências da condicional.
+      - nivel: 2
+        assunto: Negação da condicional
+        enunciado: A negação de “Se o contribuinte paga em dia, então recebe desconto” é
+        alternativas:
+          A: Se o contribuinte não paga em dia, então não recebe desconto.
+          B: O contribuinte não paga em dia e recebe desconto.
+          C: Se o contribuinte recebe desconto, então paga em dia.
+          D: O contribuinte não paga em dia ou não recebe desconto.
+          E: O contribuinte paga em dia e não recebe desconto.
+        resposta: E
+        comentario: "~(p → q) ≡ p ∧ ~q. Mantém-se a primeira parte, troca-se a seta por “e” e nega-se a segunda parte. A negação de uma condicional nunca é outra condicional."
+        fundamento: Negação da condicional.
+      - nivel: 2
+        assunto: Tabela-verdade
+        enunciado: Sabendo que p é verdadeira, q é falsa e r é verdadeira, é FALSA a proposição
+        alternativas:
+          A: (p ∧ q) → r
+          B: (p ∨ q) → ~r
+          C: ~p ↔ q
+          D: (q → p) ∨ ~r
+          E: p ∧ (q ∨ r)
+        resposta: B
+        comentario: "Em (B), p ∨ q é V e ~r é F, e V → F é F. As demais são verdadeiras: (A) F → V = V; (C) F ↔ F = V; (D) V ∨ F = V; (E) V ∧ V = V."
+        fundamento: Tabelas-verdade dos conectivos.
+      - nivel: 3
+        assunto: Dedução
+        enunciado: "Considere verdadeiras as premissas: “Se Ana é auditora, então Bruno é técnico”; “Se Bruno é técnico, então Carla é analista”; “Carla não é analista”. Conclui-se corretamente que"
+        alternativas:
+          A: Ana é auditora.
+          B: Bruno é técnico.
+          C: Ana é auditora e Bruno não é técnico.
+          D: nada se pode concluir sobre Ana e Bruno.
+          E: Ana não é auditora e Bruno não é técnico.
+        resposta: E
+        comentario: "Parta da premissa simples. “Carla não é analista” é V. Pela segunda premissa (modus tollens), Bruno não é técnico. Pela primeira, também por modus tollens, Ana não é auditora."
+        fundamento: Regras de inferência — modus tollens.
+
+  - titulo: Contagem e Probabilidade
+    base: Princípio fundamental, arranjos, combinações e probabilidade
+    questoes:
+      - nivel: 1
+        assunto: Princípio fundamental da contagem
+        enunciado: Entre 8 auditores, serão escolhidos um coordenador e um subcoordenador para uma operação. O número de maneiras distintas de fazer a escolha é
+        alternativas:
+          A: 28.
+          B: 64.
+          C: 16.
+          D: 56.
+          E: 40.320.
+        resposta: D
+        comentario: "A ordem importa porque os cargos são diferentes, então há 8 × 7 = 56 maneiras. (A) seria a combinação C(8,2), aplicável se os dois cargos fossem iguais."
+        fundamento: Princípio fundamental da contagem; arranjo.
+      - nivel: 2
+        assunto: Combinação
+        enunciado: O número de comissões distintas de 3 auditores que podem ser formadas a partir de um grupo de 10 auditores é
+        alternativas:
+          A: 720.
+          B: 120.
+          C: 30.
+          D: 1.000.
+          E: 60.
+        resposta: B
+        comentario: "Numa comissão, a ordem não importa. C(10,3) = 10 × 9 × 8 ÷ (3 × 2 × 1) = 720 ÷ 6 = 120. (A) é o arranjo."
+        fundamento: Combinação simples.
+      - nivel: 2
+        assunto: Probabilidade sem reposição
+        enunciado: Uma urna contém 5 bolas vermelhas e 3 azuis. Retiram-se duas bolas, sucessivamente e sem reposição. A probabilidade de ambas serem vermelhas é
+        alternativas:
+          A: 5/14.
+          B: 25/64.
+          C: 3/28.
+          D: 15/28.
+          E: 5/8.
+        resposta: A
+        comentario: "P = 5/8 × 4/7 = 20/56 = 5/14. (B) seria com reposição, (C) é a probabilidade de ambas serem azuis e (D), a de uma de cada cor."
+        fundamento: Probabilidade condicional; eventos sucessivos.
+      - nivel: 3
+        assunto: Permutação com restrição
+        enunciado: O número de anagramas da palavra AUDITOR que começam por vogal é
+        alternativas:
+          A: 5.040.
+          B: 720.
+          C: 2.880.
+          D: 1.440.
+          E: 3.600.
+        resposta: C
+        comentario: "AUDITOR tem 7 letras distintas, das quais 4 vogais (A, U, I, O). Há 4 escolhas para a primeira letra e 6! = 720 para as demais, totalizando 4 × 720 = 2.880."
+        fundamento: Permutação simples com restrição.
+
+  - titulo: Juros, Taxas e Descontos
+    base: Matemática financeira
+    questoes:
+      - nivel: 1
+        assunto: Juros simples
+        enunciado: Um capital de R$ 10.000,00 aplicado a juros simples de 2% ao mês, durante 6 meses, produz montante de
+        alternativas:
+          A: R$ 11.200,00.
+          B: R$ 11.261,62.
+          C: R$ 12.000,00.
+          D: R$ 10.200,00.
+          E: R$ 11.000,00.
+        resposta: A
+        comentario: "J = C × i × n = 10.000 × 0,02 × 6 = 1.200, e M = 11.200. (B) é o montante a juros compostos."
+        fundamento: Juros simples.
+      - nivel: 1
+        assunto: Juros compostos
+        enunciado: Um capital de R$ 5.000,00 aplicado a juros compostos de 10% ao ano, durante 2 anos, produz montante de
+        alternativas:
+          A: R$ 6.000,00.
+          B: R$ 5.500,00.
+          C: R$ 6.050,00.
+          D: R$ 6.100,00.
+          E: R$ 6.655,00.
+        resposta: C
+        comentario: "M = C × (1 + i)ⁿ = 5.000 × 1,1² = 5.000 × 1,21 = 6.050. (A) é o resultado a juros simples e (E) corresponde a 3 anos."
+        fundamento: Juros compostos.
+      - nivel: 2
+        assunto: Taxas equivalentes
+        enunciado: Considerando (1,01)¹² = 1,1268, a taxa anual equivalente, no regime de juros compostos, à taxa de 1% ao mês é de
+        alternativas:
+          A: 12,00%.
+          B: 12,50%.
+          C: 13,00%.
+          D: 11,36%.
+          E: 12,68%.
+        resposta: E
+        comentario: "No regime composto, (1 + ianual) = (1 + imensal)¹², então ianual = 1,1268 − 1 = 12,68%. Os 12% de (A) só valem para juros simples, em que as taxas são proporcionais."
+        fundamento: Taxas equivalentes.
+      - nivel: 2
+        assunto: Desconto comercial
+        enunciado: Um título de valor nominal de R$ 20.000,00 foi descontado 4 meses antes do vencimento, à taxa de desconto comercial simples de 3% ao mês. O valor líquido recebido foi de
+        alternativas:
+          A: R$ 17.857,14.
+          B: R$ 17.600,00.
+          C: R$ 18.000,00.
+          D: R$ 18.800,00.
+          E: R$ 17.000,00.
+        resposta: B
+        comentario: "O desconto comercial (por fora) incide sobre o valor nominal. D = 20.000 × 0,03 × 4 = 2.400, então A = 17.600. (A) seria o desconto racional, 20.000 ÷ 1,12."
+        fundamento: Desconto comercial simples.
+      - nivel: 2
+        assunto: Desconto racional
+        enunciado: Um título de valor nominal de R$ 11.000,00 é descontado 4 meses antes do vencimento, à taxa de 2,5% ao mês, no regime de desconto racional simples. O valor do desconto é de
+        alternativas:
+          A: R$ 1.100,00.
+          B: R$ 900,00.
+          C: R$ 1.210,00.
+          D: R$ 1.000,00.
+          E: R$ 1.050,00.
+        resposta: D
+        comentario: "No desconto racional (por dentro), A = N ÷ (1 + i × n) = 11.000 ÷ 1,10 = 10.000, então D = 1.000. O desconto comercial seria 11.000 × 0,10 = 1.100 (A)."
+        fundamento: Desconto racional simples.
+      - nivel: 3
+        assunto: Taxa nominal e efetiva
+        enunciado: Considerando (1,02)¹² = 1,2682, a taxa efetiva anual correspondente à taxa nominal de 24% ao ano, capitalizada mensalmente, é de
+        alternativas:
+          A: 24,00%.
+          B: 26,82%.
+          C: 25,44%.
+          D: 12,00%.
+          E: 2,00%.
+        resposta: B
+        comentario: "A taxa nominal é dividida pelo número de capitalizações, então 24% ÷ 12 = 2% ao mês (taxa efetiva mensal). Capitalizando em 12 meses, (1,02)¹² − 1 = 26,82% ao ano."
+        fundamento: Taxa nominal e taxa efetiva.
+
+  - titulo: Sistemas de Amortização e Análise de Investimentos
+    base: SAC, Price e valor presente líquido
+    questoes:
+      - nivel: 1
+        assunto: SAC e Price
+        enunciado: Comparando o Sistema de Amortização Constante (SAC) com o Sistema Francês (Price), é correto afirmar que
+        alternativas:
+          A: no Price, as amortizações são constantes.
+          B: no SAC, as prestações são constantes.
+          C: no Price, os juros de cada prestação são crescentes.
+          D: no SAC, os juros de cada prestação são crescentes.
+          E: no SAC, as amortizações são constantes e as prestações, decrescentes.
+        resposta: E
+        comentario: No SAC, a amortização é fixa e os juros caem com o saldo, por isso as prestações decrescem. No Price, a prestação é fixa, os juros decrescem e as amortizações crescem.
+        fundamento: Sistemas de amortização.
+      - nivel: 2
+        assunto: SAC — cálculo
+        enunciado: Financiamento de R$ 120.000,00 será pago em 12 prestações mensais pelo SAC, à taxa de 1% ao mês, vencendo a primeira um mês após a contratação. O valor da terceira prestação é de
+        alternativas:
+          A: R$ 11.200,00.
+          B: R$ 11.100,00.
+          C: R$ 11.000,00.
+          D: R$ 10.900,00.
+          E: R$ 10.000,00.
+        resposta: C
+        comentario: "A amortização é 120.000 ÷ 12 = 10.000. Após duas prestações, o saldo é 100.000, e os juros da 3ª são 1% × 100.000 = 1.000. Então a prestação é 10.000 + 1.000 = 11.000."
+        fundamento: Sistema de Amortização Constante.
+      - nivel: 2
+        assunto: Price — cálculo
+        enunciado: Financiamento de R$ 100.000,00 será pago em 12 prestações mensais iguais pelo Sistema Price, à taxa de 1% ao mês. Considerando que o fator de recuperação de capital para esses parâmetros é 0,08885, a parcela de amortização contida na primeira prestação é de
+        alternativas:
+          A: R$ 8.885,00.
+          B: R$ 1.000,00.
+          C: R$ 8.333,33.
+          D: R$ 7.885,00.
+          E: R$ 7.333,33.
+        resposta: D
+        comentario: "A prestação é 100.000 × 0,08885 = 8.885, e os juros da 1ª são 1% × 100.000 = 1.000. A amortização é 8.885 − 1.000 = 7.885."
+        fundamento: Sistema Francês (Price).
+      - nivel: 3
+        assunto: Valor presente líquido
+        enunciado: Um projeto exige investimento inicial de R$ 10.000,00 e gera recebimentos de R$ 6.050,00 ao final do 1º e do 2º anos. Com taxa mínima de atratividade de 10% ao ano, o valor presente líquido do projeto e sua viabilidade são
+        alternativas:
+          A: R$ 500,00, sendo o projeto viável.
+          B: R$ 2.100,00, sendo o projeto viável.
+          C: − R$ 500,00, sendo o projeto inviável.
+          D: zero, sendo indiferente.
+          E: R$ 1.000,00, sendo o projeto viável.
+        resposta: A
+        comentario: "VP = 6.050 ÷ 1,1 + 6.050 ÷ 1,21 = 5.500 + 5.000 = 10.500, então VPL = 10.500 − 10.000 = 500 > 0, e o projeto é viável. (B) soma os fluxos sem descontá-los."
+        fundamento: Valor presente líquido.
+dica: "<b>Olho na FCC:</b> em lógica, decore as negações (todo → algum não; e → ou; se...então → e com a 2ª parte negada). Em financeira, confira sempre se o regime é simples ou composto e se o desconto é comercial ou racional."
