@@ -68,3 +68,10 @@ def test_grade_so_para_alternativas_bem_curtas():
     q0["alternativas"] = {k: "I, II e IV." for k in "ABCDE"}
     html_q, _ = render.html_caderno(c, inicio=1)
     assert "repeat(3,1fr)" in html_q
+
+
+def test_volume_sem_capa_interna():
+    cads = [cad(2, num=1, materia="Materia 1")]
+    html = render.html_volume(cads)
+    assert 'class="capa"' not in html
+    assert html.index('class="sumario"') < html.index('class="q"')

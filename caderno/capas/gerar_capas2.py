@@ -84,7 +84,7 @@ def estilo1():
 .selo span { font-size:12pt; letter-spacing:.16em; text-transform:uppercase; font-weight:600; line-height:1.35; }
 .rodape { position:absolute; right:14mm; bottom:12mm; text-align:right; color:var(--marrom); font-size:9pt; letter-spacing:.2em; text-transform:uppercase; font-weight:600; }
 .rodape i { display:block; font-family:"Fraunces",serif; font-style:italic; text-transform:none; letter-spacing:0; font-size:15pt; font-weight:400; }
-.cartao { position:absolute; left:16mm; right:16mm; top:34mm; bottom:16mm; background:var(--creme); border-radius:9mm; padding:12mm 12mm 9mm; color:var(--marrom); display:flex; flex-direction:column; }
+.cartao { position:absolute; left:16mm; right:16mm; top:16mm; bottom:16mm; background:var(--creme); border-radius:9mm; padding:12mm 12mm 9mm; color:var(--marrom); display:flex; flex-direction:column; }
 .cartao h2 { font-family:"Fraunces",serif; font-style:italic; font-weight:400; font-size:30pt; line-height:1; color:var(--laranja); }
 .cartao .lead { font-size:9.5pt; margin:3mm 0 7mm; }
 .dono { margin-top:auto; font-size:10pt; } .dono span { display:inline-block; width:105mm; border-bottom:1pt solid var(--marrom); margin-left:2mm; }
@@ -121,8 +121,7 @@ def estilo1():
     capa = (f'<div class="rep">{"".join(linhas)}</div>{raios}'
             '<div class="selo"><b>300</b><span>questões<br>inéditas<br>estilo FCC</span></div>'
             '<div class="rodape"><i>Caderno de Questões</i>SEFAZ-RS · 2027</div>')
-    contra = ('<div class="topo">rumo à aprovação</div>'
-              '<div class="cartao"><h2>Meu progresso</h2>'
+    contra = ('<div class="cartao"><h2>Meu progresso</h2>'
               '<div class="lead">Marque cada caderno ao terminar a primeira resolução e a revisão, e anote os acertos.</div>'
               f'{tabela()}<div class="dono">Este caderno pertence a <span></span></div>'
               f'<div class="aviso">{AVISO}</div></div>')

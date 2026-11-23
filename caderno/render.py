@@ -80,14 +80,6 @@ def html_caderno(caderno, inicio):
     return html_q, html_g
 
 
-def _capa(total):
-    return (f'<section class="capa"><div class="topo">Secretaria da Fazenda do Rio Grande do Sul · Concurso previsto para 2027</div>'
-            f'<div><h1>Caderno de Questões<br>Auditor-Fiscal da<br>Receita Estadual</h1>'
-            f'<div class="sub">{total} questões inéditas no estilo FCC, organizadas por matéria e tema, com gabarito comentado</div></div>'
-            f'<div class="nota">Questões elaboradas para estudo com base na legislação vigente em novembro de 2026. '
-            f'A distribuição por matéria segue o último edital (2018) e os editais fiscais recentes da FCC; '
-            f'ajuste o foco quando o edital for publicado.</div></section>')
-
 
 def _sumario(cadernos):
     linhas, num = [], 1
@@ -113,7 +105,7 @@ def html_volume(cadernos):
         partes += [hq, hg]
         num += sum(len(t["questoes"]) for t in c["temas"])
     return (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Caderno de Questões SEFAZ-RS</title>'
-            f'<style>{css}</style></head><body>{_capa(num - 1)}{_sumario(cadernos)}{"".join(partes)}</body></html>')
+            f'<style>{css}</style></head><body>{_sumario(cadernos)}{"".join(partes)}</body></html>')
 
 
 if __name__ == "__main__":
