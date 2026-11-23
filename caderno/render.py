@@ -20,7 +20,7 @@ def _runhead(esq, dir_="Estilo FCC"):
 
 
 def _alternativas(q):
-    curtas = all(len(str(v)) <= 18 for v in q["alternativas"].values())
+    curtas = all(len(str(v)) <= 14 for v in q["alternativas"].values())
     estilo = ' style="display:grid;grid-template-columns:repeat(3,1fr)"' if curtas else ""
     lis = "".join(f'<li><b>({k})</b><span>{q["alternativas"][k]}</span></li>' for k in "ABCDE")
     return f'<ol class="alt"{estilo}>{lis}</ol>'

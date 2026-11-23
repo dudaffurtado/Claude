@@ -57,3 +57,14 @@ def test_texto_do_tema_renderizado():
     assert '<div class="texto">' in html_q
     assert "<p><b>[2]</b> Segundo parágrafo.</p>" in html_q
     assert html_q.index('class="texto"') < html_q.index('class="q"')
+
+
+def test_grade_so_para_alternativas_bem_curtas():
+    c = cad(1)
+    q0 = c["temas"][0]["questoes"][0]
+    q0["alternativas"] = {k: "por conglomerados." for k in "ABCDE"}
+    html_q, _ = render.html_caderno(c, inicio=1)
+    assert "repeat(3,1fr)" not in html_q
+    q0["alternativas"] = {k: "I, II e IV." for k in "ABCDE"}
+    html_q, _ = render.html_caderno(c, inicio=1)
+    assert "repeat(3,1fr)" in html_q
