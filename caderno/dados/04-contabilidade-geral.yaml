@@ -199,7 +199,7 @@ temas:
         fundamento: CPC 16 (R1), itens 25 a 27.
       - nivel: 2
         assunto: Custo de aquisição
-        enunciado: "Empresa comercial, contribuinte do ICMS e não contribuinte do IPI, adquiriu mercadorias para revenda com os seguintes dados. Preço da nota de R$ 10.000,00, já incluído o ICMS recuperável de R$ 1.700,00. IPI de R$ 1.000,00. Frete pago de R$ 500,00. Desconto comercial incondicional de R$ 300,00. O custo de aquisição do estoque é de"
+        enunciado: "Empresa comercial, contribuinte do ICMS e não contribuinte do IPI, adquiriu mercadorias para revenda com os seguintes dados. Preço bruto das mercadorias de R$ 10.000,00, com desconto comercial incondicional de R$ 300,00 concedido na nota. ICMS recuperável incluído no preço de R$ 1.700,00 (valor hipotético). IPI de R$ 1.000,00. Frete pago de R$ 500,00. O custo de aquisição do estoque é de"
         alternativas:
           A: R$ 11.200,00.
           B: R$ 9.500,00.
@@ -573,7 +573,7 @@ temas:
           D: R$ 100.000,00.
           E: R$ 20.000,00.
         resposta: D
-        comentario: "Elimina-se a parcela da investidora no lucro não realizado. Conta: 40% × (300.000 − 50.000) = 120.000 − 20.000 = R$ 100.000,00."
+        comentario: "Elimina-se a parcela da investidora no lucro não realizado. Conta: 40% × 300.000 − 40% × 50.000 = 120.000 − 20.000 = R$ 100.000,00."
         fundamento: CPC 18 (R2), itens 28 e 29.
 
   - titulo: Provisões, Passivos e Ativos Contingentes

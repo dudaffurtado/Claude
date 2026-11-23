@@ -535,7 +535,7 @@ temas:
         assunto: Estabelecimento
         enunciado: Considere as afirmações abaixo, nos termos da LC 87/1996.
         itens:
-          - É autônomo cada estabelecimento do mesmo titular.
+          - Na impossibilidade de determinação do estabelecimento, considera-se como tal o local em que tenha sido efetuada a operação ou prestação, encontrada a mercadoria ou constatada a prestação.
           - Respondem pelo crédito tributário todos os estabelecimentos do mesmo titular.
           - Considera-se também estabelecimento autônomo o veículo usado no comércio ambulante e na captura de pescado.
           - Estabelecimento é apenas o local edificado e próprio onde o contribuinte exerce suas atividades em caráter permanente.
@@ -547,8 +547,8 @@ temas:
           D: I, III e IV.
           E: III e IV.
         resposta: A
-        comentario: I, III e II reproduzem o art. 11, § 3º, II, III e IV. IV está errada porque estabelecimento é o local, privado ou público, edificado ou não, próprio ou de terceiro, onde se exerçam atividades em caráter temporário ou permanente, ou onde se encontrem armazenadas mercadorias.
-        fundamento: LC 87/1996, art. 11, § 3º.
+        comentario: I, II e III reproduzem o art. 11, § 3º, I, IV e III. A regra da autonomia dos estabelecimentos (inciso II) não foi usada porque o STF a declarou inconstitucional na ADC 49. IV está errada porque estabelecimento é o local, privado ou público, edificado ou não, próprio ou de terceiro, onde se exerçam atividades em caráter temporário ou permanente, ou onde se encontrem armazenadas mercadorias.
+        fundamento: LC 87/1996, art. 11, § 3º, I, III e IV; STF, ADC 49.
       - nivel: 3
         assunto: Local da prestação de transporte
         enunciado: Transportadora sediada em Santa Catarina presta serviço de transporte de carga com início em Passo Fundo (RS) e término em Florianópolis (SC). O tomador é contribuinte do ICMS estabelecido em Santa Catarina, e o serviço não está vinculado a operação ou prestação subsequente. Nessa situação,
