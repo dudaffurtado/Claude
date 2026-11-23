@@ -1,0 +1,224 @@
+caderno: 3
+materia: Reforma Tributária — IBS, CBS e Imposto Seletivo
+meta: 15
+temas:
+  - titulo: Visão Geral e Princípios da EC 132/2023
+    base: CF, arts. 145, §§ 3º e 4º, 153, VIII, 156-A, 195, V
+    questoes:
+      - nivel: 1
+        assunto: Novos princípios
+        enunciado: Com a EC 132/2023, a Constituição passou a prever expressamente que o Sistema Tributário Nacional deve observar os princípios da
+        alternativas:
+          A: legalidade, anterioridade, irretroatividade, isonomia e vedação ao confisco.
+          B: simplicidade, transparência, justiça tributária, cooperação e defesa do meio ambiente.
+          C: seletividade, progressividade, essencialidade, cumulatividade e territorialidade.
+          D: neutralidade, eficiência, uniformidade, legalidade e publicidade.
+          E: capacidade contributiva, pessoalidade, generalidade, universalidade e moralidade.
+        resposta: B
+        comentario: (B) reproduz o art. 145, § 3º, incluído pela EC 132/2023. Os princípios de (A) são limitações ao poder de tributar que já existiam (art. 150). A neutralidade (D) informa especificamente o IBS (art. 156-A, § 1º).
+        fundamento: CF, art. 145, § 3º.
+      - nivel: 1
+        assunto: Novos tributos
+        enunciado: A EC 132/2023 instituiu
+        alternativas:
+          A: o IBS, de competência da União, e a CBS, de competência dos Estados.
+          B: um único imposto sobre valor agregado, de competência exclusiva da União.
+          C: o IBS, de competência dos Estados, e a CBS, de competência dos Municípios.
+          D: o Imposto Seletivo, de competência compartilhada entre Estados e Municípios.
+          E: o IBS, de competência compartilhada entre Estados, Distrito Federal e Municípios, a CBS, de competência da União, e o Imposto Seletivo, também de competência da União.
+        resposta: E
+        comentario: O IBS (art. 156-A) é compartilhado entre Estados, DF e Municípios. A CBS (art. 195, V) é uma contribuição federal, e o Imposto Seletivo (art. 153, VIII) é um imposto federal. Por haver dois tributos sobre consumo, o modelo é chamado de “IVA dual”.
+        fundamento: CF, arts. 153, VIII, 156-A e 195, V.
+      - nivel: 2
+        assunto: Tributos substituídos
+        enunciado: Concluída a transição prevista na EC 132/2023, o IBS e a CBS terão substituído, respectivamente,
+        alternativas:
+          A: o ICMS e o ISS; e as contribuições PIS e Cofins.
+          B: o ICMS, o ISS e o IPI; e as contribuições PIS e Cofins.
+          C: o ICMS; e o ISS, o PIS e a Cofins.
+          D: o ICMS e o IPI; e o ISS, o PIS e a Cofins.
+          E: o ISS; e o ICMS, o PIS e a Cofins.
+        resposta: A
+        comentario: O IBS substitui os impostos subnacionais sobre consumo (ICMS e ISS) e a CBS substitui o PIS e a Cofins. O IPI não é extinto, mas tem alíquotas reduzidas a zero a partir de 2027, exceto para produtos com industrialização incentivada na Zona Franca de Manaus.
+        fundamento: EC 132/2023; ADCT, arts. 125 a 133.
+      - nivel: 2
+        assunto: Regressividade e devolução
+        enunciado: Considere as afirmações abaixo sobre a EC 132/2023.
+        itens:
+          - As alterações na legislação tributária buscarão atenuar efeitos regressivos.
+          - Lei complementar disporá sobre as hipóteses de devolução do IBS a pessoas físicas, com o objetivo de reduzir as desigualdades de renda.
+          - A devolução do IBS será obrigatória nas operações com fornecimento de energia elétrica e de gás liquefeito de petróleo ao consumidor de baixa renda.
+          - A devolução a pessoas físicas é vedada em relação à CBS.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I e IV.
+          D: I, II e III.
+          E: I, II, III e IV.
+        resposta: D
+        comentario: I reproduz o art. 145, § 4º, e II e III reproduzem o art. 156-A, § 5º, VIII, e § 13. É o chamado “cashback”. IV está errada porque o art. 195, § 18, também prevê devolução da CBS a pessoas físicas.
+        fundamento: CF, arts. 145, § 4º, 156-A, §§ 5º, VIII, e 13, e 195, § 18.
+
+  - titulo: IBS e CBS — Características
+    base: CF, arts. 149-B e 156-A; LC 214/2025
+    questoes:
+      - nivel: 1
+        assunto: Características do IBS
+        enunciado: Nos termos da Constituição Federal, o IBS
+        alternativas:
+          A: incidirá sobre as exportações de bens e serviços.
+          B: terá alíquotas diferentes conforme a mercadoria, a critério de cada Estado.
+          C: será não cumulativo e terá legislação única e uniforme em todo o território nacional, ressalvadas as alíquotas, que cada ente fixará por lei específica.
+          D: será cobrado com base na alíquota do Estado e do Município de origem da operação.
+          E: integrará sua própria base de cálculo.
+        resposta: C
+        comentario: (C) reúne o art. 156-A, § 1º, IV, V e VIII. (A) está errada porque o IBS não incide sobre exportações. (B) está errada porque o ente aplica a mesma alíquota a todas as operações, salvo exceções constitucionais. (D) está errada porque a cobrança segue o destino. (E) está errada porque o IBS é calculado “por fora” (inciso IX).
+        fundamento: CF, art. 156-A, § 1º, III a IX.
+      - nivel: 2
+        assunto: Princípio do destino
+        enunciado: Empresa estabelecida em Porto Alegre vende bem a consumidor final domiciliado em Curitiba (PR). Após a transição, o IBS sobre essa operação será cobrado
+        alternativas:
+          A: pelo somatório das alíquotas do RS e do Município de Porto Alegre.
+          B: pela alíquota interestadual fixada pelo Senado Federal.
+          C: em partes iguais entre os entes de origem e de destino.
+          D: pelo somatório das alíquotas do Estado do Paraná e do Município de Curitiba.
+          E: somente pela alíquota do Município de Curitiba.
+        resposta: D
+        comentario: O IBS segue o princípio do destino e é cobrado pelo somatório das alíquotas do Estado e do Município de destino da operação (art. 156-A, § 1º, VII). Com isso, perde sentido a lógica das alíquotas interestaduais do ICMS.
+        fundamento: CF, art. 156-A, § 1º, VII.
+      - nivel: 2
+        assunto: Benefícios fiscais
+        enunciado: Quanto à concessão de incentivos e benefícios fiscais relativos ao IBS, a Constituição Federal estabelece que
+        alternativas:
+          A: o imposto não será objeto de concessão de incentivos e benefícios financeiros ou fiscais, nem de regimes específicos, diferenciados ou favorecidos, excetuadas as hipóteses nela previstas.
+          B: cada Estado poderá conceder benefícios por lei específica.
+          C: os benefícios dependerão de convênio celebrado no CONFAZ.
+          D: o Comitê Gestor poderá conceder benefícios por resolução.
+          E: os Municípios poderão conceder isenções relativas à sua parcela do imposto.
+        resposta: A
+        comentario: (A) reproduz o art. 156-A, § 1º, X. A vedação busca acabar com a “guerra fiscal”. Os regimes diferenciados admitidos são os previstos na própria Constituição e disciplinados em lei complementar (LC 214/2025).
+        fundamento: CF, art. 156-A, § 1º, X.
+      - nivel: 2
+        assunto: Não cumulatividade e CBS
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - O IBS será não cumulativo, compensando-se o imposto devido com o montante cobrado sobre todas as operações nas quais o contribuinte seja adquirente de bem ou serviço, excetuadas exclusivamente as consideradas de uso ou consumo pessoal especificadas em lei complementar e as hipóteses previstas na Constituição.
+          - O IBS não incidirá sobre as exportações, assegurada ao exportador a manutenção e o aproveitamento dos créditos.
+          - O IBS integrará a base de cálculo da CBS.
+          - A CBS observará as mesmas regras do IBS quanto a fatos geradores, bases de cálculo, hipóteses de não incidência, sujeitos passivos, imunidades, regimes diferenciados e regras de não cumulatividade e de creditamento.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, II e IV.
+          D: I, III e IV.
+          E: III e IV.
+        resposta: C
+        comentario: I reproduz o art. 156-A, § 1º, VIII, que institui o crédito amplo, diferente do crédito restrito do ICMS. II reproduz o inciso III. IV reproduz o art. 149-B. III está errada porque o IBS <i>não</i> integra a base da CBS (art. 156-A, § 1º, IX).
+        fundamento: CF, arts. 149-B e 156-A, § 1º, III, VIII e IX.
+      - nivel: 3
+        assunto: Alíquota de referência
+        enunciado: Determinado Município gaúcho não editou lei específica fixando sua alíquota própria do IBS. Nos termos da Constituição Federal,
+        alternativas:
+          A: o Município não poderá receber receita do IBS.
+          B: aplica-se ao Município a alíquota fixada pelo respectivo Estado.
+          C: o Comitê Gestor fixará a alíquota do Município por resolução.
+          D: as operações destinadas ao Município ficam sujeitas à alíquota zero.
+          E: aplica-se a alíquota de referência fixada por resolução do Senado Federal, nos termos de lei complementar.
+        resposta: E
+        comentario: Pelo art. 156-A, § 1º, XII, a resolução do Senado fixa uma alíquota de referência para cada esfera federativa. Ela se aplica quando o ente não estabelece a sua. O Comitê Gestor não tem competência para fixar alíquotas.
+        fundamento: CF, art. 156-A, § 1º, V e XII.
+
+  - titulo: Imposto Seletivo e Regimes Diferenciados
+    base: CF, art. 153, VIII e § 6º; art. 156-A, § 6º; EC 132/2023, arts. 8º e 9º
+    questoes:
+      - nivel: 1
+        assunto: Incidência do Imposto Seletivo
+        enunciado: O Imposto Seletivo, de competência da União, incidirá sobre
+        alternativas:
+          A: as operações com energia elétrica e com telecomunicações.
+          B: a produção, a extração, a comercialização ou a importação de bens e serviços prejudiciais à saúde ou ao meio ambiente.
+          C: as exportações de bens minerais.
+          D: os produtos da cesta básica.
+          E: a renda das pessoas jurídicas.
+        resposta: B
+        comentario: (B) reproduz o art. 153, VIII. O Imposto Seletivo é extrafiscal e chamado de “imposto do pecado”. Não incide sobre exportações nem sobre energia elétrica e telecomunicações (§ 6º, I).
+        fundamento: CF, art. 153, VIII e § 6º, I.
+      - nivel: 2
+        assunto: Redução de alíquotas
+        enunciado: Segundo a EC 132/2023, lei complementar poderá prever regime diferenciado com redução de 60% das alíquotas do IBS e da CBS para, entre outros,
+        alternativas:
+          A: serviços financeiros.
+          B: combustíveis e lubrificantes.
+          C: serviços de educação e de saúde e medicamentos.
+          D: bebidas alcoólicas.
+          E: veículos automotores.
+        resposta: C
+        comentario: O art. 9º, § 1º, da EC 132/2023 lista as atividades com redução de 60%, entre elas educação, saúde, medicamentos, dispositivos médicos, alimentos e transporte coletivo. Serviços financeiros (A) e combustíveis (B) têm <i>regimes específicos</i>, e não redução de alíquota. A cesta básica nacional tem alíquota zero.
+        fundamento: EC 132/2023, arts. 8º e 9º; CF, art. 156-A, § 6º.
+      - nivel: 3
+        assunto: Regras do Imposto Seletivo
+        enunciado: Considere as afirmações abaixo sobre o Imposto Seletivo.
+        itens:
+          - Não incidirá sobre as exportações nem sobre as operações com energia elétrica e com telecomunicações.
+          - Incidirá uma única vez sobre o bem ou serviço.
+          - Não integrará a base de cálculo do IBS e da CBS.
+          - Na extração, incidirá independentemente da destinação, caso em que a alíquota máxima corresponderá a 1% do valor de mercado do produto.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e IV.
+          C: I, III e IV.
+          D: II e III.
+          E: III e IV.
+        resposta: B
+        comentario: I, II e IV reproduzem o art. 153, § 6º, I, II e VII. III está errada porque o Imposto Seletivo <i>integra</i> a base de cálculo do ICMS, do ISS, do IBS e da CBS (inciso IV). Ele próprio é que não integra a sua base.
+        fundamento: CF, art. 153, § 6º.
+
+  - titulo: Transição e Comitê Gestor do IBS
+    base: ADCT, arts. 125 a 133; CF, art. 156-B
+    questoes:
+      - nivel: 1
+        assunto: Extinção do ICMS
+        enunciado: De acordo com o cronograma de transição da EC 132/2023, o ICMS e o ISS serão extintos em
+        alternativas:
+          A: 2026.
+          B: 2027.
+          C: 2029.
+          D: 2032.
+          E: 2033.
+        resposta: E
+        comentario: "O cronograma da transição é o seguinte. Em 2026, há a fase de teste (CBS de 0,9% e IBS de 0,1%). Em 2027, a CBS entra em vigor, o PIS e a Cofins são extintos e o IPI vai a zero. De 2029 a 2032, o ICMS e o ISS são reduzidos gradualmente. Em 2033, ambos são extintos e o IBS passa a valer integralmente."
+        fundamento: ADCT, arts. 125 a 129; EC 132/2023, art. 22.
+      - nivel: 2
+        assunto: Redução gradual do ICMS
+        enunciado: Durante a transição, em 2031, as alíquotas do ICMS corresponderão à seguinte proporção das alíquotas fixadas na respectiva legislação
+        alternativas:
+          A: 7/10.
+          B: 9/10.
+          C: 8/10.
+          D: 6/10.
+          E: 5/10.
+        resposta: A
+        comentario: "O art. 128 do ADCT fixa a proporção de 9/10 em 2029, 8/10 em 2030, 7/10 em 2031 e 6/10 em 2032. Os benefícios fiscais do ICMS são reduzidos na mesma proporção."
+        fundamento: ADCT, art. 128.
+      - nivel: 3
+        assunto: Comitê Gestor
+        enunciado: Considere as afirmações abaixo sobre o Comitê Gestor do IBS.
+        itens:
+          - Estados, Distrito Federal e Municípios exercerão de forma integrada, exclusivamente por meio do Comitê Gestor, as competências administrativas relativas ao IBS.
+          - Compete ao Comitê Gestor editar regulamento único e uniformizar a interpretação e a aplicação da legislação do imposto.
+          - Compete ao Comitê Gestor fixar as alíquotas do IBS de cada ente federativo.
+          - Sua instância máxima de deliberação conta com 27 membros representando cada Estado e o Distrito Federal e 27 membros representando o conjunto dos Municípios e do Distrito Federal.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: I, II e IV.
+          E: III e IV.
+        resposta: D
+        comentario: I, II e IV reproduzem o art. 156-B, caput, inciso I e § 3º. III está errada porque cada ente fixa sua alíquota por lei específica (art. 156-A, § 1º, V). O Comitê também arrecada, compensa e distribui o produto da arrecadação e decide o contencioso administrativo.
+        fundamento: CF, arts. 156-A, § 1º, V, e 156-B.
+dica: "<b>Olho na FCC:</b> em Reforma Tributária, memorize o cronograma (2026 teste, 2027 CBS, 2029–2032 redução de 1/10 por ano, 2033 extinção) e as trocas “mínima/máxima”, “origem/destino” e “integra/não integra a base”."
