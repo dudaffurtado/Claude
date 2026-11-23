@@ -1,0 +1,214 @@
+caderno: 9
+materia: Direito Empresarial
+meta: 15
+temas:
+  - titulo: Empresário e Estabelecimento
+    base: Código Civil, arts. 966 a 1.195; Lei 14.195/2021
+    questoes:
+      - nivel: 1
+        assunto: Conceito de empresário
+        enunciado: Nos termos do Código Civil, considera-se empresário
+        alternativas:
+          A: quem exerce profissão intelectual de natureza científica, ainda que sem elemento de empresa.
+          B: apenas quem estiver inscrito no Registro Público de Empresas Mercantis.
+          C: quem exerce atividade econômica de forma eventual.
+          D: somente a pessoa jurídica que tenha fins lucrativos.
+          E: quem exerce profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de serviços.
+        resposta: E
+        comentario: (E) reproduz o art. 966. O profissional intelectual não é empresário, salvo se a profissão constituir elemento de empresa (parágrafo único). O registro tem natureza declaratória, e não constitutiva da qualidade de empresário (B).
+        fundamento: Código Civil, arts. 966 e 967.
+      - nivel: 1
+        assunto: Inscrição
+        enunciado: A inscrição do empresário no Registro Público de Empresas Mercantis
+        alternativas:
+          A: é facultativa.
+          B: é obrigatória e deve ser feita antes do início de sua atividade.
+          C: é obrigatória para o empresário rural.
+          D: dispensa qualquer formalidade para microempresas.
+          E: é feita no Registro Civil de Pessoas Jurídicas.
+        resposta: B
+        comentario: (B) reproduz o art. 967. Para o empresário rural, a inscrição é <i>facultativa</i> (art. 971). Sociedades simples registram-se no Registro Civil de Pessoas Jurídicas (E).
+        fundamento: Código Civil, arts. 967, 971 e 1.150.
+      - nivel: 2
+        assunto: Trespasse e concorrência
+        enunciado: Na alienação do estabelecimento, não havendo autorização expressa, o alienante não pode fazer concorrência ao adquirente
+        alternativas:
+          A: no ano subsequente à transferência.
+          B: nos dois anos subsequentes à transferência.
+          C: nos dez anos subsequentes à transferência.
+          D: nos cinco anos subsequentes à transferência.
+          E: por prazo indeterminado.
+        resposta: D
+        comentario: (D) reproduz o art. 1.147. É a cláusula de não restabelecimento implícita.
+        fundamento: Código Civil, art. 1.147.
+      - nivel: 2
+        assunto: Trespasse e dívidas
+        enunciado: Nos termos do Código Civil, quanto às dívidas anteriores à transferência do estabelecimento,
+        alternativas:
+          A: o adquirente responde pelos débitos anteriores regularmente contabilizados, continuando o alienante solidariamente obrigado pelo prazo de um ano.
+          B: o adquirente não responde por nenhum débito anterior.
+          C: o adquirente responde por todos os débitos, ainda que não contabilizados.
+          D: o alienante fica exonerado de qualquer responsabilidade.
+          E: alienante e adquirente respondem solidariamente pelo prazo de cinco anos.
+        resposta: A
+        comentario: (A) reproduz o art. 1.146. O prazo de um ano conta da publicação, para os créditos vencidos, e do vencimento, para os demais. Para os tributos vale a regra própria do art. 133 do CTN.
+        fundamento: Código Civil, art. 1.146; CTN, art. 133.
+      - nivel: 3
+        assunto: Empresário individual e limitada unipessoal
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - A sociedade limitada pode ser constituída por uma ou mais pessoas.
+          - As empresas individuais de responsabilidade limitada (EIRELI) existentes foram transformadas em sociedades limitadas unipessoais.
+          - O empresário individual responde com seus bens pessoais pelas obrigações decorrentes da atividade empresarial.
+          - O empresário casado precisa de outorga conjugal para alienar os imóveis que integrem o patrimônio da empresa.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e IV.
+          C: I, II e III.
+          D: I, III e IV.
+          E: I, II, III e IV.
+        resposta: C
+        comentario: I reproduz o art. 1.052, § 1º. II segue o art. 41 da Lei 14.195/2021. III está correta porque o empresário individual não tem separação patrimonial. IV contraria o art. 978, que dispensa a outorga conjugal, qualquer que seja o regime de bens.
+        fundamento: Código Civil, arts. 978 e 1.052; Lei 14.195/2021, art. 41.
+
+  - titulo: Sociedades
+    base: Código Civil, arts. 50, 986 a 1.087; Lei 6.404/1976
+    questoes:
+      - nivel: 1
+        assunto: Sociedade limitada
+        enunciado: Na sociedade limitada,
+        alternativas:
+          A: cada sócio responde ilimitadamente pelas obrigações sociais.
+          B: os sócios não respondem pela integralização do capital.
+          C: a responsabilidade de cada sócio é restrita ao valor de suas quotas, mas todos respondem solidariamente pela integralização do capital social.
+          D: a responsabilidade dos sócios é limitada ao preço de emissão das ações.
+          E: somente o sócio administrador responde pelas obrigações sociais.
+        resposta: C
+        comentario: (C) reproduz o art. 1.052. Enquanto o capital não estiver totalmente integralizado, todos os sócios respondem solidariamente pelo que faltar. (D) descreve a sociedade anônima.
+        fundamento: Código Civil, art. 1.052.
+      - nivel: 2
+        assunto: Sociedade em comum
+        enunciado: Na sociedade em comum, assim entendida aquela cujos atos constitutivos não foram inscritos, os sócios
+        alternativas:
+          A: respondem solidária e ilimitadamente pelas obrigações sociais, excluído do benefício de ordem aquele que contratou pela sociedade.
+          B: respondem apenas até o valor de suas quotas.
+          C: não respondem pelas obrigações sociais.
+          D: respondem subsidiariamente, sempre com benefício de ordem.
+          E: respondem apenas pelas obrigações tributárias.
+        resposta: A
+        comentario: (A) reproduz o art. 990. A falta de registro afasta a limitação de responsabilidade. Quem contratou pela sociedade não pode exigir que primeiro se executem os bens sociais.
+        fundamento: Código Civil, arts. 986 a 990 e 1.024.
+      - nivel: 2
+        assunto: Sociedade anônima
+        enunciado: Na sociedade anônima, a responsabilidade dos acionistas é
+        alternativas:
+          A: ilimitada e solidária.
+          B: limitada ao valor de mercado das ações na data da cobrança.
+          C: solidária pela integralização de todo o capital social.
+          D: subsidiária, após o esgotamento do patrimônio social.
+          E: limitada ao preço de emissão das ações subscritas ou adquiridas.
+        resposta: E
+        comentario: (E) reproduz o art. 1º da Lei 6.404/1976. Diferentemente da limitada, o acionista não responde pela integralização das ações dos demais.
+        fundamento: Lei 6.404/1976, art. 1º.
+      - nivel: 2
+        assunto: Desconsideração da personalidade jurídica
+        enunciado: Nos termos do art. 50 do Código Civil, a desconsideração da personalidade jurídica pressupõe abuso da personalidade, caracterizado por
+        alternativas:
+          A: mero inadimplemento de obrigação da sociedade.
+          B: simples insolvência da pessoa jurídica.
+          C: decisão de ofício do juiz, independentemente de requerimento.
+          D: desvio de finalidade ou confusão patrimonial.
+          E: participação no capital social, independentemente de benefício com o abuso.
+        resposta: D
+        comentario: O art. 50, na redação da Lei 13.874/2019, exige abuso por desvio de finalidade ou confusão patrimonial e requerimento da parte ou do MP. Os efeitos atingem administradores ou sócios beneficiados direta ou indiretamente pelo abuso, o que afasta (E).
+        fundamento: Código Civil, art. 50.
+      - nivel: 3
+        assunto: Órgãos da S.A.
+        enunciado: Considere as afirmações abaixo sobre os órgãos da sociedade anônima.
+        itens:
+          - O conselho de administração é obrigatório nas companhias abertas e nas de capital autorizado.
+          - A diretoria será composta por um ou mais membros.
+          - A companhia terá um conselho fiscal, cujo funcionamento poderá ser permanente ou apenas nos exercícios em que for instalado a pedido de acionistas.
+          - A assembleia geral pode ser suprimida pelo estatuto social.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: I, II e III.
+          C: II e IV.
+          D: I, III e IV.
+          E: I, II, III e IV.
+        resposta: B
+        comentario: I reproduz o art. 138, § 2º. II segue o art. 143, com a redação da Lei 14.195/2021. III reproduz o art. 161. IV está errada porque a assembleia geral é o órgão supremo da companhia e não pode ser suprimida.
+        fundamento: Lei 6.404/1976, arts. 121, 138, 143 e 161.
+
+  - titulo: Títulos de Crédito, Falência e Recuperação
+    base: Código Civil, art. 887; Lei 5.474/1968; Lei 11.101/2005; CTN, arts. 186 e 187
+    questoes:
+      - nivel: 1
+        assunto: Princípios dos títulos de crédito
+        enunciado: O princípio segundo o qual as obrigações representadas no título de crédito são independentes entre si, de modo que a invalidade de uma não compromete as demais, denomina-se
+        alternativas:
+          A: cartularidade.
+          B: autonomia.
+          C: literalidade.
+          D: causalidade.
+          E: formalismo.
+        resposta: B
+        comentario: Pela autonomia, as exceções pessoais não podem ser opostas ao terceiro de boa-fé. Pela cartularidade, exige-se o documento. Pela literalidade, vale apenas o que está escrito no título.
+        fundamento: Código Civil, art. 887.
+      - nivel: 2
+        assunto: Duplicata
+        enunciado: A duplicata
+        alternativas:
+          A: é título abstrato, podendo ser emitida independentemente de negócio subjacente.
+          B: é emitida pelo comprador da mercadoria.
+          C: dispensa, em qualquer caso, o aceite para ser executada.
+          D: é título causal, somente podendo ser emitida para documentar compra e venda mercantil ou prestação de serviços.
+          E: pode ser emitida para documentar contrato de mútuo.
+        resposta: D
+        comentario: A duplicata é título causal e é emitida pelo vendedor ou prestador de serviços (Lei 5.474/1968). Emitir duplicata sem negócio subjacente, a chamada duplicata simulada, é crime.
+        fundamento: Lei 5.474/1968, arts. 1º, 2º e 20.
+      - nivel: 2
+        assunto: Recuperação judicial
+        enunciado: Nos termos da Lei 11.101/2005, pode requerer recuperação judicial o devedor que, no momento do pedido,
+        alternativas:
+          A: exerça regularmente suas atividades há mais de dois anos.
+          B: exerça atividades há qualquer tempo, ainda que irregularmente.
+          C: tenha obtido concessão de recuperação judicial há menos de dois anos.
+          D: seja falido, ainda que não declaradas extintas suas obrigações.
+          E: tenha sido condenado por crime falimentar.
+        resposta: A
+        comentario: (A) segue o art. 48, caput. Os demais incisos exigem que o devedor não seja falido, que não tenha obtido recuperação judicial há menos de <i>cinco</i> anos e que não tenha sido condenado por crime falimentar.
+        fundamento: Lei 11.101/2005, art. 48.
+      - nivel: 2
+        assunto: Classificação dos créditos
+        enunciado: Na falência, os créditos tributários (excetuadas as multas) são pagos
+        alternativas:
+          A: antes dos créditos trabalhistas.
+          B: depois dos créditos quirografários.
+          C: depois dos créditos trabalhistas limitados e de acidente de trabalho e dos créditos com garantia real até o limite do valor do bem gravado.
+          D: juntamente com as multas contratuais e tributárias.
+          E: antes dos créditos com garantia real, em qualquer caso.
+        resposta: C
+        comentario: "Pelo art. 83 da Lei 11.101/2005, a ordem é a seguinte: I – trabalhistas (até 150 salários mínimos) e acidentários; II – garantia real (até o valor do bem); III – tributários; depois, os quirografários; por fim, as multas, inclusive as tributárias, e os subordinados."
+        fundamento: Lei 11.101/2005, art. 83; CTN, art. 186, parágrafo único.
+      - nivel: 3
+        assunto: Crédito tributário na falência e na recuperação
+        enunciado: Considere as afirmações abaixo.
+        itens:
+          - A cobrança judicial do crédito tributário não é sujeita a concurso de credores ou habilitação em falência, recuperação judicial, concordata, inventário ou arrolamento.
+          - Na falência, as multas tributárias são classificadas após os créditos quirografários.
+          - Os créditos tributários sujeitam-se aos efeitos do plano de recuperação judicial e podem ser reduzidos por deliberação da assembleia geral de credores.
+          - Os créditos extraconcursais são pagos com precedência sobre os créditos concursais.
+        comando: Está correto o que se afirma APENAS em
+        alternativas:
+          A: I e II.
+          B: II e III.
+          C: I, III e IV.
+          D: III e IV.
+          E: I, II e IV.
+        resposta: E
+        comentario: I reproduz o art. 187 do CTN. II segue o art. 83, VII, e IV o art. 84 da Lei 11.101/2005. III está errada porque os créditos tributários não se submetem ao plano de recuperação. O devedor busca o parcelamento ou a transação próprios previstos em lei.
+        fundamento: CTN, art. 187; Lei 11.101/2005, arts. 6º, 83 e 84.
+dica: "<b>Olho na FCC:</b> em Empresarial, os prazos são o alvo, como 1 ano de solidariedade no trespasse, 5 anos sem concorrência, 2 anos de atividade para pedir recuperação e 5 anos entre recuperações. Faça um cartão com todos eles."
